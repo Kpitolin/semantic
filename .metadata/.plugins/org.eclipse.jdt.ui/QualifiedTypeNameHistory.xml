@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.ModelFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Model"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Resource"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Property"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.datatypes.xsd.XSDDatatype"/>
+</qualifiedTypeNameHistroy>
