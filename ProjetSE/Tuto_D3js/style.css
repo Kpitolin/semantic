@@ -1,0 +1,22 @@
+div.bar {
+	display: inline-block;
+	width: 20px;
+	height: 75px;   /* We'll override this later */
+	background-color: teal;
+}
+
+.node {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+.link {
+	stroke: #999;
+	stroke-opacity: .6;
+}
+
+.visual-box{
+	width: 960px;
+	margin: auto;
+	border: solid 1px #d1cfcf;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://insa-lyon.fr.fr#"
+         xmlns:ns1="http://xmlns.com/foaf/spec/">
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/ue#alia">
+    <ns0:formation rdf:resource="http://insa-lyon.fr/formation#4if"/>
+    <ns0:departement rdf:resource="http://insa-lyon.fr.fr#informatique"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/ue#se">
+    <ns0:formation rdf:resource="http://insa-lyon.fr/formation#4if"/>
+    <ns0:departement rdf:resource="http://insa-lyon.fr.fr#informatique"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/ue#qual">
+    <ns0:formation rdf:resource="http://insa-lyon.fr/formation#4if"/>
+    <ns0:departement rdf:resource="http://insa-lyon.fr.fr#informatique"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/ue#datamining">
+    <ns0:formation rdf:resource="http://insa-lyon.fr/formation#4if"/>
+    <ns0:departement rdf:resource="http://insa-lyon.fr.fr#informatique"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/etudiant#1234567">
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#alia"/>
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#se"/>
+    <ns1:name>Alice</ns1:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/etudiant#2345678">
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#se"/>
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#datamining"/>
+    <ns0:binome>
+      <rdf:Description rdf:about="http://insa-lyon.fr/etudiant#3456789">
+        <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#qual"/>
+        <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#se"/>
+        <ns1:name>Charlotte</ns1:name>
+      </rdf:Description>
+    </ns0:binome>
+
+    <ns1:name>Basile</ns1:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/etudiant#4567890">
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#alia"/>
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#se"/>
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#datamining"/>
+    <ns0:inscrit rdf:resource="http://insa-lyon.fr/ue#qual"/>
+    <ns0:binome rdf:resource="http://insa-lyon.fr/etudiant#1234567"/>
+    <ns1:name>Damien</ns1:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/formation#3if">
+    <ns0:departement rdf:resource="http://insa-lyon.fr.fr#informatique"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/formation#4if">
+    <ns0:departement rdf:resource="http://insa-lyon.fr.fr#informatique"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://insa-lyon.fr/formation#5if">
+    <ns0:departement rdf:resource="http://insa-lyon.fr.fr#informatique"/>
+  </rdf:Description>
+
+  <ns1:organization rdf:about="http://insa-lyon.fr.fr#informatique">
+  </ns1:organization>
+
+</rdf:RDF>
