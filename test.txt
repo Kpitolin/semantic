@@ -1,0 +1,64 @@
+{
+ "items": [
+  {
+   "title": "Barack Obama - Wikipedia, the free encyclopedia",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "In 2004, Obama received national attention during his campaign to represent \nIllinois in the United States Senate with his victory in the March Democratic Party\n ...",
+   "formattedUrl": "en.wikipedia.org/wiki/Barack_Obama"
+  },
+  {
+   "title": "Barack Obama — Wikipédia",
+   "displayLink": "fr.wikipedia.org",
+   "snippet": "Barack Hussein Obama II, né le 4 août 1961 à Honolulu (Hawaï), est un homme \nd'État américain. Il est l'actuel et le 44e président des États-Unis, élu pour un ...",
+   "formattedUrl": "fr.wikipedia.org/wiki/Barack_Obama"
+  },
+  {
+   "title": "Barack Obama",
+   "displayLink": "www.barackobama.com",
+   "snippet": "OFA works to ensure the voices of ordinary Americans are heard in Washington, \nwhile training the next generation of grassroots organizers who will keep ...",
+   "formattedUrl": "www.barackobama.com/"
+  },
+  {
+   "title": "President Barack Obama | The White House",
+   "displayLink": "www.whitehouse.gov",
+   "snippet": "Barack H. Obama is the 44th President of the United States. His story is the \nAmerican story — values from the heartland, a middle-class upbringing in a \nstrong ...",
+   "formattedUrl": "www.whitehouse.gov/administration/president-obama"
+  },
+  {
+   "title": "Barack Obama (@BarackObama) | Twitter",
+   "displayLink": "twitter.com",
+   "snippet": "The latest Tweets from Barack Obama (@BarackObama). This account is run by \nOrganizing for Action staff. Tweets from the President are signed -bo.",
+   "formattedUrl": "https://twitter.com/BarackObama"
+  },
+  {
+   "title": "Barack Obama - Washington, DC - Politician | Facebook",
+   "displayLink": "www.facebook.com",
+   "snippet": "Barack Obama, Washington, DC. 43382397 likes · 250068 talking about this. \nThis page is run by Organizing for Action. To visit the White House Facebook...",
+   "formattedUrl": "https://www.facebook.com/barackobama"
+  },
+  {
+   "title": "Barack Obama - Bio, News, Photos - Washington Times",
+   "displayLink": "www.washingtontimes.com",
+   "snippet": "Latest news and commentary on Barack Obama including photos, videos, \nquotations, and a biography.",
+   "formattedUrl": "www.washingtontimes.com/topics/barack-obama/"
+  },
+  {
+   "title": "Barack Obama - News, Articles, Biography, Photos - WSJ.com",
+   "displayLink": "topics.wsj.com",
+   "snippet": "Incumbent President Barack Obama faces re-election amid stifled economic \nrecovery and a lag in job creation. In October, he said \"We can''t wait\" to pass a ...",
+   "formattedUrl": "topics.wsj.com/person/O/barack-obama/4328"
+  },
+  {
+   "title": "Barack Obama News - Bloomberg",
+   "displayLink": "topics.bloomberg.com",
+   "snippet": "Breaking news about Barack Obama. Find the latest articles, videos, photos and \nblogs about Barack Obama.",
+   "formattedUrl": "topics.bloomberg.com/barack-obama/"
+  },
+  {
+   "title": "Barack Obama - Biography - Lawyer, U.S. Representative, U.S. ...",
+   "displayLink": "www.biography.com",
+   "snippet": "Aug 12, 2014 ... Learn more about President Barack Obama's family background, education and \ncareer, including his recent 2012 election win. Find out how he ...",
+   "formattedUrl": "www.biography.com/people/barack-obama-12782369"
+  }
+ ]
+}
