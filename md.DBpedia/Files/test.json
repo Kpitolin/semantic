@@ -1,0 +1,715 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - obama",
+    "totalResults": "2150000",
+    "searchTerms": "obama",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006463225579681566849:zklgocryvzk"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - obama",
+    "totalResults": "2150000",
+    "searchTerms": "obama",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006463225579681566849:zklgocryvzk"
+   }
+  ]
+ },
+ "context": {
+  "title": "ws-h4301-cse"
+ },
+ "searchInformation": {
+  "searchTime": 0.283396,
+  "formattedSearchTime": "0,28",
+  "totalResults": "2150000",
+  "formattedTotalResults": "2 150 000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Barack_Obama",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "In 2004, Obama received national attention during his campaign to represent \nIllinois in the United States Senate with his victory in the March Democratic Party\n ...",
+   "htmlSnippet": "In 2004, \u003cb\u003eObama\u003c/b\u003e received national attention during his campaign to represent \u003cbr\u003e\nIllinois in the United States Senate with his victory in the March Democratic Party\u003cbr\u003e\n&nbsp;...",
+   "formattedUrl": "en.wikipedia.org/wiki/Barack_Obama",
+   "htmlFormattedUrl": "en.wikipedia.org/wiki/Barack_\u003cb\u003eObama\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "176",
+      "height": "220",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbz7-29ogaModLLrdXiMODI6GMtLI8H-VRFRwbIW1CvywYUb2cEi0G8CCA"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Barack Obama",
+      "nickname": "Barack Hussein Obama II",
+      "bday": "2009-01-20",
+      "label": "White House (official) Chicago, Illinois (private)"
+     },
+     {
+      "fn": "Barack Obama"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama — Wikipédia",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e — Wikipédia",
+   "link": "http://fr.wikipedia.org/wiki/Barack_Obama",
+   "displayLink": "fr.wikipedia.org",
+   "snippet": "Barack Hussein Obama II, né le 4 août 1961 à Honolulu (Hawaï), est un homme \nd'État américain. Il est l'actuel et le 44e président des États-Unis, élu pour un ...",
+   "htmlSnippet": "Barack Hussein \u003cb\u003eObama\u003c/b\u003e II, né le 4 août 1961 à Honolulu (Hawaï), est un homme \u003cbr\u003e\nd&#39;État américain. Il est l&#39;actuel et le 44\u003csup\u003ee\u003c/sup\u003e président des États-Unis, élu pour un&nbsp;...",
+   "cacheId": "YI_SzhQ1BicJ",
+   "formattedUrl": "fr.wikipedia.org/wiki/Barack_Obama",
+   "htmlFormattedUrl": "fr.wikipedia.org/wiki/Barack_\u003cb\u003eObama\u003c/b\u003e"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e",
+   "link": "http://www.barackobama.com/",
+   "displayLink": "www.barackobama.com",
+   "snippet": "OFA works to ensure the voices of ordinary Americans are heard in Washington, \nwhile training the next generation of grassroots organizers who will keep ...",
+   "htmlSnippet": "OFA works to ensure the voices of ordinary Americans are heard in Washington, \u003cbr\u003e\nwhile training the next generation of grassroots organizers who will keep&nbsp;...",
+   "cacheId": "68wxuVsmnwUJ",
+   "formattedUrl": "www.barackobama.com/",
+   "htmlFormattedUrl": "www.barack\u003cb\u003eobama\u003c/b\u003e.com/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg",
+      "type": "1",
+      "width": "305",
+      "height": "165"
+     }
+    ],
+    "thumbnail": [
+     {
+      "src": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg"
+     }
+    ],
+    "article": [
+     {
+      "name": "Organizing for Action",
+      "image": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "og:title": "Organizing for Action",
+      "og:type": "cause",
+      "og:url": "http://www.barackobama.com/",
+      "og:image": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg",
+      "og:site_name": "Organizing for Action",
+      "og:description": "OFA works to ensure the voices of ordinary Americans are heard in Washington, while training the next generation of grassroots organizers who will keep fighting for change.",
+      "twitter:card": "summary",
+      "thumbnail": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg",
+      "twitter:site": "@OFA",
+      "fb:page_id": "203330919857759",
+      "fb:app_id": "111399285589490",
+      "article:publisher": "https://www.facebook.com/OFA",
+      "viewport": "width=device-width,minimum-scale=1,maximum-scale=1"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "President Barack Obama | The White House",
+   "htmlTitle": "President Barack \u003cb\u003eObama\u003c/b\u003e | The White House",
+   "link": "http://www.whitehouse.gov/administration/president-obama",
+   "displayLink": "www.whitehouse.gov",
+   "snippet": "Barack H. Obama is the 44th President of the United States. His story is the \nAmerican story — values from the heartland, a middle-class upbringing in a \nstrong ...",
+   "htmlSnippet": "Barack H. \u003cb\u003eObama\u003c/b\u003e is the 44th President of the United States. His story is the \u003cbr\u003e\nAmerican story — values from the heartland, a middle-class upbringing in a \u003cbr\u003e\nstrong&nbsp;...",
+   "cacheId": "ZstgDwzCFGMJ",
+   "formattedUrl": "www.whitehouse.gov/administration/president-obama",
+   "htmlFormattedUrl": "www.whitehouse.gov/administration/president-\u003cb\u003eobama\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.whitehouse.gov/sites/default/files/image/right_rail_issue_feature_sharehub.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "217",
+      "height": "190",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTcAPvSr8eknni-HycNYUTtB_gOMRFjsWZ2Yn9Ese3RBgV7DyZrvyplqF0F"
+     }
+    ],
+    "metatags": [
+     {
+      "og:site_name": "The White House",
+      "og:title": "President Barack Obama",
+      "og:description": "Barack H. Obama is the 44th President of the United States. His story is the American story — values from the heartland, a middle-class upbringing in a strong family, hard work and education as the means of getting ahead, and the conviction that a life so blessed should be lived in service to others.",
+      "og:image": "http://www.whitehouse.gov/sites/default/files/image/facebook/whitehouse_logo.jpg",
+      "og:url": "http://www.whitehouse.gov/node/107",
+      "fb:admins": "100000095507875"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama (@BarackObama) | Twitter",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e (@BarackObama) | Twitter",
+   "link": "https://twitter.com/BarackObama",
+   "displayLink": "twitter.com",
+   "snippet": "The latest Tweets from Barack Obama (@BarackObama). This account is run by \nOrganizing for Action staff. Tweets from the President are signed -bo.",
+   "htmlSnippet": "The latest Tweets from Barack \u003cb\u003eObama\u003c/b\u003e (@BarackObama). This account is run by \u003cbr\u003e\nOrganizing for Action staff. Tweets from the President are signed -bo.",
+   "cacheId": "vRZeJ2v2yXoJ",
+   "formattedUrl": "https://twitter.com/BarackObama",
+   "htmlFormattedUrl": "https://twitter.com/Barack\u003cb\u003eObama\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://pbs.twimg.com/media/B1TTSO6CcAEqJLY.jpg:large"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "288",
+      "height": "175",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEgYs6VkY7WVr0GKziE9Dw0U9HCrOS6m9vO3uQcUtbLYgs56mLwIWUgRg"
+     }
+    ],
+    "metatags": [
+     {
+      "msapplication-tileimage": "//abs.twimg.com/favicons/win8-tile-144.png",
+      "msapplication-tilecolor": "#00aced",
+      "swift-page-name": "profile"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - Washington, DC - Politician | Facebook",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - Washington, DC - Politician | Facebook",
+   "link": "https://www.facebook.com/barackobama",
+   "displayLink": "www.facebook.com",
+   "snippet": "Barack Obama, Washington, DC. 43382397 likes · 250068 talking about this. \nThis page is run by Organizing for Action. To visit the White House Facebook...",
+   "htmlSnippet": "Barack \u003cb\u003eObama\u003c/b\u003e, Washington, DC. 43382397 likes · 250068 talking about this. \u003cbr\u003e\nThis page is run by Organizing for Action. To visit the White House Facebook...",
+   "cacheId": "VZOTLfNlgn0J",
+   "formattedUrl": "https://www.facebook.com/barackobama",
+   "htmlFormattedUrl": "https://www.facebook.com/barack\u003cb\u003eobama\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1004859_10152218387031749_948700280_n.jpg?oh=94169b26934796a5e3047ec8626b0b17&oe=54AD32C3&__gda__=1424727320_63d115b7074585d4193842c2f6912498"
+     }
+    ],
+    "organization": [
+     {
+      "name": "Barack Obama"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "369",
+      "height": "136",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT5QnEA2-xt-y47h4ush-yL9W-TMJfLaPmDV7z1slAq8jYSQoZp2WDaMfrw"
+     }
+    ],
+    "metatags": [
+     {
+      "referrer": "default",
+      "og:title": "Barack Obama",
+      "og:type": "politician",
+      "og:url": "https://www.facebook.com/barackobama",
+      "og:site_name": "Facebook",
+      "og:image": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p200x200/1376580_10151878817796749_162570700_n.png?oh=da151f8d3b1403dbb99263f5d820cc7a&oe=54D90A0A&__gda__=1423432234_8ca095099b701da08b24ee23d601557c",
+      "og:description": "This page is run by Organizing for Action. To visit the White House Facebook page, go to...",
+      "title": "Barack Obama - Washington, DC - Politician | Facebook"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - Bio, News, Photos - Washington Times",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - Bio, News, Photos - Washington Times",
+   "link": "http://www.washingtontimes.com/topics/barack-obama/",
+   "displayLink": "www.washingtontimes.com",
+   "snippet": "Latest news and commentary on Barack Obama including photos, videos, \nquotations, and a biography.",
+   "htmlSnippet": "Latest news and commentary on Barack \u003cb\u003eObama\u003c/b\u003e including photos, videos, \u003cbr\u003e\nquotations, and a biography.",
+   "cacheId": "MMgROYHbQHIJ",
+   "formattedUrl": "www.washingtontimes.com/topics/barack-obama/",
+   "htmlFormattedUrl": "www.washingtontimes.com/topics/barack-\u003cb\u003eobama\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://media.washtimes.com/media/image/2014/10/31/10312014_b1-kend-mad-as-hell8201_c0-0-2934-1710_s326x190.jpg?4322da1eceb8f4fa30f8a4d591346d9e11b0c21c"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "260",
+      "height": "152",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSV_P6DAaw8dAYadX5JDkQdaGPKhQ2FdZb1cq2ZDDI7xfTIRa_f8CetlCE"
+     }
+    ],
+    "metatags": [
+     {
+      "bitly-verification": "d180fd45f70d",
+      "msvalidate.01": "5B44585918D69318CA2120B5FA20D85C",
+      "viewport": "width=device-width, initial-scale=1, user-scalable=yes",
+      "format-detection": "telephone=no",
+      "author": "The Washington Times http://www.washingtontimes.com",
+      "serverf": "www1-dev"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - News, Articles, Biography, Photos - WSJ.com",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - News, Articles, Biography, Photos - WSJ.com",
+   "link": "http://topics.wsj.com/person/O/barack-obama/4328",
+   "displayLink": "topics.wsj.com",
+   "snippet": "Incumbent President Barack Obama faces re-election amid stifled economic \nrecovery and a lag in job creation. In October, he said \"We can''t wait\" to pass a ...",
+   "htmlSnippet": "Incumbent President Barack \u003cb\u003eObama\u003c/b\u003e faces re-election amid stifled economic \u003cbr\u003e\nrecovery and a lag in job creation. In October, he said &quot;We can&#39;&#39;t wait&quot; to pass a&nbsp;...",
+   "cacheId": "z7RaTHrvAgwJ",
+   "formattedUrl": "topics.wsj.com/person/O/barack-obama/4328",
+   "htmlFormattedUrl": "topics.wsj.com/person/O/barack-\u003cb\u003eobama\u003c/b\u003e/4328",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://s.wsj.net/public/resources/images/HC-GN473_Obama_AV_20090311130903.gif"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "55",
+      "height": "97",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-Id8ZiIlgKKLRgFbtnCYijQMh_BD-T1fKyU_XPRNIFPycNwCkNeW0Cw"
+     }
+    ],
+    "metatags": [
+     {
+      "og:url": "http://topics.wsj.com/person/O/barack-obama/4328",
+      "sitedomain": "online.wsj.com",
+      "primaryproduct": "Online Journal",
+      "ctype": "Topics",
+      "subsection": "WSJ_Topics",
+      "fb:app_id": "368513495882",
+      "displayname": "Topics Executive Bio",
+      "pagename": "Topics Executive Bio_0_0_WT_1000",
+      "og:title": "Barack Obama",
+      "og:type": "author",
+      "og:site_name": "WSJ.com",
+      "csource": "WSJ Online Topics",
+      "section": "Topics",
+      "og:image": "http://s.wsj.net/public/resources/images/HC-GN473_Obama_AV_20090311130903.gif",
+      "lifp_signature": "509b1a086458232f6e000002"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama News - Bloomberg",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e News - Bloomberg",
+   "link": "http://topics.bloomberg.com/barack-obama/",
+   "displayLink": "topics.bloomberg.com",
+   "snippet": "Breaking news about Barack Obama. Find the latest articles, videos, photos and \nblogs about Barack Obama.",
+   "htmlSnippet": "Breaking news about Barack \u003cb\u003eObama\u003c/b\u003e. Find the latest articles, videos, photos and \u003cbr\u003e\nblogs about Barack \u003cb\u003eObama\u003c/b\u003e.",
+   "cacheId": "iuYYxX9A5OEJ",
+   "formattedUrl": "topics.bloomberg.com/barack-obama/",
+   "htmlFormattedUrl": "topics.bloomberg.com/barack-\u003cb\u003eobama\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.bloomberg.com/image/i7P8SFzzSR2U.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "74",
+      "height": "74",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_vFjXjS3zgMUXQlgZ-AtRipRhz2_lt1pK3P9yk2H9lxaZ_TU0GWWu"
+     }
+    ],
+    "metatags": [
+     {
+      "fb:admins": "1502271052,1617206,500566238,616620419,18776,1396618572,501161086,100001111898866,1223836",
+      "og:title": "Barack Obama News - Bloomberg",
+      "og:site_name": "Bloomberg",
+      "og:description": "Breaking news about Barack Obama. Find the latest articles, videos, photos and blogs about Barack Obama.",
+      "twitter:card": "summary",
+      "twitter:site": "@BloombergNews",
+      "twitter:creator": "@BloombergNews",
+      "title": "Barack Obama News - Bloomberg",
+      "og:url": "http://topics.bloomberg.com/barack-obama/"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - Biography - Lawyer, U.S. Representative, U.S. ...",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - Biography - Lawyer, U.S. Representative, U.S. \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.biography.com/people/barack-obama-12782369",
+   "displayLink": "www.biography.com",
+   "snippet": "Aug 12, 2014 ... Learn more about President Barack Obama's family background, education and \ncareer, including his recent 2012 election win. Find out how he ...",
+   "htmlSnippet": "Aug 12, 2014 \u003cb\u003e...\u003c/b\u003e Learn more about President Barack \u003cb\u003eObama&#39;s\u003c/b\u003e family background, education and \u003cbr\u003e\ncareer, including his recent 2012 election win. Find out how he&nbsp;...",
+   "cacheId": "6tgw8rrWywAJ",
+   "formattedUrl": "www.biography.com/people/barack-obama-12782369",
+   "htmlFormattedUrl": "www.biography.com/people/barack-\u003cb\u003eobama\u003c/b\u003e-12782369",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://a5.files.biography.com/image/upload/c_fill,dpr_1.0,g_face,h_300,q_80,w_300/MTE4MDAzNDEwNzg5ODI4MTEw.jpg"
+     }
+    ],
+    "videoobject": [
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_2008586718001_BIO-Barack-Obama-SF-FIX-Retry-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/VBU4d5F5XyPg?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=10982467772",
+      "uploaddate": "2012-12-03T21:15:47.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_2008586720001_BIO-Barack-Obama-SF-FIX-Retry.jpg",
+      "name": "Barack Obama - Mini Biography",
+      "contentrating": "(TV-14; 05:04)",
+      "description": "Born in Honolulu, Barack Obama went on to become President of the Harvard Law Review. In 2008, he was elected President of the United States, becoming the first African-American commander-in-chief."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_2008586718001_BIO-Barack-Obama-SF-FIX-Retry-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/VBU4d5F5XyPg?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=10982467772",
+      "uploaddate": "2012-12-03T21:15:47.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_2008586720001_BIO-Barack-Obama-SF-FIX-Retry.jpg",
+      "name": "Barack Obama - Mini Biography",
+      "contentrating": "(TV-14; 05:04)",
+      "description": "Born in Honolulu, Barack Obama went on to become President of the Harvard Law Review. In 2008, he was elected President of the United States, becoming the first African-American commander-in-chief."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1926800411001_History-Barack-Obama-Americas-First-Black-President-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/_PYLvhi5_Dx8?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=5106755981",
+      "uploaddate": "2012-10-26T16:22:30.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1926800413001_History-Barack-Obama-Americas-First-Black-President-SF.jpg",
+      "name": "Barack Obama - America's First African-American President",
+      "contentrating": "(TV-14; 02:40)",
+      "description": "On November 4th, 2008, Barack Obama was elected President, making him the first African-American President of the United States. His victory made a powerful statement about how far the country..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1094179829001_Biography-Barack-Obama-Politician-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/_eHJBAzYW1Dd?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30327271",
+      "uploaddate": "2012-08-07T17:32:16.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1094179831001_Biography-Barack-Obama-Politician.jpg",
+      "name": "Barack Obama - The Politician",
+      "contentrating": "(TV-14; 02:29)",
+      "description": "Barack Obama's rise in politics from his first step into the public sphere to being elected State Senator of Illinois."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1094179811001_Biography-Barack-Obama-Harvard-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/hw2wJJGPf7r7?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30327937",
+      "uploaddate": "2012-08-07T17:32:15.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1094179813001_Biography-Barack-Obama-Harvard.jpg",
+      "name": "Barack Obama - Harvard",
+      "contentrating": "(TV-14; 04:01)",
+      "description": "Barack Obama attends Harvard Law School, becoming the first African-American to be elected president of the Harvard Law Review."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1094179808001_Biography-Barack-Obama-Becoming-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/kEbrYf8lEURH?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30328167",
+      "uploaddate": "2012-08-07T17:32:15.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1094179810001_Biography-Barack-Obama-Becoming.jpg",
+      "name": "Barack Obama - Becoming Barack",
+      "contentrating": "(TV-14; 05:49)",
+      "description": "A look at the events of Barack Obama's childhood and youth that influenced and shaped him into the person he is today."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1745466900001_071511-RubyBridges-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/dSsgV6skuWWA?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30362902",
+      "uploaddate": "2012-08-07T17:55:59.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1745466902001_071511-RubyBridges.jpg",
+      "name": "Ruby Bridges - Norman Rockwell Painting at the White House",
+      "contentrating": "(TV-14; 01:37)",
+      "description": "Ruby Bridges visited President Barack Obama to see Norman Rockwell's painting hanging outside of the Oval Office. The painting depicts her walk to school on the day of school integration in..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_2135134953001_Rosa-Parks-Civil-Rights-Pioneer-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/3KZ5ooFvPqJn?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=17181763791",
+      "uploaddate": "2013-02-01T21:28:53.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_2135134955001_Rosa-Parks-Civil-Rights-Pioneer.jpg",
+      "name": "Rosa Parks - Civil Rights Pioneer",
+      "contentrating": "(TV-14; 01:55)",
+      "description": "At an early age, Rosa Parks faced injustice wherever she went and decided that by taking action she could change the world around her."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1130407061001_Bio-MB-Marshall-Thurgood-pix-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/bzrI05ilsrNW?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30338757",
+      "uploaddate": "2012-08-07T17:40:33.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1130407063001_Bio-MB-Marshall-Thurgood-pix.jpg",
+      "name": "Thurgood Marshall - Mini Biography",
+      "contentrating": "(TV-14; 02:13)",
+      "description": "Thurgood Marshall was the first African-American to serve on the United States Supreme Court. He was also one of the most effective Civil Rights crusaders of the 20th Century."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_2044049177001_Biography-Notorious-Osama-Most-Wanted-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/05PPj7EftrWQ?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=12674115651",
+      "uploaddate": "2012-12-18T20:23:51.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_2044049179001_Biography-Notorious-Osama-Most-Wanted.jpg",
+      "name": "Osama bin Laden - America's Most Wanted",
+      "contentrating": "(TV-14; 02:30)",
+      "description": "Osama bin Laden transformed from a wealthy Saudi to the leader of a powerful underground army of terrorists."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_2119569662001_Rosa-Parks-Legacy-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/0AEcXTK__D5Q?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=15821379604",
+      "uploaddate": "2013-01-25T20:01:33.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_2119569664001_Rosa-Parks-Legacy.jpg",
+      "name": "Rosa Parks - Legacy",
+      "contentrating": "(TV-14; 03:03)",
+      "description": "On December 1, 1955 Rosa Parks refused to give up her seat on a bus in Montgomery, Alabama, and from there sparked a national Civil Rights Movement for racial equality."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1927014874001_040512-Mockingbird-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/Yx7d7bmgDQpe?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=5122627998",
+      "uploaddate": "2012-10-26T18:50:21.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1927014876001_040512-Mockingbird.jpg",
+      "name": "Gregory Peck - 50th Anniversary of \"To Kill a Mockingbird\"",
+      "contentrating": "(TV-14; 03:06)",
+      "description": "Gregory Peck starred as Atticus Finch in the film adaptation of Harper Lee's \"To Kill a Mockingbird.\" Peck's character was voted the greatest movie hero of all time."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_2033641463001_Bio-Biography-Whitehouse-Jesse-Jackson-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/BvpCUwDrENRK?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=12177475672",
+      "uploaddate": "2012-12-13T16:51:33.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_2033661665001_Bio-Biography-Whitehouse-Jesse-Jackson-SF.jpg",
+      "name": "Jesse Jackson - Mini Biography",
+      "contentrating": "(N/A; 03:17)",
+      "description": "Jesse Jackson saw the injustice of segregation and worked for Dr. Martin Luther King. Jackson fought for equal rights through his organizations, Operation PUSH and the Rainbow Coalition, and..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/Joe-Biden_Vice-President_small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/Bs5YMn9pD_W1?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=28602947925",
+      "uploaddate": "2013-05-01T16:34:42.000Z",
+      "image": "http://cp91279.biography.com/Joe-Biden_Vice-President_HD_768x432-16x9.jpg",
+      "name": "Joe Biden - Vice President",
+      "contentrating": "(TV-14; 03:21)",
+      "description": "On January 20, 2009, Obama was sworn in as the 44th U.S. president and Biden became the 47th vice president."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1091638382001_Bio-Biography-Bill-Clinton-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/v4s6d8L5lUw4?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30323809",
+      "uploaddate": "2012-08-07T17:29:21.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1091638384001_Bio-Biography-Bill-Clinton-SF.jpg",
+      "name": "Bill Clinton - Mini Biography",
+      "contentrating": "(TV-14; 03:32)",
+      "description": "A short biography of Bill Clinton's rise to political power, his marriage to Hillary Clinton, his impeachment due to the Monica Lewinsky scandal, and his involvement in recreating the Democratic..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/Joe-Biden_US-Senator_small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/0EOimdcYzIC_?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=28602435916",
+      "uploaddate": "2013-05-01T16:33:13.000Z",
+      "image": "http://cp91279.biography.com/Joe-Biden_US-Senator_HD_768x432-16x9.jpg",
+      "name": "Joe Biden - U.S. Senator",
+      "contentrating": "(TV-14; 03:37)",
+      "description": "From 1973 to 2009, Biden served a distinguished Senate career. During his time in the Senate, Biden won the respect of many of his fellow Senators."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1107500217001_Bio-Need-to-Know-Michelle-Obama-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/0OxEoloHlTTs?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30333384",
+      "uploaddate": "2012-08-07T17:38:07.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1107500219001_Bio-Need-to-Know-Michelle-Obama-SF.jpg",
+      "name": "Michelle Obama - Mini Biography",
+      "contentrating": "(TV-14; 03:43)",
+      "description": "A short biography of Michelle Obama, who rose up from her tough Chicago neighborhood to become a Princeton and Harvard alumni with a successful career, wife of Barack Obama, and eventually..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1954112138001_BIO-Mini-BIO-Abraham-Lincoln-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/ZIJbSRf2J9qS?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=6897219705",
+      "uploaddate": "2012-11-07T15:49:29.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1954112140001_BIO-Mini-BIO-Abraham-Lincoln-SF.jpg",
+      "name": "Abraham Lincoln - Mini Biography",
+      "contentrating": "(TV-14; 03:54)",
+      "description": "Abraham Lincoln grew up in a log cabin in rural Kentucky and went on to become the 16th President of the United States. On January 1, 1863, he issued the Emancipation Proclamation abolishing..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1092829785001_Bio-Biography-Hillary-Clinton-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/bpR1xshe2xP7?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30324613",
+      "uploaddate": "2012-08-07T17:29:43.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1092829787001_Bio-Biography-Hillary-Clinton-SF.jpg",
+      "name": "Hillary Clinton - Mini Biography",
+      "contentrating": "(TV-14; 04:12)",
+      "description": "A short video biography of Hillary Clinton who became first lady when Bill Clinton won the presidency in 1992. After becoming a U.S. senator in New York, she ran for president in 2007."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1093998401001_Bio-Need-to-Know-Joe-Biden-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/Yis1vt_f90xE?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30328020",
+      "uploaddate": "2012-08-07T17:31:27.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1093998403001_Bio-Need-to-Know-Joe-Biden-SF.jpg",
+      "name": "Joe Biden - Mini Biography",
+      "contentrating": "(TV-14; 04:31)",
+      "description": "A short biography of Joe Biden, who, despite his humble beginnings and the tragic deaths of his wife and daughter, became a successful politician and eventually President Barack Obama's vice..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1092790546001_Bio-Biography-George-W-Bush-SF-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/Gz4bQoNbha76?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=30324605",
+      "uploaddate": "2012-08-07T17:29:42.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1092790548001_Bio-Biography-George-W-Bush-SF.jpg",
+      "name": "George W. Bush - Mini Biography",
+      "contentrating": "(TV-14; 04:31)",
+      "description": "A short biography of George W. Bush who started out as governor of Texas in 1994 and then became president in 2000. From his handling of 9/11 to the Iraq War, Bush is considered one of the..."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_1805895776001_White-House-Moon-Landing-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/b_p4qvevwTLo?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=33823875",
+      "uploaddate": "2012-08-26T16:46:06.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_1805895778001_White-House-Moon-Landing.jpg",
+      "name": "Neil Armstrong - The 40th Anniversary of the Walk on the Moon",
+      "contentrating": "(TV-14; 04:31)",
+      "description": "40 years after his first walk on the moon, Neil Armstrong was honored, along with fellow Apollo 11 astronauts Buzz Aldrin and Michael Collins, by President Barack Obama at the White House...."
+     },
+     {
+      "thumbnailurl": "http://cp91279.biography.com/1000509261001/1000509261001_2008586724001_BIO-Mitt-Romney-SF-FIX-2-small.jpg",
+      "contenturl": "http://link.theplatform.com/s/xc6n8B/3_xlsaSnMNs7?assetTypes=medium_video_s3&mbr=true&metafile=true&policy=29966&switch=hds",
+      "embedurl": "http://servicesaetn-a.akamaihd.net/pservice/embed-player/?siteId=bio&tPid=10982467667",
+      "uploaddate": "2012-12-03T21:09:49.000Z",
+      "image": "http://cp91279.biography.com/1000509261001/1000509261001_2008586726001_BIO-Mitt-Romney-SF-FIX-2.jpg",
+      "name": "Mitt Romney - Mini Biography",
+      "contentrating": "(TV-14; 05:16)",
+      "description": "A short biography of Mitt Romney, who co-founded Bain Capital. He organized the 2002 Salt Lake Olympic Games, was elected Governor of Massachusetts in 2002, and campaigned for the Presidency..."
+     }
+    ],
+    "person": [
+     {
+      "image": "http://a5.files.biography.com/image/upload/c_fill,dpr_1.0,g_face,h_300,q_80,w_300/MTE4MDAzNDEwNzg5ODI4MTEw.jpg",
+      "name": "Barack Obama",
+      "birthdate": "August 4, 1961 (age 53)",
+      "alumniof": "Harvard Law School, Occidental College, Columbia University, Punahou Academy",
+      "additionalname": "Barack Obama",
+      "description": "Barack Obama is the 44th and current president of the United States, and the first African American to serve as U.S. president. First elected to the presidency in 2008, he won a second term in 2012."
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFUqGq4b7tJHgiSNgT2VMo5AY52WmYTN56fa9jnFnPzb1-gktdeCHaM8yW"
+     }
+    ],
+    "metatags": [
+     {
+      "fragment": "!",
+      "handheldfriendly": "True",
+      "mobileoptimized": "320",
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "apple-mobile-web-app-capable": "no",
+      "apple-mobile-web-app-status-bar-style": "black",
+      "format-detection": "telephone=no",
+      "pinterest": "nohover",
+      "dcterms.datecopyrighted": "2014",
+      "twitter:card": "summary_large_image",
+      "dcterms.rightsholder": "Bio and the Bio logo are registered trademarks of A&E Television Networks, LLC.",
+      "twitter:site": "@bio",
+      "twitter:url": "http://www.biography.com/people/barack-obama-12782369",
+      "twitter:description": "Learn more about President Barack Obama's family background, education and career, including his recent 2012 election win. Find out how he became the first African-American U.S. president, view video clips and photos, only at Biography.com.",
+      "twitter:domain": "www.biography.com",
+      "og:url": "http://www.biography.com/people/barack-obama-12782369",
+      "og:title": "Barack Obama - Biography - Lawyer, U.S. Representative, U.S. President - Biography.com",
+      "og:description": "Learn more about President Barack Obama's family background, education and career, including his recent 2012 election win. Find out how he became the first African-American U.S. president, view video clips and photos, only at Biography.com.",
+      "og:site_name": "Biography",
+      "fb:page_id": "123492867697144",
+      "fb:app_id": "104784826244596",
+      "apple-mobile-web-app-title": "Biography",
+      "parsely-title": "Barack Obama - Biography - Lawyer, U.S. Representative, U.S. President - Biography.com",
+      "parsely-link": "http://www.biography.com/people/barack-obama-12782369",
+      "tmt-title": "Barack Obama - Biography - Lawyer, U.S. Representative, U.S. President - Biography.com",
+      "tmt-description": "Learn more about President Barack Obama's family background, education and career, including his recent 2012 election win. Find out how he became the first African-American U.S. president, view video clips and photos, only at Biography.com.",
+      "twitter:image": "http://a5.files.biography.com/image/upload/c_fit,dpr_1.0,h_1200,q_80,w_1200/MTE4MDAzNDEwNzg5ODI4MTEw.jpg",
+      "og:image": "http://a5.files.biography.com/image/upload/c_fit,dpr_1.0,h_1200,q_80,w_1200/MTE4MDAzNDEwNzg5ODI4MTEw.jpg",
+      "parsely-image-url": "http://a5.files.biography.com/image/upload/c_fill,dpr_1.0,h_300,q_80,w_400/MTE4MDAzNDEwNzg5ODI4MTEw.jpg",
+      "tmt-img-medium-url": "http://a5.files.biography.com/image/upload/c_fill,dpr_1.0,h_300,q_80,w_400/MTE4MDAzNDEwNzg5ODI4MTEw.jpg"
+     }
+    ],
+    "imageobject": [
+     {
+      "image": "http://a2.files.biography.com/image/upload/c_fit,dpr_1.0,h_1000,q_80,w_1500/MTE5NDg0MDU1MjQ0NjA0OTQz.jpg",
+      "caption": "50 of 52{ contentCaption }"
+     },
+     {
+      "image": "http://a1.files.biography.com/image/upload/c_fit,dpr_1.0,h_1000,q_80,w_1500/MTE1ODA0OTcxODk4NDA2NDEz.jpg",
+      "caption": "51 of 52{ contentCaption }"
+     },
+     {
+      "image": "http://a4.files.biography.com/image/upload/c_fit,dpr_1.0,h_1000,q_80,w_1500/MTE4MDAzNDEwNzg5NzYyNTc0.jpg",
+      "caption": "52 of 52{ contentCaption }"
+     },
+     {
+      "image": "http://a1.files.biography.com/image/upload/c_fit,dpr_1.0,h_1000,q_80,w_1500/MTE4MDAzNDEwNzg3OTkzMTAy.jpg",
+      "caption": "1 of 52{ contentCaption }"
+     },
+     {
+      "image": "http://a3.files.biography.com/image/upload/c_fit,dpr_1.0,h_1000,q_80,w_1500/MTE4MDAzNDEwNzg4MDU4NjM4.jpg",
+      "caption": "2 of 52{ contentCaption }"
+     },
+     {
+      "image": "http://a5.files.biography.com/image/upload/c_fit,dpr_1.0,h_1000,q_80,w_1500/MTE4MDAzNDEwNzg4MTI0MTc0.jpg",
+      "caption": "3 of 52{ contentCaption }"
+     },
+     {
+      "image": "http://a1.files.biography.com/image/upload/c_fit,dpr_1.0,h_1000,q_80,w_1500/MTE1ODA0OTcxODk1ODUwNTA5.jpg",
+      "caption": "4 of 52{ contentCaption }"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Barack Obama",
+      "bday": "1961-08-04",
+      "photo": "http://a5.files.biography.com/image/upload/c_fill,dpr_1.0,g_face,h_300,q_80,w_300/MTE4MDAzNDEwNzg5ODI4MTEw.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}
