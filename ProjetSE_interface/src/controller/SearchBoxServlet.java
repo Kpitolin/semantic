@@ -56,7 +56,12 @@ public class SearchBoxServlet extends HttpServlet {
 	  @Override
 	  protected void doPost(HttpServletRequest request, HttpServletResponse response)
 	          throws ServletException, IOException {
+		  
 		    Service s = new Service();
+		    
+		    String requete = request.getParameter("requete");
+		    
+		    s.search(requete);
 		    JSONObject jsonObj = s.exploreSimiliratyFromCSV("C:\\Users\\Thomas\\Documents\\4IF\\semantic\\ProjetSE\\matrice_jaccard.csv", 0.6);
 		    
 			response.setContentType("application/json");

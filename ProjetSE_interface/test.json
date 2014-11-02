@@ -1,0 +1,516 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - obama care",
+    "totalResults": "26300000",
+    "searchTerms": "obama care",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006463225579681566849:zklgocryvzk"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - obama care",
+    "totalResults": "26300000",
+    "searchTerms": "obama care",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006463225579681566849:zklgocryvzk"
+   }
+  ]
+ },
+ "context": {
+  "title": "ws-h4301-cse"
+ },
+ "searchInformation": {
+  "searchTime": 0.292722,
+  "formattedSearchTime": "0,29",
+  "totalResults": "26300000",
+  "formattedTotalResults": "26 300 000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Health Insurance Marketplace: Enroll for 2015 Healthcare Coverage ...",
+   "htmlTitle": "Health Insurance Marketplace: Enroll for 2015 Healthcare Coverage \u003cb\u003e...\u003c/b\u003e",
+   "link": "https://www.healthcare.gov/",
+   "displayLink": "www.healthcare.gov",
+   "snippet": "The official site of Health Insurance Marketplace. See your health coverage \nchoices, get ready to enroll. Learn how health care laws affect you.",
+   "htmlSnippet": "The official site of Health Insurance Marketplace. See your health coverage \u003cbr\u003e\nchoices, get ready to enroll. Learn how health \u003cb\u003ecare\u003c/b\u003e laws affect you.",
+   "cacheId": "PGj94fPuXuIJ",
+   "formattedUrl": "https://www.healthcare.gov/",
+   "htmlFormattedUrl": "https://www.health\u003cb\u003ecare\u003c/b\u003e.gov/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://www.healthcare.gov/assets/get-options.png"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHtfnLJ-KlBTc8irjcsgcIGxAYS4PUt27t0JrdTjAmPClxUxZLFkmkDzg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no",
+      "msvalidate.01": "598A98B6EDF7624D92A421A892DC3A45",
+      "search-title": "Health Insurance Marketplace",
+      "content-type": "index",
+      "og:title": "Health Insurance Marketplace: Enroll for 2015 Healthcare Coverage",
+      "og:type": "index",
+      "og:image": "https://www.healthcare.gov/images/logo.png",
+      "og:site_name": "HealthCare.gov",
+      "og:description": "The official site of Health Insurance Marketplace. See your health coverage choices, get ready to enroll. Learn how health care laws affect you",
+      "twitter:card": "The official site of Health Insurance Marketplace. See your health coverage choices, get ready to enroll. Learn how health care laws affect you",
+      "twitter:url": "HealthCare.gov",
+      "twitter:title": "Health Insurance Marketplace: Enroll for 2015 Healthcare Coverage"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "ObamaCare Facts: Facts on the Affordable Care Act",
+   "htmlTitle": "\u003cb\u003eObamaCare\u003c/b\u003e Facts: Facts on the Affordable Care Act",
+   "link": "http://obamacarefacts.com/obamacare-facts.php",
+   "displayLink": "obamacarefacts.com",
+   "snippet": "We present the facts on Obama Care (ObamaCare), the health care plan for \nAmerica. Our goal is to help you understand the Affordable Care Act.",
+   "htmlSnippet": "We present the facts on \u003cb\u003eObama Care\u003c/b\u003e (\u003cb\u003eObamaCare\u003c/b\u003e), the health care plan for \u003cbr\u003e\nAmerica. Our goal is to help you understand the Affordable Care Act.",
+   "cacheId": "q2IdhXnHjzAJ",
+   "formattedUrl": "obamacarefacts.com/obamacare-facts.php",
+   "htmlFormattedUrl": "\u003cb\u003eobamacare\u003c/b\u003efacts.com/\u003cb\u003eobamacare\u003c/b\u003e-facts.php",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://obamacarefacts.com/obamacarefacts-images/obamacare-cartoon-2-a.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "251",
+      "height": "201",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTfDIZ03Q021YScjQvUdHAQEo6dzE0RlvfjICK4enT3i8Nihi9kzYGTFys"
+     }
+    ],
+    "metatags": [
+     {
+      "language": "english"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Patient Protection and Affordable Care Act - Wikipedia, the free ...",
+   "htmlTitle": "Patient Protection and Affordable \u003cb\u003eCare\u003c/b\u003e Act - Wikipedia, the free \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://en.wikipedia.org/wiki/Patient_Protection_and_Affordable_Care_Act",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "The Patient Protection and Affordable Care Act (PPACA), commonly called the \nAffordable Care Act (ACA) or \"Obamacare\", is a United States federal statute ...",
+   "htmlSnippet": "The Patient Protection and Affordable Care Act (PPACA), commonly called the \u003cbr\u003e\nAffordable Care Act (ACA) or &quot;\u003cb\u003eObamacare\u003c/b\u003e&quot;, is a United States federal statute&nbsp;...",
+   "cacheId": "vDI_V8V3UNYJ",
+   "formattedUrl": "en.wikipedia.org/.../Patient_Protection_and_Affordable_Care_Act",
+   "htmlFormattedUrl": "en.wikipedia.org/.../Patient_Protection_and_Affordable_\u003cb\u003eCare\u003c/b\u003e_Act",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_(obverse).svg/140px-Great_Seal_of_the_United_States_(obverse).svg.png"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "112",
+      "height": "112",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnkAPYkKKtuRf84zNP9djsK4WpP7n7vU9vUAGtmEAOdLXOGYfV8BL2"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Patient Protection and Affordable Care Act — Wikipédia",
+   "htmlTitle": "Patient Protection and Affordable \u003cb\u003eCare\u003c/b\u003e Act — Wikipédia",
+   "link": "http://fr.wikipedia.org/wiki/Patient_Protection_and_Affordable_Care_Act",
+   "displayLink": "fr.wikipedia.org",
+   "snippet": "Le Patient Protection and Affordable Care Act (loi sur la protection des patients et \ndes soins abordables), surnommée « Obamacare », est une loi votée par le ...",
+   "htmlSnippet": "Le Patient Protection and Affordable Care Act (loi sur la protection des patients et \u003cbr\u003e\ndes soins abordables), surnommée « \u003cb\u003eObamacare\u003c/b\u003e », est une loi votée par le&nbsp;...",
+   "cacheId": "xtHOVYMXMtMJ",
+   "formattedUrl": "fr.wikipedia.org/wiki/Patient_Protection_and_Affordable_Care_Act",
+   "htmlFormattedUrl": "fr.wikipedia.org/wiki/Patient_Protection_and_Affordable_\u003cb\u003eCare\u003c/b\u003e_Act",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/07/9.12_tea_party_in_DC.jpg/220px-9.12_tea_party_in_DC.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "176",
+      "height": "132",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGxA3Vf4zgIRkhYqBF0DX9AYxI_dHls6y2bOsLK5iad2O8w2yCKa1VnZLB"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Obamacare",
+   "htmlTitle": "\u003cb\u003eObamacare\u003c/b\u003e",
+   "link": "http://www.huffingtonpost.com/news/obamacare/",
+   "displayLink": "www.huffingtonpost.com",
+   "snippet": "Big News on Obamacare. Includes blogs, news, and community conversations \nabout Obamacare.",
+   "htmlSnippet": "Big News on \u003cb\u003eObamacare\u003c/b\u003e. Includes blogs, news, and community conversations \u003cbr\u003e\nabout \u003cb\u003eObamacare\u003c/b\u003e.",
+   "cacheId": "4vZA-CtA1BAJ",
+   "formattedUrl": "www.huffingtonpost.com/news/obamacare/",
+   "htmlFormattedUrl": "www.huffingtonpost.com/news/\u003cb\u003eobamacare\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i.huffpost.com/gen/1969296/thumbs/s-JONI-ERNST-mini.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "73",
+      "height": "57",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJsHKqdzFnZ0MGhQ1FGKMu0Dw3vPYGEGQY8RPQAppwSmOR5d4K3mfeGA"
+     }
+    ],
+    "metatags": [
+     {
+      "og:site_name": "The Huffington Post",
+      "og:type": "blog",
+      "fb:app_id": "46744042133",
+      "og:title": "Obamacare",
+      "og:image": "http://i.huffpost.com/gen/1969296/thumbs/s-JONI-ERNST-mini.jpg",
+      "og:url": "http://www.huffingtonpost.com/news/obamacare/"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "More Obamacare Articles | Page 1 | WashingtonExaminer.com",
+   "htmlTitle": "More \u003cb\u003eObamacare\u003c/b\u003e Articles | Page 1 | WashingtonExaminer.com",
+   "link": "http://www.washingtonexaminer.com/section/obamacare",
+   "displayLink": "www.washingtonexaminer.com",
+   "snippet": "More News on Obamacare | Page 1. ... AFP's Tim Phillips: A Republican Senate \nshould vote to repeal Obamacare. By Rebecca Berg | 10/30/14 05:46 PM.",
+   "htmlSnippet": "More News on \u003cb\u003eObamacare\u003c/b\u003e | Page 1. ... AFP&#39;s Tim Phillips: A Republican Senate \u003cbr\u003e\nshould vote to repeal \u003cb\u003eObamacare\u003c/b\u003e. By Rebecca Berg | 10/30/14 05:46 PM.",
+   "cacheId": "CQTrkIsxhrUJ",
+   "formattedUrl": "www.washingtonexaminer.com/section/obamacare",
+   "htmlFormattedUrl": "www.washingtonexaminer.com/section/\u003cb\u003eobamacare\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://cdn.washingtonexaminer.biz/cache/190x130-e6d7661a4be204a8d4408efe8a02f713.jpg"
+     }
+    ],
+    "searchaction": [
+     {
+      "target": "http://washingtonexaminer.com/search?search={search}",
+      "query-input": "name=search required"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "152",
+      "height": "104",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPlEukpyvZ9IB7_s3VRTf5HVtvJ6t1tSylPuU-F28Oqq4y3tfS1SPk4A"
+     }
+    ],
+    "website": [
+     {
+      "url": "http://washingtonexaminer.com/"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=960",
+      "copyright": "Copyright (c) 2014 The Washington Examiner. All Rights Reserved",
+      "fb:app_id": "190451957673826",
+      "fb:admins": "1285945407",
+      "og:site_name": "Washington Examiner",
+      "og:type": "article",
+      "og:title": "More Obamacare Articles | Page 1 | WashingtonExaminer.com",
+      "og:description": "More News on Obamacare | Page 1",
+      "twitter:card": "summary",
+      "twitter:site": "@dcexaminer",
+      "twitter:title": "More Obamacare Articles | Page 1 | WashingtonExaminer.com",
+      "twitter:description": "More News on Obamacare | Page 1",
+      "og:image": "http://s3.amazonaws.com/content.washingtonexaminer.biz/images/static/exam-large-e.jpg",
+      "twitter:image": "http://s3.amazonaws.com/content.washingtonexaminer.biz/images/static/exam-large-e.jpg",
+      "apple-itunes-app": "app-id=890150273"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "ObamaCare Facts, News & Updates - Investors.com",
+   "htmlTitle": "\u003cb\u003eObamaCare\u003c/b\u003e Facts, News &amp; Updates - Investors.com",
+   "link": "http://news.investors.com/politics/obamacare.htm",
+   "displayLink": "news.investors.com",
+   "snippet": "Get all the latest ObamaCare news and analysis from Investor's Business Daily, \nincluding an up-to-date scorecard of employer job actions tied to ObamaCare.",
+   "htmlSnippet": "Get all the latest \u003cb\u003eObamaCare\u003c/b\u003e news and analysis from Investor&#39;s Business Daily, \u003cbr\u003e\nincluding an up-to-date scorecard of employer job actions tied to \u003cb\u003eObamaCare\u003c/b\u003e.",
+   "cacheId": "NbFdBX2nt-IJ",
+   "formattedUrl": "news.investors.com/politics/obamacare.htm",
+   "htmlFormattedUrl": "news.investors.com/politics/\u003cb\u003eobamacare\u003c/b\u003e.htm",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.investors.com/image/A5jmp_141029_345.jpg.cms"
+     }
+    ],
+    "person": [
+     {
+      "url": "JED GRAHAM",
+      "name": "JED GRAHAM"
+     },
+     {
+      "url": "JED GRAHAM",
+      "name": "JED GRAHAM"
+     },
+     {
+      "url": "JED GRAHAM",
+      "name": "JED GRAHAM"
+     },
+     {
+      "url": "STEPHEN MOORE",
+      "name": "STEPHEN MOORE"
+     },
+     {
+      "url": "JED GRAHAM",
+      "name": "JED GRAHAM"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPYoXfcUV1B9Ls_k59ArdrpVMHLydVF_Qrf9Ll92e8beGjqV6WrpiHTq2Z"
+     }
+    ],
+    "newsarticle": [
+     {
+      "headline": "ObamaCare 7.3 Mil Enrollment? State Data Cast Doubt",
+      "datepublished": "10/28/2014 06:53 PM ET"
+     },
+     {
+      "headline": "Sorry, New York Times: ObamaCare Is Not Working"
+     },
+     {
+      "headline": "If GOP Wins Congress, What Are Its 2015 Priorities?",
+      "datepublished": "10/23/2014 06:52 PM ET"
+     },
+     {
+      "headline": "ObamaCare Bronze Plan Premiums To Jump 14% In 2015",
+      "datepublished": "10/17/2014 08:02 AM ET"
+     },
+     {
+      "headline": "Wal-Mart Stymied By ObamaCare"
+     },
+     {
+      "headline": "The ObamaCare Shell Game"
+     },
+     {
+      "headline": "Next Big Bailout May Go To ObamaCare Health Insurers",
+      "datepublished": "10/01/2014 04:59 PM ET"
+     },
+     {
+      "headline": "The ObamaCare 'Successes' Just Keep Piling Up"
+     },
+     {
+      "headline": "ObamaCare Hits Home Care; Caregivers, Patients Lose",
+      "datepublished": "09/25/2014 03:46 PM ET"
+     },
+     {
+      "headline": "Hope To Die At 75: Ezekiel Emanuel Has A Death Wish"
+     }
+    ],
+    "webpage": [
+     {
+      "breadcrumb": "Home",
+      "description": "ObamaCare"
+     }
+    ],
+    "metatags": [
+     {
+      "og:title": "ObamaCare Facts, News & Updates",
+      "og:type": "article",
+      "og:url": "http://news.investors.com/politics/obamacare.htm",
+      "og:description": "Get all the latest ObamaCare news and analysis from Investor's Business Daily, including an up-to-date scorecard of employer job actions tied to ObamaCare.",
+      "og:image": "http://www1.ibdcd.com/images/IBDicon_309171.png",
+      "og:site_name": "Investor's Business Daily",
+      "fb:app_id": "154916351273272",
+      "y_key": "936909c3c1994b0d",
+      "msvalidate.01": "A6A2E31D998968BEDD13CEA49F962D01",
+      "p:domain_verify": "fdf942e4ea215fafa65b5d9c35f29da9",
+      "twitter:account_id": "21328656"
+     }
+    ],
+    "imageobject": [
+     {
+      "contenturl": "http://www.investors.com/image/A5jmp_141029_345.jpg.cms"
+     },
+     {
+      "contenturl": "http://www.investors.com/image/boehner102414_345.jpg.cms"
+     },
+     {
+      "contenturl": "http://www.investors.com/image/Pol90_1017_345.gif.cms"
+     },
+     {
+      "contenturl": "http://www.investors.com/image/ISS1c_141008.png.cms"
+     },
+     {
+      "contenturl": "http://www.investors.com/image/ben100214_345.gif.cms"
+     },
+     {
+      "contenturl": "http://www.investors.com/image/WEBaca1003_345.gif.cms"
+     },
+     {
+      "contenturl": "http://www.investors.com/image/WEBhrs0926_345.gif.cms"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Health Care",
+   "htmlTitle": "Health \u003cb\u003eCare\u003c/b\u003e",
+   "link": "http://www.barackobama.com/health-care/",
+   "displayLink": "www.barackobama.com",
+   "snippet": "Thanks to Obamacare, all Americans with health insurance now have \nfundamental protections and new benefits: Preventive benefits—checkups, \nimmunizations, ...",
+   "htmlSnippet": "Thanks to \u003cb\u003eObamacare\u003c/b\u003e, all Americans with health insurance now have \u003cbr\u003e\nfundamental protections and new benefits: Preventive benefits—checkups, \u003cbr\u003e\nimmunizations,&nbsp;...",
+   "cacheId": "sbUjsprZ5psJ",
+   "formattedUrl": "www.barackobama.com/health-care/",
+   "htmlFormattedUrl": "www.barack\u003cb\u003eobama\u003c/b\u003e.com/health-\u003cb\u003ecare\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://secure.assets.bostatic.com/apps/madison/media/filer_public/2013/12/03/applyshopbuy2x.png",
+      "type": "1",
+      "width": "182",
+      "height": "219"
+     }
+    ],
+    "thumbnail": [
+     {
+      "src": "https://secure.assets.bostatic.com/apps/madison/media/filer_public/2013/12/03/applyshopbuy2x.png"
+     }
+    ],
+    "article": [
+     {
+      "name": "Organizing for Action",
+      "image": "https://secure.assets.bostatic.com/apps/madison/media/filer_public/2013/12/03/applyshopbuy2x.png"
+     }
+    ],
+    "metatags": [
+     {
+      "og:title": "NEED HEALTH INSURANCE?",
+      "og:type": "cause",
+      "og:url": "http://www.barackobama.com/health-care/",
+      "og:image": "https://secure.assets.bostatic.com/apps/madison/media/filer_public/2013/12/03/applyshopbuy2x.png",
+      "og:site_name": "Organizing for Action",
+      "og:description": "This year's March 31st enrollment deadline for the new marketplace has passed, and enrollment for health plans that start in 2015 will open this fall.",
+      "twitter:card": "summary",
+      "thumbnail": "https://secure.assets.bostatic.com/apps/madison/media/filer_public/2013/12/03/applyshopbuy2x.png",
+      "twitter:site": "@OFA",
+      "fb:page_id": "203330919857759",
+      "fb:app_id": "111399285589490",
+      "article:publisher": "https://www.facebook.com/OFA",
+      "viewport": "width=device-width,minimum-scale=1,maximum-scale=1"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Affordable Care Act",
+   "htmlTitle": "Affordable \u003cb\u003eCare\u003c/b\u003e Act",
+   "link": "http://www.hhs.gov/healthcare/rights/",
+   "displayLink": "www.hhs.gov",
+   "snippet": "The Affordable Care Act puts consumers back in charge of their health care. \nUnder the law, a new “Patient's Bill of Rights�? gives the American people the \nstability ...",
+   "htmlSnippet": "The Affordable \u003cb\u003eCare\u003c/b\u003e Act puts consumers back in charge of their health \u003cb\u003ecare\u003c/b\u003e. \u003cbr\u003e\nUnder the law, a new “Patient&#39;s Bill of Rights�? gives the American people the \u003cbr\u003e\nstability&nbsp;...",
+   "cacheId": "kAlS0xpH2qUJ",
+   "formattedUrl": "www.hhs.gov/healthcare/rights/",
+   "htmlFormattedUrl": "www.hhs.gov/health\u003cb\u003ecare\u003c/b\u003e/rights/",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "ASPA",
+      "dc.title": "About the Law",
+      "dc.creator": "ASPA",
+      "dc.description": "The Affordable Care Act puts consumers back in charge of their health care. Under the law, a new “Patient’s Bill of Rights�? gives the American people the stability and flexibility they need to make informed choices about their health.",
+      "dc.language": "en-us",
+      "dc.publisher": "Department of Health and Human Services",
+      "dc.date": "2013-06-10",
+      "dcterms.datecreated": "2013-06-10 00:00:00.0",
+      "dc.date.reviewed": "2013-06-10 00:00:00.0",
+      "dcterms.datemodified": "2013-06-10 00:00:00.0",
+      "contentid": "1869",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "perc_linkback": "FmRtY2x4B2RneAFgY2x4BmZlY3gTZGZhZg==",
+      "msvalidate.01": "A75A4BF948ABB2684F3C5DFE608ED9A2"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Obamacare | Facebook",
+   "htmlTitle": "\u003cb\u003eObamacare\u003c/b\u003e | Facebook",
+   "link": "https://www.facebook.com/ilikeobamacare",
+   "displayLink": "www.facebook.com",
+   "snippet": "Obamacare. 771194 likes · 2856 talking about this. This page is run by \nOrganizing for Action. www.barackobama.com.",
+   "htmlSnippet": "\u003cb\u003eObamacare\u003c/b\u003e. 771194 likes · 2856 talking about this. This page is run by \u003cbr\u003e\nOrganizing for Action. www.barackobama.com.",
+   "cacheId": "-ZIPEJEnapcJ",
+   "formattedUrl": "https://www.facebook.com/ilikeobamacare",
+   "htmlFormattedUrl": "https://www.facebook.com/ilike\u003cb\u003eobamacare\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/p526x296/10382739_607788069347058_7964530501480565025_n.jpg?oh=c39385a70ce9fb3d4e104c97f63e4dc7&oe=54E6CD0C&__gda__=1424619580_bfff4141b41c137cdc9c1cc18e5b40de"
+     }
+    ],
+    "organization": [
+     {
+      "name": "Obamacare"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZ23CH0PGCunUTKzz0egGzU9udROg1xDPm1Tn9Wwz0Xu2EmH1d7_H1djI"
+     }
+    ],
+    "metatags": [
+     {
+      "referrer": "default",
+      "og:title": "Obamacare",
+      "og:type": "other",
+      "og:url": "https://www.facebook.com/ilikeobamacare",
+      "og:site_name": "Facebook",
+      "og:image": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c12.0.200.200/p200x200/1391938_609385669123436_515735519_n.jpg?oh=63d9f2d3c422ffc3bec3547a51154300&oe=54E678B1&__gda__=1424349843_df53255c647f3aea69c55c3a4f4b4840",
+      "og:description": "This page is run by Organizing for Action.  www.barackobama.com"
+     }
+    ]
+   }
+  }
+ ]
+}

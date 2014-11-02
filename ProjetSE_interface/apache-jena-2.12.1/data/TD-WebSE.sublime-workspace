@@ -1,0 +1,1090 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"New",
+				"NewTaille"
+			],
+			[
+				"M",
+				"MeilleurCoup"
+			],
+			[
+				"Coup",
+				"CoupPasPossible"
+			],
+			[
+				"Cou",
+				"CoupPossible"
+			],
+			[
+				"par",
+				"partie2Joueurs"
+			],
+			[
+				"ga",
+				"gamestateTampon"
+			],
+			[
+				"Poid",
+				"PoidsDuCoupSuivant"
+			],
+			[
+				"balance",
+				"balanceMin"
+			],
+			[
+				"pire",
+				"pireCoup"
+			],
+			[
+				"meill",
+				"meilleurCoup"
+			],
+			[
+				"C",
+				"CoupAssocie"
+			],
+			[
+				"Poi",
+				"PoidsDuCoupActuel"
+			],
+			[
+				"Pire",
+				"PirePoids"
+			],
+			[
+				"li",
+				"ListeDeCoup"
+			],
+			[
+				"sim",
+				"simulAdversaire"
+			],
+			[
+				"PoidsDuCoup",
+				"PoidsDuCoupActuel"
+			],
+			[
+				"coup",
+				"coupPossible"
+			],
+			[
+				"j",
+				"Joueur"
+			],
+			[
+				"b",
+				"bUpdate"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"a",
+				"aChambres"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"barg",
+				"background-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"forea",
+				"foreach	blade-foreach"
+			],
+			[
+				"Chambr",
+				"ChambrePost"
+			],
+			[
+				"post",
+				"post-container"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bos",
+				"box-shadow"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"data",
+				"data-target"
+			],
+			[
+				"Chamb",
+				"chambrePost"
+			],
+			[
+				"cha",
+				"chambre"
+			],
+			[
+				"btn",
+				"btn-sm"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"cate",
+				"categorieIndex"
+			],
+			[
+				"array_fill",
+				"array_fill_keys"
+			],
+			[
+				"v",
+				"var_dump"
+			],
+			[
+				"ch",
+				"chambre"
+			],
+			[
+				"id",
+				"id_chambre"
+			],
+			[
+				"c",
+				"chambre"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"add",
+				"addCrumb"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"rem",
+				"remember"
+			],
+			[
+				"da",
+				"dashboard"
+			],
+			[
+				"dashb",
+				"Dashboard"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"id_",
+				"id_chambre"
+			],
+			[
+				"asser",
+				"assertEquals"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"w",
+				"width	Attr"
+			],
+			[
+				"bs",
+				"bs3-col	bs3-col"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "query.txt",
+			"settings":
+			{
+				"buffer_size": 439,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "result.txt",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "students.n3",
+			"settings":
+			{
+				"buffer_size": 1097,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"fo",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"form",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"for",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"co",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"alig",
+				"Preferences: Alignment Key Bindings – Default"
+			]
+		],
+		"width": 735.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Thomas/Documents/4IF/semantic/apache-jena-2.12.1/data"
+	],
+	"file_history":
+	[
+		"/C/Users/Thomas/Documents/4IF/Puissance4/trash.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/minMax.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/partie2Joueurs.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/aGagner.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/verifications.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/init_game.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/jouer.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/InsertPosition.pl",
+		"/C/Users/Thomas/Documents/4IF/apache-jena-2.12.1/data/TD.txt",
+		"/C/Users/Thomas/Documents/4IF/apache-jena-2.12.1/data/query.txt",
+		"/C/Users/Thomas/Documents/4IF/apache-jena-2.12.1/data/students.n3",
+		"/C/Users/Thomas/Documents/4IF/apache-jena-2.12.1/data/result.txt",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/affichage.pl",
+		"/C/Users/Thomas/Documents/4IF/Puissance4/minMaxTodo.pl",
+		"/C/Users/Thomas/Downloads/students.n3",
+		"/C/Users/Thomas/Documents/4IF/result.txt",
+		"/C/Users/Thomas/Documents/4IF/query.txt",
+		"/C/wamp/www/lademeure/public/css/style.css",
+		"/C/wamp/www/lademeure/app/views/admin/chambres/chambrePost.blade.php",
+		"/C/wamp/www/lademeure/app/routes.php",
+		"/C/wamp/www/lademeure/app/controllers/ChambrePostController.php",
+		"/C/wamp/www/lademeure/app/controllers/ChambreController.php",
+		"/C/wamp/www/lademeure/app/views/admin/chambres/addChambreModal.blade.php",
+		"/C/wamp/www/lademeure/app/views/admin/chambres/addPostModal.blade.php",
+		"/C/wamp/www/lademeure/app/views/admin/chambres/chambresIndex.blade.php",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/wamp/www/lademeure/app/models/ChambrePost.php",
+		"/C/wamp/www/lademeure/public/css/style-temp.css",
+		"/C/wamp/www/lademeure/app/controllers/PagesGestionController.php",
+		"/C/wamp/www/lademeure/app/views/admin/header.blade.php",
+		"/C/wamp/www/lademeure/app/views/layout.blade.php",
+		"/C/wamp/www/lademeure/app/views/admin/chambres/chambrePost2.blade.php",
+		"/C/wamp/www/lademeure/app/views/layoutAjax.blade.php",
+		"/C/wamp/www/lademeure/app/models/Locataire.php",
+		"/C/wamp/www/lademeure/app/views/admin/connexion.blade.php",
+		"/C/wamp/www/lademeure/app/views/admin/dashboard.blade.php",
+		"/C/wamp/www/lademeure/vendor/nesbot/carbon/tests/SubTest.php",
+		"/C/wamp/www/lademeure/server.php",
+		"/C/wamp/www/lademeure/app/views/admin/sidebar.blade.php",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/wamp/www/lademeure/app/controllers/AdminController.php",
+		"/C/wamp/www/lademeure/phpunit.xml",
+		"/C/wamp/www/lademeure/vendor/phpunit/phpunit/build/phar-autoload.php.in",
+		"/C/wamp/www/lademeure/vendor/mockery/mockery/package.xml",
+		"/C/wamp/www/lademeure/app/controllers/BaseController.php",
+		"/C/wamp/www/lademeure/app/views/gestion/chambres/addPostModal.blade.php",
+		"/C/wamp/www/lademeure/public/js/commun.js",
+		"/C/wamp/www/lademeure/app/views/gestion/chambres/chambresIndex.blade.php",
+		"/C/wamp/www/lademeure/app/views/gestion/chambres/addChambreModal.blade.php",
+		"/C/wamp/www/lademeure/app/views/gestion/chambres/confirmPostModal.blade.php",
+		"/C/wamp/www/lademeure/app/views/gestion/chambres/chambrePost.blade.php",
+		"/C/wamp/www/lademeure/app/models/Chambre.php",
+		"/C/wamp/www/lademeure/app/models/Categorie.php",
+		"/C/wamp/www/lademeure/app/views/admin/connexionAdmin.blade.php",
+		"/C/wamp/www/lademeure/vendor/phpunit/phpunit/src/Framework/Constraint/ClassHasAttribute.php",
+		"/C/wamp/www/lademeure/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php",
+		"/C/wamp/www/lademeure/composer.json",
+		"/C/wamp/www/lademeure/app/views/gestion/chambres/addChambrePostModal.blade.php",
+		"/C/wamp/www/lademeure/app/controllers/HomeAdminController.php",
+		"/C/wamp/www/lademeure/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php",
+		"/C/Users/Thomas/Pictures/works/blue-line-loader.gif",
+		"/C/wamp/www/lademeure/app/controllers/StaffController.php",
+		"/C/wamp/www/lademeure/app/filters.php",
+		"/C/wamp/www/lademeure/app/start/global.php",
+		"/C/wamp/www/lademeure/app/views/error/missing.blade.php",
+		"/C/wamp/www/lademeure/app/database/seeds/CategorieTableSeeder.php",
+		"/C/wamp/www/lademeure/vendor/creitive/breadcrumbs/src/Creitive/Breadcrumbs/Breadcrumbs.php",
+		"/C/wamp/www/lademeure/app/views/admin/inscriptionAdmin.blade.php",
+		"/C/wamp/www/lademeure/app/views/admin/dashboardAdmin.blade.php",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/C/wamp/www/lademeure/app/config/app.php",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/wamp/www/lademeure/app/database/seeds/StaffTableSeeder.php",
+		"/C/wamp/www/lademeure/app/database/seeds/RoleTableSeeder.php",
+		"/C/wamp/www/lademeure/app/database/seeds/DatabaseSeeder.php",
+		"/C/wamp/www/lademeure/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
+		"/C/wamp/www/lademeure/vendor/symfony/css-selector/Symfony/Component/CssSelector/Exception/SyntaxErrorException.php",
+		"/C/wamp/www/lademeure/vendor/predis/predis/lib/Predis/ServerException.php",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/wamp/www/lademeure/public/css/trash.css",
+		"/C/wamp/www/lademeure/app/config/database.php",
+		"/C/wamp/www/lademeure/app/models/Staff.php",
+		"/C/wamp/www/lademeure/app/config/auth.php",
+		"/C/wamp/www/lademeure/app/config/local/database.php",
+		"/C/wamp/www/lademeure/app/database/migrations/2014_08_11_221140_CreateStaffsTable.php",
+		"/C/wamp/www/LaravelDemo/app/models/User.php",
+		"/C/wamp/www/lademeure/vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php",
+		"/C/wamp/www/lademeure/vendor/laravel/framework/src/Illuminate/Auth/UserTrait.php",
+		"/C/wamp/www/lademeure/app/models/User.php",
+		"/C/wamp/www/lademeure/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/UriSigner.php",
+		"/C/wamp/www/lademeure/app/models/CentreDeNotification.php",
+		"/C/wamp/www/lademeure/app/models/Image.php",
+		"/C/wamp/www/lademeure/app/models/Notification.php",
+		"/C/wamp/www/lademeure/app/models/PhotoBox.php",
+		"/C/wamp/www/lademeure/app/models/Avis.php",
+		"/C/wamp/www/lademeure/app/models/Reservation.php",
+		"/C/wamp/www/lademeure/app/tests/models/CategorieTest.php",
+		"/C/wamp/www/lademeure/app/tests/models/ChambreTest.php",
+		"/C/wamp/www/lademeure/app/models/Role.php",
+		"/C/wamp/www/lademeure/app/tests/models/AvisTest.php",
+		"/C/wamp/www/lademeure/app/tests/TestCase.php",
+		"/C/wamp/www/lademeure/app/database/migrations/2014_08_09_201153_CreateCategoriesTable.php",
+		"/C/wamp/www/lademeure/app/database/migrations/2014_08_09_201049_CreateAvisTable.php",
+		"/C/wamp/www/lademeure/vendor/d11wtq/boris/lib/Boris/ColoredInspector.php",
+		"/C/wamp/www/lademeure/vendor/predis/predis/lib/Predis/Option/ClientOptions.php",
+		"/C/wamp/www/lademeure/app/database/migrations/2014_08_09_194749_CreateChambresTable.php",
+		"/C/wamp/www/lademeure/app/tests/ExampleTest.php",
+		"/C/wamp/www/lademeure/app/config/testing/database.php",
+		"/C/wamp/www/lademeure/app/controllers/HomeController.php",
+		"/C/wamp/www/lademeure/app/views/hello.blade.php",
+		"/C/wamp/www/lademeure/exemple.css",
+		"/C/wamp/www/LaravelDemo/exmple.html",
+		"/C/wamp/www/lademeure/app/lang/en/pagination.php",
+		"/C/wamp/www/lademeure/app/ressources/css/style.css",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/User/Tag Package.sublime-settings",
+		"/C/Users/Thomas/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"append([Jeton],ColChoisi,NewCol),",
+			"aGagnerHorizontalement",
+			"),\n",
+			"testGagner2Joueurs",
+			"gamestate",
+			"jouer",
+			"balanceMin",
+			"coupAssocie",
+			"PirePoids",
+			"MeilleurCoup",
+			"meilleurCoup",
+			"MeilleurCoup",
+			"meilleurCoup",
+			"WHERE",
+			"prefix",
+			"loading",
+			"loader",
+			"#post-container span",
+			"chambre",
+			"10px",
+			"padding",
+			"8",
+			"255",
+			"0",
+			"24px",
+			"main",
+			"3",
+			"245",
+			"glyphicon-edit",
+			"text-info",
+			"danger",
+			"background",
+			"FF4E53",
+			"nav",
+			"Utilisateurs",
+			"Admin",
+			"HomeAdminController",
+			"html",
+			"span",
+			"titre",
+			"chambre",
+			"id_chambre",
+			"button",
+			"categorie",
+			"chambre",
+			"myModalLabel",
+			"div",
+			"le post",
+			"du post",
+			"chambrePost",
+			"ChambrePost",
+			"chambrePost",
+			"ChambrePost",
+			"chambrePost",
+			"ChambrePost",
+			"chambrePost",
+			"ChambrePost",
+			"Staff",
+			"staff",
+			"Staff",
+			"staff",
+			"Staff",
+			"staff",
+			"Staff",
+			"staff",
+			"post",
+			"Post",
+			"post",
+			"posts",
+			"h2",
+			"span",
+			"glyphicon-download",
+			"}",
+			"md",
+			"panel-title-danger-alt",
+			"default",
+			"title",
+			"primary",
+			"indent",
+			"40px",
+			"http",
+			"alt",
+			"div",
+			"pageInscription",
+			"to_route(\"/admin\");",
+			"\");\n",
+			"deconnexion",
+			"alert",
+			"scroll",
+			"6",
+			"aria",
+			"staffs",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"col",
+			"4",
+			"alert",
+			"indent",
+			"categories",
+			"categorie",
+			"integer",
+			"password",
+			"nom",
+			"id_chambre",
+			"User",
+			"chambre",
+			"sqlite",
+			"user",
+			"User",
+			"user",
+			"id_categorie",
+			"id_chambre",
+			"menu-icon",
+			"	<",
+			"12",
+			"kmw_langs",
+			"alt+f"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "query.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"is_xml": false,
+							"syntax": "Packages/SPARQL/sparql.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "result.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "students.n3",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1097
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/SPARQL/sparql.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "TD-WebSE.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lay",
+				"lademeure\\app\\views\\layout.blade.php"
+			],
+			[
+				"style",
+				"lademeure\\public\\css\\style.css"
+			],
+			[
+				"cate",
+				"lademeure\\app\\models\\Categorie.php"
+			],
+			[
+				"cham",
+				"lademeure\\app\\models\\Chambre.php"
+			],
+			[
+				"ramework/src/illuminate/routing/routecollection.php",
+				"lademeure\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php"
+			],
+			[
+				"user",
+				"lademeure\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\UserInterface.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Thomas\\Documents\\4IF\\semantic\\ProjetSE\\Tuto_D3js\\D3js.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

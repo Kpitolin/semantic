@@ -1,0 +1,16 @@
+PREFIX insa: <http://insa-lyon.fr.fr#>
+PREFIX ue: <http://insa-lyon.fr/ue#>
+PREFIX etu: <http://insa-lyon.fr/etudiant#>
+PREFIX form: <http://insa-lyon.fr/formation#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/spec/>
+
+
+SELECT ?name1 ?name2 ?ue WHERE {
+	?e insa:binome ?e2.
+	?e insa:inscrit ?ue .
+	?e2 insa:inscrit ?ue2 .
+	?e foaf:name ?name1.
+	?e2 foaf:name ?name2 .
+	FILTER(?ue = ?ue2)
+}

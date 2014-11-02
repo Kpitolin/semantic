@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('#loading').append("<img src='ajax-loader.gif'> Chargement...");
 
 		//envoi de la requete ajax
-		$.post("SearchBoxServlet")
+		$.post("SearchBoxServlet",{requete:input})
 				.done(function(data){
 					$('#loading').hide();
 					var nodes = data.nodes;
