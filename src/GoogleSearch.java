@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 
-public class URLConnectionReader {
+public class GoogleSearch {
 
 	// Google APIs URL
 	final private String GOOGLE_SEARCH_URL = "https://www.googleapis.com/customsearch/v1?";
@@ -29,7 +29,7 @@ public class URLConnectionReader {
 	private long NumberOfResults;
 
 	// Constructor
-	public URLConnectionReader() throws MalformedURLException {
+	public GoogleSearch() throws MalformedURLException {
 
 		super();
 		this.NumberOfResults = (long) 10;
@@ -54,7 +54,7 @@ public class URLConnectionReader {
 			// Default value = 10
 			if (NumberOfResults != null) {
 
-				this.setNumberOfResults((long) NumberOfResults);
+				this.setNumberOfResults( (long) NumberOfResults );
 				stringUrl += "&num=" + NumberOfResults.toString();
 			}
 		}
@@ -86,22 +86,12 @@ public class URLConnectionReader {
 	}
 
 	public URL getSearchUrl() {
-		
+
 		return searchUrl;
 	}
 
 	public void setSearchUrl(URL searchUrl) {
 
 		this.searchUrl = searchUrl;
-	}
-
-	public static void main(String[] args) throws Exception {
-
-		URLConnectionReader ucr = new URLConnectionReader();
-		ucr.GenerateJsonFile(
-				"test.json",
-				"obama",
-				"",
-				10L);
 	}
 }
