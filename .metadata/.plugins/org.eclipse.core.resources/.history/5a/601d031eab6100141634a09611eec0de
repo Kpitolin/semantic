@@ -1,0 +1,101 @@
+package service;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import au.com.bytecode.opencsv.CSVReader;
+
+public class Service {
+	private final static char SEPARATOR = ';';
+	
+	@SuppressWarnings("unchecked")
+	public static File exploreSimiliratyFromCSV(String pathnameCSV, double d) throws IOException {
+        File file = new File(pathnameCSV);
+        FileReader fr = new FileReader(file);
+        CSVReader csvReader = new CSVReader(fr, SEPARATOR);
+        
+        List<String[] > data = new ArrayList<String[] >();
+        String[] nextLine = null;
+        String[] firstLine = null;
+		while ((nextLine = csvReader.readNext()) != null) {
+		    int size = nextLine.length;
+		    // ligne vide
+		    if (size == 0) {
+		        continue;
+		    }			    
+		    
+		    String debut = nextLine[0].trim();
+		    // recupere la premiere ligne et on insere le reste dans ligne dans la liste data
+		    if (debut.startsWith("#")) {
+		        firstLine = nextLine;
+		    }else{
+		    	if (debut.length() == 0 && size == 1) {
+		    		continue;
+		    	}
+		    	data.add(nextLine);
+		    }
+		}
+
+		JSONObject objJSON = new JSONObject();
+		
+		JSONArray listNodes = new JSONArray();
+		JSONArray listLinks = new JSONArray();
+        // traitement des données
+        for (String[] oneData : data) {
+        	int i = 1;
+        	double indiceJaccard = Double.parseDouble(oneData[i]);
+
+    		String noeud1 = oneData[0];
+			JSONObject aNode = new JSONObject();
+			aNode.putIfAbsent("name",noeud1);	
+			
+			if(!listNodes.contains(aNode)){
+				listNodes.add(aNode);
+			}
+        	
+        	while(indiceJaccard != 1){
+        		String noeud2 = firstLine[i];
+
+        		if(indiceJaccard >= 0){
+        			JSONObject aLink = new JSONObject();
+        			
+        			aLink.put("source",noeud1);
+        			aLink.put("target",noeud2);	
+        			listLinks.add(aLink);
+        		}
+        		i++;
+        		indiceJaccard = Double.parseDouble(oneData[i]);
+        	}
+        }
+        objJSON.put("links", listLinks);
+		objJSON.put("nodes", listNodes);
+		
+		try {
+			File output= new File("similarity_graph.json"); 
+	        FileWriter fileWriter = new FileWriter(output); 
+			fileWriter.write(objJSON.toJSONString());
+			fileWriter.flush();
+			fileWriter.close();
+		 
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        return file;
+	}
+	
+	public static void main(String[] args) throws FileNotFoundException {  
+		try {
+			exploreSimiliratyFromCSV("..\\ProjetSE\\matrice_jaccard.csv", 0.6);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

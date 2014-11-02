@@ -1,26 +1,79 @@
-#imaginary_container{
-    margin-top:20%; /* Don't copy this */
+/*******************\
+** 	Partie SearchBox
+\*******************/
+#search-wrap{
+	padding-top: 200px;
 }
+.logo-search{
+	width: 650px;
+	height: 260px;
+	margin: auto;
+}
+#logo-min{
+	display: inline-block;
+}
+
+/* style copié de bootsnip */
 .stylish-input-group .input-group-addon{
-    background: white !important;
+	background: white !important;
 }
 .stylish-input-group .form-control{
 	border-right:0;
 	box-shadow:0 0 0;
 	border-color:#ccc;
+	height: 50px;
 }
 .stylish-input-group button{
-    border:0;
-    background:transparent;
+	border:0;
+	background:transparent;
 }
 
-.result{
+
+
+/*******************\
+** 	Resultat requete
+\*******************/
+.search-header .form-control{
+	height: 35px;
+}
+.search-header {
+	padding-left: 0px;
+}
+.logo-header{
+	float:left;
+	padding-left: 30px;
+	padding-right: 15px;
+	position: relative;
+	top:-5px;
+}
+.results{
 	height: 100%;
-	/*border: 1px solid #d1cfcf;*/
+	margin-top: 20px;
 }
-
-.img{
-	width: 650px;
-	height: 260px;
+.page-results, .visual-box{
+	display: inline-block;
+}
+.load-box{
+	width: 80px;
+	height: 80px;
 	margin: auto;
 }
+/* Partie svg */
+.visual-box{
+	width: 450px;
+	border: solid 1px #d1cfcf;
+}
+.node {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+.link {
+	stroke: #999;
+	stroke-opacity: .6;
+}
+
+.highlight {-webkit-border-radius: 2px;-moz-border-radius: 2px;-ms-border-radius: 2px;-o-border-radius: 2px;border-radius: 2px;cursor: pointer;}
+.result-box{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-font-smoothing: subpixel-antialiased;-webkit-tap-highlight-color: rgba(0,0,0,0);padding-left: 0.7em;padding-right: 0.7em;padding-top: 0.5em;padding-bottom: 0.5em;margin-bottom: 0.8em;position: relative;word-wrap: break-word;cursor: pointer;}
+.result-title {position: static;overflow: hidden;display: block;font-size: 1.38em;vertical-align: middle;color: #333;line-height: 1.1;padding: 0;margin: 0;margin-bottom: 0.2em;max-width: 100%;}
+.result-description {color: #666;line-height: 1.38;margin: 0 0 0.2em;}

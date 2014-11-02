@@ -1,0 +1,71 @@
+$(document).ready(function(){
+
+	$( "#search-form" ).keyup(function() {
+		var input = $(this).val();
+		if(input.length >= 4){
+			$('.img').slideUp(400);
+			$('#search-wrap').css('padding-top',20).removeClass('container');
+			$('#search-box').removeClass().addClass('col-sm-12 col-sm-offset-1 col-md-8 col-md-offset-1');
+			$('#viz').show();
+			$.post("SearchBoxServlet",function(data){
+				//alert(data.boom);
+			});
+			// $('#logo-search').show();
+			goToTheMiddle();
+		}else if(input.length == 0){
+			$('.img').slideDown(400);
+			$('#search-wrap').css('padding-top',200).addClass('container');
+			$('#search-box').removeClass().addClass('col-sm-6 col-sm-offset-4 col-md-6 col-md-offset-3');
+			$('#viz').hide();
+
+		}
+	});
+
+
+
+});
+	/*FORCE DIAGRAPH*/
+function goToTheMiddle(){
+	var width = 370,
+		height = 500,
+		nodes = [];
+
+	var svg = d3.select("#viz").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+
+	var force = d3.layout.force()
+		.charge(-30)
+		.size([width, height])
+		.nodes(nodes)
+		.links([]);
+
+	force.on("tick", function(e) {
+	  svg.selectAll("path")
+		  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+	});
+
+	setInterval(function(){
+	  // Add a new random shape.
+	  nodes.push({
+		type: d3.svg.symbolTypes[~~(Math.random() * d3.svg.symbolTypes.length)],
+		size: Math.random() * 300 + 100
+	  });
+
+	  // Restart the layout.
+	  force.start();
+
+	  svg.selectAll("path")
+		  .data(nodes)
+		.enter().append("path")
+		  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+		  .attr("d", d3.svg.symbol()
+			.size(function(d) { return d.size; })
+			.type(function(d) { return d.type; }))
+		  .style("fill", "steelblue")
+		  .style("stroke", "white")
+		  .style("stroke-width", "1.5px")
+		  .call(force.drag);
+
+	}, 1000);
+}
