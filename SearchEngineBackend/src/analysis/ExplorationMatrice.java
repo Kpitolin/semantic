@@ -26,7 +26,7 @@ public class ExplorationMatrice {
 		List<String[]> data = new ArrayList<String[]>();
 		String[] nextLine = null;
 		String[] firstLine = null;
-		// parcours du fichier csv ligne à ligne
+		// parcours du fichier csv ligne ï¿½ ligne
 		while ((nextLine = csvReader.readNext()) != null) {
 			int size = nextLine.length;
 
@@ -56,7 +56,7 @@ public class ExplorationMatrice {
 		JSONArray listNodes = new JSONArray();
 		JSONArray listLinks = new JSONArray();
 
-		// traitement des données
+		// traitement des donnï¿½es
 		for (String[] oneData : data) {
 			int i = 1;
 			double indiceJaccard = Double.parseDouble(oneData[i]);
@@ -66,14 +66,14 @@ public class ExplorationMatrice {
 
 			// remplissage de notre liste de noeud
 			JSONObject aNode = new JSONObject();
-			aNode.putIfAbsent("name", noeud1);
-			aNode.putIfAbsent("theme", new Integer(0));
+			/*aNode.putIfAbsent("name", noeud1);
+		 	aNode.putIfAbsent("theme", new Integer(0));*/
 			if (!listNodes.contains(aNode)) {
 				listNodes.add(aNode);
 			}
 
 			// remplissage de la liste de lien en fonction de l'indice de
-			// similarité entre deux noeud
+			// similaritï¿½ entre deux noeud
 			while (indiceJaccard != 1) {
 				@SuppressWarnings("unused")
 				String noeud2 = firstLine[i];
@@ -99,7 +99,7 @@ public class ExplorationMatrice {
 
 		csvReader.close();
 
-		// ecriture d'un fichier (au cas où)
+		// ecriture d'un fichier (au cas oï¿½)
 		File output = new File("similarity_graph.json");
 		FileWriter fileWriter = new FileWriter(output);
 		fileWriter.write(objJSON.toJSONString());

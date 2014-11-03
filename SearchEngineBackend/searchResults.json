@@ -8,7 +8,7 @@
   "nextPage": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "2080000",
+    "totalResults": "41700000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 11,
@@ -21,7 +21,7 @@
   "request": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "2080000",
+    "totalResults": "41700000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 1,
@@ -87,10 +87,10 @@
   ]
  },
  "searchInformation": {
-  "searchTime": 0.305008,
-  "formattedSearchTime": "0,31",
-  "totalResults": "2080000",
-  "formattedTotalResults": "2 080 000"
+  "searchTime": 0.292814,
+  "formattedSearchTime": "0,29",
+  "totalResults": "41700000",
+  "formattedTotalResults": "41 700 000"
  },
  "items": [
   {
@@ -233,10 +233,10 @@
    "pagemap": {
     "cse_image": [
      {
-      "src": "https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY_400x400.png",
+      "src": "https://pbs.twimg.com/media/B1TTSO6CcAEqJLY.jpg:large",
       "type": "1",
-      "width": "225",
-      "height": "225"
+      "width": "288",
+      "height": "175"
      }
     ],
     "metatags": [
@@ -247,6 +247,80 @@
      }
     ]
    }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "His role reduced, Obama makes final campaign push - CNN.com",
+   "htmlTitle": "His role reduced, \u003cb\u003eObama\u003c/b\u003e makes final campaign push - CNN.com",
+   "link": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/",
+   "displayLink": "www.cnn.com",
+   "snippet": "22 hours ago ... Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \nfleeing his shadow, President Barack Obama embarked upon the ...",
+   "htmlSnippet": "22 hours ago \u003cb\u003e...\u003c/b\u003e Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \u003cbr\u003e\nfleeing his shadow, President Barack \u003cb\u003eObama\u003c/b\u003e embarked upon the&nbsp;...",
+   "formattedUrl": "www.cnn.com/2014/11/02/politics/obama-campaign-push/",
+   "htmlFormattedUrl": "www.cnn.com/2014/11/02/politics/\u003cb\u003eobama\u003c/b\u003e-campaign-push/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "newsarticle": [
+     {
+      "genre": "news",
+      "inlanguage": "en-US",
+      "description": "President Barack Obama was set to embark upon the final push of what he calls his last campaign Sunday, hoping to mobilize voters.",
+      "author": "Kevin Liptak and Laura Koran, CNN",
+      "articlesection": "politics",
+      "sourceorganization": "CNN",
+      "datepublished": "2014-11-02T15:39:21Z",
+      "datemodified": "2014-11-03T01:40:52Z",
+      "datecreated": "2014-11-02T15:39:21Z",
+      "contentlocation": "Philadelphia",
+      "headline": "Obama makes restricted campaign push",
+      "url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1024",
+      "medium": "news",
+      "title": "His role reduced, Obama makes final campaign push - CNN.com",
+      "author": "Kevin Liptak and Laura Koran, CNN",
+      "section": "politics",
+      "source": "CNN",
+      "pubdate": "2014-11-02T15:39:21Z",
+      "lastmod": "2014-11-03T01:40:52Z",
+      "og:title": "Obama makes restricted campaign push",
+      "og:type": "article",
+      "og:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "og:site_name": "CNN",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg",
+      "vr:canonical": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "fb:page_id": "129343697106537",
+      "fb:app_id": "80401312489",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@CNN",
+      "twitter:site:id": "759251",
+      "twitter:creator": "@cnnpolitics",
+      "twitter:creator:id": "13850422",
+      "twitter:description": "President Barack Obama was set to embark upon the final push of what he calls his last campaign Sunday, hoping to mobilize voters.",
+      "twitter:title": "His role reduced, Obama makes final campaign push",
+      "twitter:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-left-tease.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
   },
   {
    "kind": "customsearch#result",
@@ -394,87 +468,6 @@
      }
     ]
    }
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "BBC News - Obama responds to jealous boyfriend at election booth",
-   "htmlTitle": "BBC News - \u003cb\u003eObama\u003c/b\u003e responds to jealous boyfriend at election booth",
-   "link": "http://www.bbc.com/news/world-us-canada-29717808",
-   "displayLink": "www.bbc.com",
-   "snippet": "Oct 21, 2014 ... President Barack Obama found himself in an awkward situation at the voting \nbooth in Chicago on Monday, when a man walked past and told ...",
-   "htmlSnippet": "Oct 21, 2014 \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e found himself in an awkward situation at the voting \u003cbr\u003e\nbooth in Chicago on Monday, when a man walked past and told&nbsp;...",
-   "cacheId": "V6gn0tUdkCsJ",
-   "formattedUrl": "www.bbc.com/news/world-us-canada-29717808",
-   "htmlFormattedUrl": "www.bbc.com/news/world-us-canada-29717808",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441387_78441386.jpg",
-      "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "NewsItem": [
-     {
-      "description": "President Barack Obama found himself in an awkward situation at the voting booth in Chicago on Monday, when a man walked past and told him not to touch his girlfriend.",
-      "datePublished": "2014/10/21 22:49:07",
-      "thumbnailUrl": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441993_78441386.jpg",
-      "headline": "Obama responds to jealous boyfriend",
-      "creator": "http://www.bbc.co.uk#org",
-      "title": "Obama responds to jealous boyfriend",
-      "type": "article",
-      "url": "http://www.bbc.com/news/world-us-canada-29717808",
-      "site_name": "BBC News",
-      "image": "http://newsimg.bbc.co.uk/media/images/67373000/jpg/_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg"
-     }
-    ],
-    "metatags": [
-     {
-      "rnews:description": "President Barack Obama found himself in an awkward situation at the voting booth in Chicago on Monday, when a man walked past and told him not to touch his girlfriend.",
-      "originalpublicationdate": "2014/10/21 22:49:07",
-      "rnews:datepublished": "2014/10/21 22:49:07",
-      "ukfs_url": "/news/world-us-canada-29717808",
-      "thumbnail_url": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441993_78441386.jpg",
-      "rnews:thumbnailurl": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441993_78441386.jpg",
-      "headline": "Obama responds to jealous boyfriend",
-      "rnews:headline": "Obama responds to jealous boyfriend",
-      "ifs_url": "/news/world-us-canada-29717808",
-      "section": "US & Canada",
-      "contentflavor": "STORY",
-      "cps_id": "29717808",
-      "cps_site_name": "BBC News",
-      "cps_section_path": "World/US and Canada",
-      "cps_asset_type": "MAP",
-      "cps_platform": "HighWeb",
-      "cps_audience": "US",
-      "rnews:creator": "http://www.bbc.co.uk#org",
-      "og:title": "Obama responds to jealous boyfriend",
-      "og:type": "article",
-      "og:url": "http://www.bbc.com/news/world-us-canada-29717808",
-      "og:site_name": "BBC News",
-      "og:image": "http://newsimg.bbc.co.uk/media/images/67373000/jpg/_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg",
-      "bbcsearch_noindex": "emp",
-      "application-name": "BBC News",
-      "msapplication-tileimage": "/img/1_0_3/cream/hi/news/bbc-news-pin.png",
-      "msapplication-tilecolor": "#CC0101",
-      "viewport": "width = 996",
-      "msapplication-tooltip": "Explore the BBC, for latest news, sport and weather, TV & radio schedules and highlights, with nature, food, comedy, children's programmes and much more",
-      "msapplication-starturl": "http://www.bbc.com/news/?ocid=global-news-pinned-ie9",
-      "msapplication-window": "width=1024;height=768",
-      "msapplication-task": "name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://news.bbcimg.co.uk/shared/img/bbccom/favicon_16.ico",
-      "dcterms.created": "2014-10-21T22:49:07+00:00",
-      "dcterms.modified": "2014-10-21T22:49:07+00:00"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
   }
  ]
 }

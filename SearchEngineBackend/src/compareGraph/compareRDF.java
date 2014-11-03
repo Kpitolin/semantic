@@ -13,9 +13,12 @@ import com.hp.hpl.jena.rdf.model.StmtIterator;
 import com.hp.hpl.jena.util.FileManager;
 
 public class compareRDF {
-	private static String relativePath = "..\\ProjetSE\\testFiles\\" ;
+	public final static String macSeparator = "/";
+	public final static String windowsSeparator = "\\"; 
+	public final static String separator = macSeparator;
+	private static String relativePath = ".."+separator+"ProjetSE"+separator+"testFiles"+separator+"" ;
 	
-	private static String path = relativePath ;
+	private static String path = "" ;
 	
 	public static String[] listerRepertoire(String repertoireName){
 		File repertoire = new File(repertoireName);
@@ -26,13 +29,13 @@ public class compareRDF {
 		
 	
 	private static double compterNombreRelations(String inputFileName){
-		// créer un modèle vide
+		// crï¿½er un modï¿½le vide
 		 Model model = ModelFactory.createDefaultModel();
-		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 // utiliser le FileManager pour trouver le fichier d'entrï¿½e
 		 InputStream in = FileManager.get().open(inputFileName);
 		 {
 			if(in == null) {
-			    throw new IllegalArgumentException("Fichier: " + inputFileName + " non trouvé");
+			    throw new IllegalArgumentException("Fichier: " + inputFileName + " non trouvï¿½");
 			}
 			// lire le fichier RDF/XML
 			model.read(in, "", "RDF/XML");
@@ -42,10 +45,10 @@ public class compareRDF {
 		int compteur = 0 ;
 		while(iter.hasNext()) {
 			compteur++ ;
-			iter.nextStatement();  // obtenir la prochaine déclaration
+			iter.nextStatement();  // obtenir la prochaine dï¿½claration
 		    /*
 		    Resource  subject   = stmt.getSubject();     // obtenir le sujet
-		    Property  predicate = stmt.getPredicate();   // obtenir le prédicat
+		    Property  predicate = stmt.getPredicate();   // obtenir le prï¿½dicat
 		    RDFNode   object    = stmt.getObject();      // obtenir l'objet
 		    
 		    System.out.print(subject.toString());
@@ -53,7 +56,7 @@ public class compareRDF {
 		    if (object instanceof Resource) {
 		       System.out.print(object.toString());
 		    } else {
-		        // l'objet est un littéral
+		        // l'objet est un littï¿½ral
 		        System.out.print(" \"" + object.toString() + "\"");
 		    }
 		    */
@@ -63,34 +66,34 @@ public class compareRDF {
 	
 	private static double compterNombreRelationsApresUnion(String inputFileName1, String inputFileName2){
 		//Premier graphe RDF
-		// créer un modèle vide
+		// crï¿½er un modï¿½le vide
 		 Model model1 = ModelFactory.createDefaultModel();
-		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 // utiliser le FileManager pour trouver le fichier d'entrï¿½e
 		 InputStream in1 = FileManager.get().open(inputFileName1);
 		{
 			if(in1 == null) {
-			    throw new IllegalArgumentException("Fichier: " + inputFileName1 + " non trouvé");
+			    throw new IllegalArgumentException("Fichier: " + inputFileName1 + " non trouvï¿½");
 			}
 			// lire le fichier RDF/XML
 			model1.read(in1, "", "RDF/XML");
 		}
 		
 		//Deuxieme graphe RDF
-		// créer un modèle vide
+		// crï¿½er un modï¿½le vide
 		 Model model2 = ModelFactory.createDefaultModel();
-		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 // utiliser le FileManager pour trouver le fichier d'entrï¿½e
 		 InputStream in2 = FileManager.get().open(inputFileName2);
 		{
 			if(in2 == null) {
-			    throw new IllegalArgumentException("Fichier: " + inputFileName2 + " non trouvé");
+			    throw new IllegalArgumentException("Fichier: " + inputFileName2 + " non trouvï¿½");
 			}
 			// lire le fichier RDF/XML
 			model2.read(in2, "", "RDF/XML");
 		}
-		// fusionne les modèles
+		// fusionne les modï¿½les
 		Model model = model2.union(model1);
 		
-		// l'écrire dans un fichier tmp
+		// l'ï¿½crire dans un fichier tmp
 		FileWriter writer = null ;
 		try {
 			writer = new FileWriter(path+"tmp.xml", true);
@@ -116,34 +119,34 @@ public class compareRDF {
 	
 	private static double compterNombreRelationsApresIntersection(String inputFileName1, String inputFileName2){
 		//Premier graphe RDF
-		// créer un modèle vide
+		// crï¿½er un modï¿½le vide
 		 Model model1 = ModelFactory.createDefaultModel();
-		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 // utiliser le FileManager pour trouver le fichier d'entrï¿½e
 		 InputStream in1 = FileManager.get().open(inputFileName1);
 		{
 			if(in1 == null) {
-			    throw new IllegalArgumentException("Fichier: " + inputFileName1 + " non trouvé");
+			    throw new IllegalArgumentException("Fichier: " + inputFileName1 + " non trouvï¿½");
 			}
 			// lire le fichier RDF/XML
 			model1.read(in1, "", "RDF/XML");
 		}
 		
 		//Deuxieme graphe RDF
-		// créer un modèle vide
+		// crï¿½er un modï¿½le vide
 		 Model model2 = ModelFactory.createDefaultModel();
-		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 // utiliser le FileManager pour trouver le fichier d'entrï¿½e
 		 InputStream in2 = FileManager.get().open(inputFileName2);
 		{
 			if(in2 == null) {
-			    throw new IllegalArgumentException("Fichier: " + inputFileName2 + " non trouvé");
+			    throw new IllegalArgumentException("Fichier: " + inputFileName2 + " non trouvï¿½");
 			}
 			// lire le fichier RDF/XML
 			model2.read(in2, "", "RDF/XML");
 		}
-		// fusionne les modèles
+		// fusionne les modï¿½les
 		Model model = model2.intersection(model1);
 		
-		// l'écrire dans un fichier tmp
+		// l'ï¿½crire dans un fichier tmp
 		FileWriter writer = null ;
 		try {
 			writer = new FileWriter(path+"tmp.xml", true);
@@ -180,15 +183,15 @@ public class compareRDF {
 	}
 	
 	public void creerMatriceSimilarite(String pathname){
-		// On supprime le CSV s'il existe déjà 
-		File csvSupp = new File(pathname+"\\matriceSimilarite.csv") ;
+		// On supprime le CSV s'il existe dï¿½jï¿½
+		File csvSupp = new File(pathname+""+separator+"matriceSimilarite.csv") ;
 		if(csvSupp.exists()){
 			csvSupp.delete() ;
 		}
 		String[] listeFichiers = listerRepertoire(pathname);
 		
 		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter(new File(pathname+"\\matriceSimilarite.csv")));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(new File(pathname+""+separator+"matriceSimilarite.csv")));
 			writer.write("#;");
 			for(int i = 0 ; i < listeFichiers.length ; i++){
 				writer.write(listeFichiers[i] + ";"); 
@@ -205,9 +208,9 @@ public class compareRDF {
 						tabTmp[j] = listeFichiers[i] + ";" ;
 					}
 					else{
-						tabTmp[j] = parseDouble(calculerIndiceJaccard(pathname +"\\"+ listeFichiers[i], pathname +"\\"+ listeFichiers[j-1])) + ";" ;
+						tabTmp[j] = parseDouble(calculerIndiceJaccard(pathname +""+separator+""+ listeFichiers[i], pathname +""+separator+""+ listeFichiers[j-1])) + ";" ;
 						
-						System.out.println(pathname +"\\"+  listeFichiers[i]+"/" + pathname +"\\" + listeFichiers[j-1] + " : " + compterNombreRelationsApresIntersection(pathname +"\\"+  listeFichiers[i], pathname +"\\"+  listeFichiers[j-1]) + ", " + compterNombreRelationsApresUnion(pathname +"\\"+  listeFichiers[i], pathname +"\\"+  listeFichiers[j-1]) + ", " + Double.toString(calculerIndiceJaccard(pathname +"\\" + listeFichiers[i], pathname +"\\"+  listeFichiers[j-1])));
+						System.out.println(pathname +""+separator+""+  listeFichiers[i]+"/" + pathname +""+separator+"" + listeFichiers[j-1] + " : " + compterNombreRelationsApresIntersection(pathname +""+separator+""+  listeFichiers[i], pathname +""+separator+""+  listeFichiers[j-1]) + ", " + compterNombreRelationsApresUnion(pathname +""+separator+""+  listeFichiers[i], pathname +""+separator+""+  listeFichiers[j-1]) + ", " + Double.toString(calculerIndiceJaccard(pathname +""+separator+"" + listeFichiers[i], pathname +""+separator+""+  listeFichiers[j-1])));
 					}
 					j++ ;
 				}

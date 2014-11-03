@@ -1,11 +1,9 @@
-Incumbent
+News_Corporation
+Commentary_%28magazine%29
 Barack_Obama
-Faces_%28band%29
-Election
-Economy
-Recovery_model
-Lag
-October_1
-Mountain_pass
+Photograph
+Video
+Quotation
+Biography
 
 

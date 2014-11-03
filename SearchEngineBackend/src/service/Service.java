@@ -16,7 +16,9 @@ import annotation.SearchData;
 import search.GoogleSearch;
 
 public class Service {
-
+	public final static String macSeparator = "/";
+	public final static String windowsSeparator = "\\"; 
+	public final static String separator = macSeparator;
 	private final static double SEUILJACCARD = 0.6;
 	
 	public AnalyseResults launchSearch(String query,String label) throws IOException {
@@ -35,10 +37,10 @@ public class Service {
 		}
 		
 		compareRDF compare = new compareRDF();
-		compare.creerMatriceSimilarite(".\\extendedGraph");
+		compare.creerMatriceSimilarite("."+separator+"extendedGraph");
 		
 		ExplorationMatrice explorer = new ExplorationMatrice();
-		JSONObject jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph\\matriceSimilarite.csv", SEUILJACCARD);
+		JSONObject jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph"+separator+"matriceSimilarite.csv", SEUILJACCARD);
 		
 		AnalyseResults results = new AnalyseResults(searchDatas,jsonObj);
 		
@@ -56,11 +58,11 @@ public class Service {
 						+ "\n -";
 				String inputFile = c.writeInFile(txt);
 				File input = new File(inputFile);
-				File output = new File(".\\output" + i + ".txt");
+				File output = new File("."+separator+"output" + i + ".txt");
 				
 				c.evaluate(input, output);
 
-				creator.createGraph(".\\output" + i + ".txt",jsonParser.searchResults.searchDatas.get(i).url);
+				creator.createGraph("."+separator+"output" + i + ".txt",jsonParser.searchResults.searchDatas.get(i).url);
 				
 				c.deleteFile(inputFile);
 
@@ -76,7 +78,7 @@ public class Service {
 		ExplorationMatrice explorer = new ExplorationMatrice();
 		JSONObject jsonObj = null;
 		try {
-			jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph\\matriceSimilarite.csv", SEUILJACCARD);
+			jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph"+separator+"matriceSimilarite.csv", SEUILJACCARD);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -103,6 +105,6 @@ public class Service {
 		compare.creerMatriceSimilarite("extendedGraph");
 		
 		ExplorationMatrice explorer = new ExplorationMatrice();
-		explorer.exploreSimiliratyFromCSV("extendedGraph\\matriceSimilarite.csv", 0.4);
+		explorer.exploreSimiliratyFromCSV("extendedGraph"+separator+"matriceSimilarite.csv", 0.4);
 	}
 }

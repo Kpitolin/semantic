@@ -24,6 +24,9 @@ import com.hp.hpl.jena.rdf.model.RDFWriter;
 import com.hp.hpl.jena.rdf.model.Resource;
 
 public class CreationGraphe {
+	public final static String macSeparator = "/";
+	public final static String windowsSeparator = "\\"; 
+	public final static String separator = macSeparator;
 	public static int increment = 0;
 
 	public void extractText(String filePath, ArrayList arrayOfWords)
@@ -34,7 +37,7 @@ public class CreationGraphe {
 		while (scanner.hasNextLine()) {
 			String line = scanner.nextLine();
 			System.out.println(line + "-------");
-			if(!(line.contains("%"))){
+			if(!(line.contains("%") ) && !line.equals("")){
 				arrayOfWords.add(line);
 	
 			}
@@ -50,7 +53,7 @@ public class CreationGraphe {
 		Property P;
 		Resource res;
 
-		for (int i = 0; i < arrayOfWords.size()-1; i++) {
+		for (int i = 0; i < arrayOfWords.size(); i++) {
 			P = m.createProperty(dbRootUri + "/" + arrayOfWords.get(i));
 			res = m.createResource(dbRootUri + "/" + arrayOfWords.get(i));
 			m.add(r, P, res);
@@ -66,7 +69,7 @@ public class CreationGraphe {
 		writer.setProperty("showXmlDeclaration", "true");
 		writer.setProperty("tab", "8");
 		writer.setProperty("relativeURIs", "same-document,relative");
-		OutputStream outStream = new FileOutputStream(".\\extendedGraph\\foo_" + increment
+		OutputStream outStream = new FileOutputStream("."+separator+"extendedGraph"+separator+"foo_" + increment
 				+ ".rdf");
 		writer.write(m, outStream, "RDF/XML-ABBREV");
 		outStream.close();
