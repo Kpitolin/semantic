@@ -1,5 +1,3 @@
-package annotation;
-
 import org.apache.commons.httpclient.Header;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.dbpedia.spotlight.exceptions.AnnotationException;
@@ -8,9 +6,25 @@ import org.dbpedia.spotlight.model.Text;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.simple.parser.JSONParser;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
+import org.jdom2.Attribute;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.output.Format;
+import org.jdom2.output.XMLOutputter;
+
+import scala.util.parsing.json.JSON;
+
+import com.sun.research.ws.wadl.Resource;
+
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -28,18 +42,63 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 	private static final double CONFIDENCE = 0.2;
 	private static final int SUPPORT = 20;
 
+	public String extractFromSparqlQuery(String query) throws AnnotationException {
+		LOG.info("Querying API.");
+		String spotlightResponse;
+
+		try {
+
+			GetMethod getMethod = new GetMethod("http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=select+distinct+*+where+%7B%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F"+ URLEncoder.encode(query, "utf-8") + "%3E+%3Fp+%3FConcept%7DLIMIT+10%0D%0A%0D%0A&format=json&timeout=30000&debug=on");
+			spotlightResponse = request(getMethod);
+		} catch (UnsupportedEncodingException e) {
+			throw new AnnotationException("Could not encode text.", e);
+		}
+
+		assert spotlightResponse != null;
+
+		JSONObject resultJSON = null;
+		JSONArray entities = null;
+
+		/*try {
+			resultJSON = new JSONObject(spotlightResponse);
+			entities = resultJSON.getJSONArray("Resources");
+		} catch (JSONException e) {
+			throw new AnnotationException(
+					"Received invalid response from DBpedia Spotlight API.");
+		}
+
+		LinkedList<DBpediaResource> resources = new LinkedList<DBpediaResource>();
+		/*for (int i = 0; i < entities.length(); i++) {
+			try {
+				JSONObject entity = entities.getJSONObject(i);
+				resources.add(new DBpediaResource(entity.getString("@URI"),
+						Integer.parseInt(entity.getString("@support"))));
+
+			} catch (JSONException e) {
+				LOG.error("JSON exception " + e);
+			}
+
+		}
+
+		System.out.println(resources);
+		return resources;*/
+		
+		//System.out.println(spotlightResponse+"\n-------------------------------\n");
+		return spotlightResponse;
+
+	
+	}
 	@Override
 	public List<DBpediaResource> extract(Text text) throws AnnotationException {
 
 		LOG.info("Querying API.");
 		String spotlightResponse;
 		try {
+			
 			GetMethod getMethod = new GetMethod(API_URL + "rest/annotate/?"
-					+ "confidence=" + CONFIDENCE + "&support=" + SUPPORT
-					+ "&text=" + URLEncoder.encode(text.text(), "utf-8"));
-			//System.out.println(URLEncoder.encode(text.text(), "utf-8"));
-			//GetMethod getMethod = new GetMethod("http://spotlight.dbpedia.org/rest/annotate?text=In%202004%2C%20Obama%20received&confidence=0.2&support=20&types=Person,Organisation");
-			//GetMethod getMethod = new GetMethod("http://spotlight.dbpedia.org/rest/annotate?text=President%20Obama%20called%20Wednesday%20on%20Congress%20to%20extend%20a%20tax%20break%20for%20students%20included%20in%20last%20year%27s%20economic%20stimulus%20package,%20arguing%20that%20the%20policy%20provides%20more%20generous%20assistance.&confidence=0.2&support=20");
+			+ "confidence=" + CONFIDENCE + "&support=" + SUPPORT
+			+ "&text=" + URLEncoder.encode(text.text(), "utf-8"));
+			
 			getMethod.addRequestHeader(new Header("Accept", "application/json"));
 
 			spotlightResponse = request(getMethod);
@@ -73,7 +132,54 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 
 		}
 
+		//System.out.println(resources);
 		return resources;
+	}
+	
+	/**
+	 * 
+	 * @param name : the name of the resource
+	 * @param resource : the json file which contains all the uri related to the name resource.
+	 * @return Json object formatted
+	 */
+	public JSONObject parseJsonResource(String name, String resource){
+		
+		try {
+			JSONObject jsonObjIn = new JSONObject(resource);
+			JSONObject results = jsonObjIn.getJSONObject("results");	
+			JSONArray bindings = results.getJSONArray("bindings");
+			
+			JSONObject jsonObjOut = new JSONObject();
+			JSONArray outputArray = new JSONArray();
+			
+			
+			for(int i = 0; i < bindings.length(); i++){
+				
+				JSONObject triple = bindings.getJSONObject(i);
+				JSONObject concept = triple.getJSONObject("Concept");
+				String uri = (String) concept.get("value");
+				
+				if(uri.contains("http")){
+					JSONObject outputObj = new JSONObject();
+					outputObj.put("value", uri);
+					outputArray.put(outputObj);
+				}
+
+			}
+			
+			jsonObjOut.put("name", name);
+			jsonObjOut.put("uri",outputArray);
+		
+			
+			//System.out.println(jsonObjOut);
+			
+			return jsonObjOut;
+			
+			
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	/**
@@ -119,20 +225,76 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 	public static void main(String[] args) throws Exception {
 
 		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
-		JsonParser jsonParser = new JsonParser();
-		jsonParser.parseJson("test.json");
-		jsonParser.displaySearchResults(jsonParser.searchResults);
+		JSONObject jsonObjOut = new JSONObject();
 		
-		for(int i = 0; i < jsonParser.searchResults.searchDatas.size(); i++){
-			String txt = jsonParser.searchResults.searchDatas.get(i).description + "\n -";
+		//Parsing the results of a research given by Google API in JSON format and creating the related object
+		JsonParser jsonParser = new JsonParser();
+		jsonParser.parseJsonDBpediaFile();
+		
+		//jsonParser.displaySearchResults(jsonParser.searchResults);
+		
+		
+		//Creating the annotations from the description + creating the json output file with all the dbpedia ressources links
+		for(int i = 0; i < jsonParser.searchResults.searchData.size(); i++){
+			
+			JSONArray outputArray = new JSONArray();
+			String txt = jsonParser.searchResults.searchData.get(i).description;
 			String inputFile = c.writeInFile(txt);
 			File input = new File(inputFile);
-			File output = new File("output" + i + ".txt");
+			File output = new File("output.json");
 
 			c.evaluate(input, output);
+
+			
+			try
+			  {
+			    BufferedReader reader = new BufferedReader(new FileReader("output.json"));
+			    String line;
+			    while ((line = reader.readLine()) != null && !line.equals(""))
+			    {
+				     String tmp = c.extractFromSparqlQuery(line);
+				     JSONObject obj = c.parseJsonResource(line,tmp);
+				     outputArray.put(obj);
+			    }
+			    
+			    jsonObjOut.put(""+i, outputArray);
+			  }
+			  catch (Exception e)
+			  {
+			    e.printStackTrace();
+			  }
+			
 			c.deleteFile(inputFile);
 		}
+
+		//The output json file with all the extended dbpedia relations
+		try {
+			 
+			File file = new File("jsonOut.json");
+ 
+			// if file doesnt exists, then create it
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+ 
+			FileWriter fw = new FileWriter(file.getAbsoluteFile());
+			BufferedWriter bw = new BufferedWriter(fw);
+			bw.write(jsonObjOut.toString());
+			bw.close();
+ 
+			System.out.println("Done");
+ 
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
-	}
+				
+		     
+		System.out.println(jsonObjOut);
+		//System.out.println(obj2);
+			
+		}
+	
+	
 
 }

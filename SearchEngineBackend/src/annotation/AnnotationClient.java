@@ -1,4 +1,3 @@
-package annotation;
 
 import org.apache.commons.httpclient.*;
 import org.apache.commons.httpclient.params.HttpMethodParams;
@@ -67,7 +66,6 @@ public abstract class AnnotationClient {
         byte[] buffer = new byte[(int) file.length()];
         BufferedInputStream f = new BufferedInputStream(new FileInputStream(file));
         f.read(buffer);
-        f.close();
         return new String(buffer);
     }
 

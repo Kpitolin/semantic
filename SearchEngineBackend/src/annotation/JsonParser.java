@@ -1,7 +1,7 @@
-package annotation;
+
 
 import java.io.FileReader;
-//import java.net.URLEncoder;
+import java.net.URLEncoder;
 import java.util.Iterator;
 
 import org.json.simple.JSONArray;
@@ -15,16 +15,16 @@ import org.json.simple.parser.JSONParser;
 
 public class JsonParser {
 
-	public SearchResults searchResults = new SearchResults();
+	SearchResults searchResults = new SearchResults();
 	
 	/**
 	 * Function that parses the JSON search result file and create the searchResults object
 	 */
-	public void parseJson(String filename){
+	public void parseJsonDBpediaFile(){
 		
 		try{
 			// read the json file
-			FileReader reader = new FileReader(filename);
+			FileReader reader = new FileReader("test.json");
 
 			// parsing the JSON file
 			JSONParser jsonParser = new JSONParser();
@@ -50,7 +50,7 @@ public class JsonParser {
 				tempData.description = tempData.description.replaceAll("\n", "");
 				
 				//insert into the list of the result data 
-				searchResults.searchDatas.add(tempData);
+				searchResults.searchData.add(tempData);
 			}
 			
 			searchResults.searchQuery = (String) searchQuery.get("searchTerms");
@@ -63,6 +63,8 @@ public class JsonParser {
 		}
 	}
 	
+	
+	
 	/**
 	 * Function that displays the search results from the JSON
 	 * @param sr : the searchResults Object
@@ -70,7 +72,7 @@ public class JsonParser {
 	public void displaySearchResults(SearchResults sr){
 		System.out.println("Search Query : " + sr.searchQuery);
 		
-		Iterator<SearchData> iterator = sr.searchDatas.iterator();
+		Iterator<SearchData> iterator = sr.searchData.iterator();
 		while (iterator.hasNext()) {
 			
 			SearchData s = (SearchData) iterator.next();
