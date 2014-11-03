@@ -47,6 +47,15 @@ public class GoogleSearch {
 		fw = new FileWriter(file);
 		String stringUrl = FINAL_URL + query.replaceAll(" ", "+");
 
+
+		// Includes the given labels (if any)
+
+		if(labels != null)
+		{
+			stringUrl += "+more:" + labels;
+		
+		}
+
 		// Selected fields in the final JSon file, if empty (""), every fields
 		// will be selected
 		if (!fields.isEmpty()) {
@@ -97,8 +106,9 @@ public class GoogleSearch {
 		this.searchUrl = searchUrl;
 	}
 	
-	public String search(String requete) throws IOException {
-		GenerateJsonFile("searchResults.json", requete, "", 10L);
+	public String search(String requete, String label) throws IOException {
+		
+		GenerateJsonFile("searchResults.json", requete, "", 10L, label);
 
 		return "searchResults.json";
 	}
