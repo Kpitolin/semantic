@@ -72,7 +72,7 @@ public class JsonParser {
 	public void displaySearchResults(SearchResults sr){
 		System.out.println("Search Query : " + sr.searchQuery);
 		
-		Iterator<SearchData> iterator = sr.searchDatas.iterator();
+		Iterator<SearchData> iterator = sr.searchData.iterator();
 		while (iterator.hasNext()) {
 			
 			SearchData s = (SearchData) iterator.next();

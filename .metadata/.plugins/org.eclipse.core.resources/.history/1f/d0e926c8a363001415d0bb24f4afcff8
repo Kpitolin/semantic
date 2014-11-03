@@ -13,11 +13,11 @@ import org.json.simple.parser.JSONParser;
 import java.io.FileWriter;
 import java.io.IOException;
 
-//import org.jdom2.Attribute;
-//import org.jdom2.Document;
-//import org.jdom2.Element;
-//import org.jdom2.output.Format;
-//import org.jdom2.output.XMLOutputter;
+import org.jdom2.Attribute;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.output.Format;
+import org.jdom2.output.XMLOutputter;
 
 import scala.util.parsing.json.JSON;
 
@@ -260,7 +260,6 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 			    }
 			    
 			    jsonObjOut.put(""+i, outputArray);
-			    reader.close();
 			  }
 			  catch (Exception e)
 			  {

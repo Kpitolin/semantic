@@ -260,7 +260,6 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 			    }
 			    
 			    jsonObjOut.put(""+i, outputArray);
-			    reader.close();
 			  }
 			  catch (Exception e)
 			  {
