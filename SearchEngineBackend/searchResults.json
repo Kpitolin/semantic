@@ -8,7 +8,7 @@
   "nextPage": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "85100000",
+    "totalResults": "2080000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 11,
@@ -21,7 +21,7 @@
   "request": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "85100000",
+    "totalResults": "2080000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 1,
@@ -35,20 +35,6 @@
  "context": {
   "title": "ws-h4301-cse",
   "facets": [
-   [
-    {
-     "label": "achat",
-     "anchor": "achat",
-     "label_with_op": "more:achat"
-    }
-   ],
-   [
-    {
-     "label": "encyclopedie",
-     "anchor": "encyclopedie",
-     "label_with_op": "more:encyclopedie"
-    }
-   ],
    [
     {
      "label": "actualite",
@@ -65,9 +51,23 @@
    ],
    [
     {
+     "label": "achat",
+     "anchor": "achat",
+     "label_with_op": "more:achat"
+    }
+   ],
+   [
+    {
      "label": "voyages",
      "anchor": "voyages",
      "label_with_op": "more:voyages"
+    }
+   ],
+   [
+    {
+     "label": "encyclopedie",
+     "anchor": "encyclopedie",
+     "label_with_op": "more:encyclopedie"
     }
    ],
    [
@@ -87,136 +87,329 @@
   ]
  },
  "searchInformation": {
-  "searchTime": 0.326486,
-  "formattedSearchTime": "0,33",
-  "totalResults": "85100000",
-  "formattedTotalResults": "85 100 000"
+  "searchTime": 0.305008,
+  "formattedSearchTime": "0,31",
+  "totalResults": "2080000",
+  "formattedTotalResults": "2 080 000"
  },
  "items": [
   {
    "kind": "customsearch#result",
+   "title": "Barack Obama - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Barack_Obama",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "In 2004, Obama received national attention during his campaign to represent \nIllinois in the United States Senate with his victory in the March Democratic Party\n ...",
+   "htmlSnippet": "In 2004, \u003cb\u003eObama\u003c/b\u003e received national attention during his campaign to represent \u003cbr\u003e\nIllinois in the United States Senate with his victory in the March Democratic Party\u003cbr\u003e\n&nbsp;...",
+   "formattedUrl": "en.wikipedia.org/wiki/Barack_Obama",
+   "htmlFormattedUrl": "en.wikipedia.org/wiki/Barack_\u003cb\u003eObama\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg",
+      "type": "1",
+      "width": "176",
+      "height": "220"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Barack Obama",
+      "nickname": "Barack Hussein Obama II",
+      "bday": "2009-01-20",
+      "label": "White House (official) Chicago, Illinois (private)"
+     },
+     {
+      "fn": "Barack Obama"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama — Wikipédia",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e — Wikipédia",
+   "link": "http://fr.wikipedia.org/wiki/Barack_Obama",
+   "displayLink": "fr.wikipedia.org",
+   "snippet": "Barack Hussein Obama II, né le 4 août 1961 à Honolulu (Hawaï), est un homme \nd'État américain. Il est l'actuel et le 44e président des États-Unis, élu pour un ...",
+   "htmlSnippet": "Barack Hussein \u003cb\u003eObama\u003c/b\u003e II, né le 4 août 1961 à Honolulu (Hawaï), est un homme \u003cbr\u003e\nd&#39;État américain. Il est l&#39;actuel et le 44\u003csup\u003ee\u003c/sup\u003e président des États-Unis, élu pour un&nbsp;...",
+   "cacheId": "YI_SzhQ1BicJ",
+   "formattedUrl": "fr.wikipedia.org/wiki/Barack_Obama",
+   "htmlFormattedUrl": "fr.wikipedia.org/wiki/Barack_\u003cb\u003eObama\u003c/b\u003e"
+  },
+  {
+   "kind": "customsearch#result",
    "title": "Barack Obama",
    "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e",
-   "link": "http://www.cnn.com/ELECTION/2008/candidates/barack.obama.html",
-   "displayLink": "www.cnn.com",
-   "snippet": "Who's a contender in the White House race in 2008? The presidential candidates \n-- or even those just mentioned -- represent an array of backgrounds and ...",
-   "htmlSnippet": "Who&#39;s a contender in the White House race in 2008? The presidential candidates \u003cbr\u003e\n-- or even those just mentioned -- represent an array of backgrounds and&nbsp;...",
-   "cacheId": "A1z_n6Twq2cJ",
-   "formattedUrl": "www.cnn.com/ELECTION/2008/candidates/barack.obama.html",
-   "htmlFormattedUrl": "www.cnn.com/ELECTION/2008/candidates/barack.\u003cb\u003eobama\u003c/b\u003e.html",
+   "link": "http://www.barackobama.com/",
+   "displayLink": "www.barackobama.com",
+   "snippet": "OFA works to ensure the voices of ordinary Americans are heard in Washington, \nwhile training the next generation of grassroots organizers who will keep ...",
+   "htmlSnippet": "OFA works to ensure the voices of ordinary Americans are heard in Washington, \u003cbr\u003e\nwhile training the next generation of grassroots organizers who will keep&nbsp;...",
+   "cacheId": "68wxuVsmnwUJ",
+   "formattedUrl": "www.barackobama.com/",
+   "htmlFormattedUrl": "www.barack\u003cb\u003eobama\u003c/b\u003e.com/",
    "pagemap": {
     "cse_image": [
      {
-      "src": "http://i.cdn.turner.com/cnn/ELECTION/2008/candidates/images/09/215x280/obama.jpg",
+      "src": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg",
       "type": "1",
-      "width": "172",
-      "height": "224"
+      "width": "305",
+      "height": "165"
+     }
+    ],
+    "thumbnail": [
+     {
+      "src": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg"
+     }
+    ],
+    "article": [
+     {
+      "name": "Organizing for Action",
+      "image": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg"
      }
     ],
     "metatags": [
      {
-      "title": "Election Center 2008: Candidates - Election & Politics News from CNN.com"
+      "og:title": "Organizing for Action",
+      "og:type": "cause",
+      "og:url": "http://www.barackobama.com/",
+      "og:image": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg",
+      "og:site_name": "Organizing for Action",
+      "og:description": "OFA works to ensure the voices of ordinary Americans are heard in Washington, while training the next generation of grassroots organizers who will keep fighting for change.",
+      "twitter:card": "summary",
+      "thumbnail": "https://secure.assets.bostatic.com/org-for-action/default-meta-image.jpg",
+      "twitter:site": "@OFA",
+      "fb:page_id": "203330919857759",
+      "fb:app_id": "111399285589490",
+      "article:publisher": "https://www.facebook.com/OFA",
+      "viewport": "width=device-width,minimum-scale=1,maximum-scale=1"
      }
     ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
+   }
   },
   {
    "kind": "customsearch#result",
-   "title": "5 takeaways from Obama's ISIS speech - CNN.com",
-   "htmlTitle": "5 takeaways from \u003cb\u003eObama&#39;s\u003c/b\u003e ISIS speech - CNN.com",
-   "link": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/",
-   "displayLink": "www.cnn.com",
-   "snippet": "Sep 11, 2014 ... When President Obama announced his plan Wednesday night to launch air \nstrikes in Syria against ISIS, he opened a new chapter in the ...",
-   "htmlSnippet": "Sep 11, 2014 \u003cb\u003e...\u003c/b\u003e When President \u003cb\u003eObama\u003c/b\u003e announced his plan Wednesday night to launch air \u003cbr\u003e\nstrikes in Syria against ISIS, he opened a new chapter in the&nbsp;...",
-   "formattedUrl": "www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/",
-   "htmlFormattedUrl": "www.cnn.com/2014/09/11/politics/\u003cb\u003eobama\u003c/b\u003e-speech-5-takeaways/",
+   "title": "President Barack Obama | The White House",
+   "htmlTitle": "President Barack \u003cb\u003eObama\u003c/b\u003e | The White House",
+   "link": "http://www.whitehouse.gov/administration/president-obama",
+   "displayLink": "www.whitehouse.gov",
+   "snippet": "Barack H. Obama is the 44th President of the United States. His story is the \nAmerican story — values from the heartland, a middle-class upbringing in a \nstrong ...",
+   "htmlSnippet": "Barack H. \u003cb\u003eObama\u003c/b\u003e is the 44th President of the United States. His story is the \u003cbr\u003e\nAmerican story — values from the heartland, a middle-class upbringing in a \u003cbr\u003e\nstrong&nbsp;...",
+   "cacheId": "ZstgDwzCFGMJ",
+   "formattedUrl": "www.whitehouse.gov/administration/president-obama",
+   "htmlFormattedUrl": "www.whitehouse.gov/administration/president-\u003cb\u003eobama\u003c/b\u003e",
    "pagemap": {
     "cse_image": [
      {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-story-top.jpg",
+      "src": "http://www.whitehouse.gov/sites/default/files/image/right_rail_issue_feature_sharehub.jpg",
       "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "newsarticle": [
-     {
-      "genre": "news",
-      "inlanguage": "en-US",
-      "description": "When President Obama announced his plan Wednesday night to launch air strikes in Syria against ISIS, he opened a new chapter in the American war on Islamic extremism. Click here to get all...",
-      "keywords": "President Obama,ISIS,Syria,Congress,Terrorism,ISIL",
-      "author": "Z. Byron Wolf, CNN",
-      "articlesection": "politics",
-      "sourceorganization": "CNN",
-      "datepublished": "2014-09-11T04:34:55Z",
-      "datemodified": "2014-09-11T16:43:01Z",
-      "datecreated": "2014-09-11T04:34:55Z",
-      "headline": "5 takeaways from Obama's ISIS speech",
-      "url": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-story-top.jpg"
+      "width": "217",
+      "height": "190"
      }
     ],
     "metatags": [
      {
-      "viewport": "width=1024",
-      "medium": "news",
-      "title": "5 takeaways from Obama's ISIS speech - CNN.com",
-      "news_keywords": "President Obama,ISIS,Syria,Congress,Terrorism,ISIL",
-      "author": "Z. Byron Wolf, CNN",
-      "section": "politics",
-      "source": "CNN",
-      "pubdate": "2014-09-11T04:34:55Z",
-      "lastmod": "2014-09-11T16:43:01Z",
-      "og:title": "5 takeaways from Obama's ISIS speech",
-      "og:type": "article",
-      "og:url": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
-      "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-story-top.jpg",
-      "vr:canonical": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
-      "fb:page_id": "129343697106537",
-      "fb:app_id": "80401312489",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@CNN",
-      "twitter:site:id": "759251",
-      "twitter:creator": "@cnnpolitics",
-      "twitter:creator:id": "13850422",
-      "twitter:description": "When President Obama announced his plan Wednesday night to launch air strikes in Syria against ISIS, he opened a new chapter in the American war on Islamic extremism. Click here to get all the facts on President Obama's speech to the nation on his new strategy to combat ISIS with air strikes in Iraq and Syria. Or click here to read the transcript.",
-      "twitter:title": "5 takeaways from Obama's ISIS speech",
-      "twitter:url": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-left-tease.jpg"
+      "og:site_name": "The White House",
+      "og:title": "President Barack Obama",
+      "og:description": "Barack H. Obama is the 44th President of the United States. His story is the American story — values from the heartland, a middle-class upbringing in a strong family, hard work and education as the means of getting ahead, and the conviction that a life so blessed should be lived in service to others.",
+      "og:image": "http://www.whitehouse.gov/sites/default/files/image/facebook/whitehouse_logo.jpg",
+      "og:url": "http://www.whitehouse.gov/node/107",
+      "fb:admins": "100000095507875"
      }
     ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
+   }
   },
   {
    "kind": "customsearch#result",
-   "title": "BBC News - Obama refuses ice bucket challenge, but donates instead",
-   "htmlTitle": "BBC News - \u003cb\u003eObama\u003c/b\u003e refuses ice bucket challenge, but donates instead",
-   "link": "http://www.bbc.com/news/world-us-canada-28892227",
+   "title": "Barack Obama (@BarackObama) | Twitter",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e (@BarackObama) | Twitter",
+   "link": "https://twitter.com/BarackObama",
+   "displayLink": "twitter.com",
+   "snippet": "The latest Tweets from Barack Obama (@BarackObama). This account is run by \nOrganizing for Action staff. Tweets from the President are signed -bo.",
+   "htmlSnippet": "The latest Tweets from Barack \u003cb\u003eObama\u003c/b\u003e (@BarackObama). This account is run by \u003cbr\u003e\nOrganizing for Action staff. Tweets from the President are signed -bo.",
+   "cacheId": "vRZeJ2v2yXoJ",
+   "formattedUrl": "https://twitter.com/BarackObama",
+   "htmlFormattedUrl": "https://twitter.com/Barack\u003cb\u003eObama\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY_400x400.png",
+      "type": "1",
+      "width": "225",
+      "height": "225"
+     }
+    ],
+    "metatags": [
+     {
+      "msapplication-tileimage": "//abs.twimg.com/favicons/win8-tile-144.png",
+      "msapplication-tilecolor": "#00aced",
+      "swift-page-name": "profile"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - Washington, DC - Politician | Facebook",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - Washington, DC - Politician | Facebook",
+   "link": "https://www.facebook.com/barackobama",
+   "displayLink": "www.facebook.com",
+   "snippet": "Barack Obama, Washington, DC. 43403740 likes · 524822 talking about this. \nThis page is run by Organizing for Action. To visit the White House Facebook...",
+   "htmlSnippet": "Barack \u003cb\u003eObama\u003c/b\u003e, Washington, DC. 43403740 likes · 524822 talking about this. \u003cbr\u003e\nThis page is run by Organizing for Action. To visit the White House Facebook...",
+   "cacheId": "VZOTLfNlgn0J",
+   "formattedUrl": "https://www.facebook.com/barackobama",
+   "htmlFormattedUrl": "https://www.facebook.com/barack\u003cb\u003eobama\u003c/b\u003e",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1004859_10152218387031749_948700280_n.jpg?oh=94169b26934796a5e3047ec8626b0b17&oe=54AD32C3&__gda__=1424727320_63d115b7074585d4193842c2f6912498",
+      "type": "1",
+      "width": "369",
+      "height": "136"
+     }
+    ],
+    "organization": [
+     {
+      "name": "Barack Obama"
+     }
+    ],
+    "metatags": [
+     {
+      "referrer": "default",
+      "og:title": "Barack Obama",
+      "og:type": "politician",
+      "og:url": "https://www.facebook.com/barackobama",
+      "og:site_name": "Facebook",
+      "og:image": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p200x200/1376580_10151878817796749_162570700_n.png?oh=da151f8d3b1403dbb99263f5d820cc7a&oe=54D90A0A&__gda__=1423432234_8ca095099b701da08b24ee23d601557c",
+      "og:description": "This page is run by Organizing for Action. To visit the White House Facebook page, go to...",
+      "title": "Barack Obama - Washington, DC - Politician | Facebook"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - Bio, News, Photos - Washington Times",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - Bio, News, Photos - Washington Times",
+   "link": "http://www.washingtontimes.com/topics/barack-obama/",
+   "displayLink": "www.washingtontimes.com",
+   "snippet": "Latest news and commentary on Barack Obama including photos, videos, \nquotations, and a biography.",
+   "htmlSnippet": "Latest news and commentary on Barack \u003cb\u003eObama\u003c/b\u003e including photos, videos, \u003cbr\u003e\nquotations, and a biography.",
+   "cacheId": "MMgROYHbQHIJ",
+   "formattedUrl": "www.washingtontimes.com/topics/barack-obama/",
+   "htmlFormattedUrl": "www.washingtontimes.com/topics/barack-\u003cb\u003eobama\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://media.washtimes.com/media/image/2014/10/07/9190628470a1d527610f6a7067008088_c0-184-4168-2613_s326x190.jpg?bc5cc090badac60994372648b133b7b7bcd0591a",
+      "type": "1",
+      "width": "260",
+      "height": "152"
+     }
+    ],
+    "metatags": [
+     {
+      "bitly-verification": "d180fd45f70d",
+      "msvalidate.01": "5B44585918D69318CA2120B5FA20D85C",
+      "viewport": "width=device-width, initial-scale=1, user-scalable=yes",
+      "format-detection": "telephone=no",
+      "author": "The Washington Times http://www.washingtontimes.com",
+      "serverf": "www1-dev"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama - News, Articles, Biography, Photos - WSJ.com",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e - News, Articles, Biography, Photos - WSJ.com",
+   "link": "http://topics.wsj.com/person/O/barack-obama/4328",
+   "displayLink": "topics.wsj.com",
+   "snippet": "Incumbent President Barack Obama faces re-election amid stifled economic \nrecovery and a lag in job creation. In October, he said \"We can''t wait\" to pass a ...",
+   "htmlSnippet": "Incumbent President Barack \u003cb\u003eObama\u003c/b\u003e faces re-election amid stifled economic \u003cbr\u003e\nrecovery and a lag in job creation. In October, he said &quot;We can&#39;&#39;t wait&quot; to pass a&nbsp;...",
+   "cacheId": "z7RaTHrvAgwJ",
+   "formattedUrl": "topics.wsj.com/person/O/barack-obama/4328",
+   "htmlFormattedUrl": "topics.wsj.com/person/O/barack-\u003cb\u003eobama\u003c/b\u003e/4328",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://s.wsj.net/public/resources/images/HC-GN473_Obama_AV_20090311130903.gif",
+      "type": "1",
+      "width": "55",
+      "height": "97"
+     }
+    ],
+    "metatags": [
+     {
+      "og:url": "http://topics.wsj.com/person/O/barack-obama/4328",
+      "sitedomain": "online.wsj.com",
+      "primaryproduct": "Online Journal",
+      "ctype": "Topics",
+      "subsection": "WSJ_Topics",
+      "fb:app_id": "368513495882",
+      "displayname": "Topics Executive Bio",
+      "pagename": "Topics Executive Bio_0_0_WT_1000",
+      "og:title": "Barack Obama",
+      "og:type": "author",
+      "og:site_name": "WSJ.com",
+      "csource": "WSJ Online Topics",
+      "section": "Topics",
+      "og:image": "http://s.wsj.net/public/resources/images/HC-GN473_Obama_AV_20090311130903.gif",
+      "lifp_signature": "509b1a086458232f6e000002"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama News - Bloomberg",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e News - Bloomberg",
+   "link": "http://topics.bloomberg.com/barack-obama/",
+   "displayLink": "topics.bloomberg.com",
+   "snippet": "Breaking news about Barack Obama. Find the latest articles, videos, photos and \nblogs about Barack Obama.",
+   "htmlSnippet": "Breaking news about Barack \u003cb\u003eObama\u003c/b\u003e. Find the latest articles, videos, photos and \u003cbr\u003e\nblogs about Barack \u003cb\u003eObama\u003c/b\u003e.",
+   "cacheId": "iuYYxX9A5OEJ",
+   "formattedUrl": "topics.bloomberg.com/barack-obama/",
+   "htmlFormattedUrl": "topics.bloomberg.com/barack-\u003cb\u003eobama\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.bloomberg.com/image/ivkVKeWQL4bE.jpg",
+      "type": "1",
+      "width": "74",
+      "height": "74"
+     }
+    ],
+    "metatags": [
+     {
+      "fb:admins": "1502271052,1617206,500566238,616620419,18776,1396618572,501161086,100001111898866,1223836",
+      "og:title": "Barack Obama News - Bloomberg",
+      "og:site_name": "Bloomberg",
+      "og:description": "Breaking news about Barack Obama. Find the latest articles, videos, photos and blogs about Barack Obama.",
+      "twitter:card": "summary",
+      "twitter:site": "@BloombergNews",
+      "twitter:creator": "@BloombergNews",
+      "title": "Barack Obama News - Bloomberg",
+      "og:url": "http://topics.bloomberg.com/barack-obama/"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "BBC News - Obama responds to jealous boyfriend at election booth",
+   "htmlTitle": "BBC News - \u003cb\u003eObama\u003c/b\u003e responds to jealous boyfriend at election booth",
+   "link": "http://www.bbc.com/news/world-us-canada-29717808",
    "displayLink": "www.bbc.com",
-   "snippet": "Aug 22, 2014 ... Barack Obama has said he will not be taking part in the ice bucket challenge, a \nfundraising stunt which involves people drenching themselves ...",
-   "htmlSnippet": "Aug 22, 2014 \u003cb\u003e...\u003c/b\u003e Barack \u003cb\u003eObama\u003c/b\u003e has said he will not be taking part in the ice bucket challenge, a \u003cbr\u003e\nfundraising stunt which involves people drenching themselves&nbsp;...",
-   "cacheId": "3tbbau3fQQAJ",
-   "formattedUrl": "www.bbc.com/news/world-us-canada-28892227",
-   "htmlFormattedUrl": "www.bbc.com/news/world-us-canada-28892227",
+   "snippet": "Oct 21, 2014 ... President Barack Obama found himself in an awkward situation at the voting \nbooth in Chicago on Monday, when a man walked past and told ...",
+   "htmlSnippet": "Oct 21, 2014 \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e found himself in an awkward situation at the voting \u003cbr\u003e\nbooth in Chicago on Monday, when a man walked past and told&nbsp;...",
+   "cacheId": "V6gn0tUdkCsJ",
+   "formattedUrl": "www.bbc.com/news/world-us-canada-29717808",
+   "htmlFormattedUrl": "www.bbc.com/news/world-us-canada-29717808",
    "pagemap": {
     "cse_image": [
      {
-      "src": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105150_77105149.jpg",
+      "src": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441387_78441386.jpg",
       "type": "1",
       "width": "300",
       "height": "168"
@@ -224,41 +417,41 @@
     ],
     "NewsItem": [
      {
-      "description": "Barack Obama has said he will not be taking part in the ice bucket challenge, a fundraising stunt which involves people drenching themselves with cold water.",
-      "datePublished": "2014/08/22 05:48:55",
-      "thumbnailUrl": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105165_77105147.jpg",
-      "headline": "Obama refuses ice bucket challenge ",
+      "description": "President Barack Obama found himself in an awkward situation at the voting booth in Chicago on Monday, when a man walked past and told him not to touch his girlfriend.",
+      "datePublished": "2014/10/21 22:49:07",
+      "thumbnailUrl": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441993_78441386.jpg",
+      "headline": "Obama responds to jealous boyfriend",
       "creator": "http://www.bbc.co.uk#org",
-      "title": "Obama refuses ice bucket challenge ",
+      "title": "Obama responds to jealous boyfriend",
       "type": "article",
-      "url": "http://www.bbc.com/news/world-us-canada-28892227",
+      "url": "http://www.bbc.com/news/world-us-canada-29717808",
       "site_name": "BBC News",
       "image": "http://newsimg.bbc.co.uk/media/images/67373000/jpg/_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg"
      }
     ],
     "metatags": [
      {
-      "rnews:description": "Barack Obama has said he will not be taking part in the ice bucket challenge, a fundraising stunt which involves people drenching themselves with cold water.",
-      "originalpublicationdate": "2014/08/22 05:48:55",
-      "rnews:datepublished": "2014/08/22 05:48:55",
-      "ukfs_url": "/news/world-us-canada-28892227",
-      "thumbnail_url": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105165_77105147.jpg",
-      "rnews:thumbnailurl": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105165_77105147.jpg",
-      "headline": "Obama refuses ice bucket challenge",
-      "rnews:headline": "Obama refuses ice bucket challenge",
-      "ifs_url": "/news/world-us-canada-28892227",
+      "rnews:description": "President Barack Obama found himself in an awkward situation at the voting booth in Chicago on Monday, when a man walked past and told him not to touch his girlfriend.",
+      "originalpublicationdate": "2014/10/21 22:49:07",
+      "rnews:datepublished": "2014/10/21 22:49:07",
+      "ukfs_url": "/news/world-us-canada-29717808",
+      "thumbnail_url": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441993_78441386.jpg",
+      "rnews:thumbnailurl": "http://news.bbcimg.co.uk/media/images/78441000/jpg/_78441993_78441386.jpg",
+      "headline": "Obama responds to jealous boyfriend",
+      "rnews:headline": "Obama responds to jealous boyfriend",
+      "ifs_url": "/news/world-us-canada-29717808",
       "section": "US & Canada",
       "contentflavor": "STORY",
-      "cps_id": "28892227",
+      "cps_id": "29717808",
       "cps_site_name": "BBC News",
       "cps_section_path": "World/US and Canada",
       "cps_asset_type": "MAP",
       "cps_platform": "HighWeb",
       "cps_audience": "US",
       "rnews:creator": "http://www.bbc.co.uk#org",
-      "og:title": "Obama refuses ice bucket challenge",
+      "og:title": "Obama responds to jealous boyfriend",
       "og:type": "article",
-      "og:url": "http://www.bbc.com/news/world-us-canada-28892227",
+      "og:url": "http://www.bbc.com/news/world-us-canada-29717808",
       "og:site_name": "BBC News",
       "og:image": "http://newsimg.bbc.co.uk/media/images/67373000/jpg/_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg",
       "bbcsearch_noindex": "emp",
@@ -270,524 +463,8 @@
       "msapplication-starturl": "http://www.bbc.com/news/?ocid=global-news-pinned-ie9",
       "msapplication-window": "width=1024;height=768",
       "msapplication-task": "name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://news.bbcimg.co.uk/shared/img/bbccom/favicon_16.ico",
-      "dcterms.created": "2014-08-22T05:48:55+00:00",
-      "dcterms.modified": "2014-08-22T05:48:55+00:00"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "Barack Obama : Toute l'actualité sur Le Monde.fr.",
-   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e : Toute l&#39;actualité sur Le Monde.fr.",
-   "link": "http://www.lemonde.fr/barack-obama/",
-   "displayLink": "www.lemonde.fr",
-   "snippet": "Barack Obama - Découvrez gratuitement tous les articles, les vidéos et les \ninfographies de la rubrique Barack Obama sur Le Monde.fr.",
-   "htmlSnippet": "Barack \u003cb\u003eObama\u003c/b\u003e - Découvrez gratuitement tous les articles, les vidéos et les \u003cbr\u003e\ninfographies de la rubrique Barack \u003cb\u003eObama\u003c/b\u003e sur Le Monde.fr.",
-   "formattedUrl": "www.lemonde.fr/barack-obama/",
-   "htmlFormattedUrl": "www.lemonde.fr/barack-\u003cb\u003eobama\u003c/b\u003e/",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://s1.lemde.fr/image/2014/10/22/147x97/4510562_7_78ef_barack-obama-au-milieu-d-une-plaisanterie-lors_ce326f525b5cd3d5e88bac057d5e1c8e.jpg",
-      "type": "1",
-      "width": "117",
-      "height": "77"
-     }
-    ],
-    "metatags": [
-     {
-      "application-name": "Le Monde.fr",
-      "dc.language": "fr",
-      "dc.format": "text/html",
-      "dc.publisher": "Le Monde",
-      "dc.identifier": "ISSN 1950-6244",
-      "msapplication-tooltip": "Le Monde.fr",
-      "msapplication-navbutton-color": "#000",
-      "msapplication-starturl": "/",
-      "msapplication-task": "name=A la Une;action-uri=/;icon-uri=/medias/web/ico/ie9-pin/une.ico",
-      "fb:app_id": "166878320861",
-      "fb:page_id": "14892757589",
-      "og:site_name": "Le Monde.fr",
-      "og:type": "website",
-      "og:locale": "fr_FR",
-      "og:url": "http://www.lemonde.fr/barack-obama/",
-      "og:title": "Barack Obama : Toute l'actualité sur Le Monde.fr.",
-      "og:description": "Barack Obama - Découvrez gratuitement tous les articles, les vidéos et les infographies de la rubrique Barack Obama sur Le Monde.fr.",
-      "og:image:type": "image/jpeg",
-      "og:image:width": "150",
-      "og:image:height": "100",
-      "og:image": "http://s1.lemde.fr/medias/web/1.2.661/img/placeholder/opengraph.jpg",
-      "al:ios:url": "lmfr://",
-      "al:ios:app_store_id": "294047850",
-      "al:android:url": "lmfr://",
-      "al:android:package": "com.lemonde.androidapp",
-      "al:web:url": "http://www.lemonde.fr/barack-obama/",
-      "al:web:should_fallback": "true",
-      "twitter:card": "summary",
-      "twitter:site": "@lemondefr",
-      "twitter:url": "http://www.lemonde.fr/barack-obama/",
-      "twitter:title": "Barack Obama : Toute l'actualité sur Le Monde.fr.",
-      "twitter:description": "Barack Obama - Découvrez gratuitement tous les articles, les vidéos et les infographies de la rubrique Barack Obama sur Le Monde.fr.",
-      "twitter:app:country": "FR",
-      "twitter:app:id:iphone": "294047850",
-      "twitter:app:url:iphone": "lmfr://",
-      "twitter:app:id:ipad": "294047850",
-      "twitter:app:url:ipad": "lmfr://",
-      "twitter:app:id:googleplay": "com.lemonde.androidapp",
-      "twitter:app:url:googleplay": "lmfr://"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
-   "htmlTitle": "\u003cb\u003eObama\u003c/b\u003e outlines foreign policy vision of &#39;might and right&#39; - CNN.com",
-   "link": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
-   "displayLink": "www.cnn.com",
-   "snippet": "May 29, 2014 ... President Barack Obama outlined a foreign policy vision of \"might doing right,\" \nsaying modern pragmatism requires a strong military and ...",
-   "htmlSnippet": "May 29, 2014 \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e outlined a foreign policy vision of &quot;might doing right,&quot; \u003cbr\u003e\nsaying modern pragmatism requires a strong military and&nbsp;...",
-   "formattedUrl": "www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
-   "htmlFormattedUrl": "www.cnn.com/2014/05/28/politics/\u003cb\u003eobama\u003c/b\u003e-west-point-foreign-policy/",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
-      "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "newsarticle": [
-     {
-      "genre": "news",
-      "inlanguage": "en-US",
-      "description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
-      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
-      "articlesection": "politics",
-      "sourceorganization": "CNN",
-      "datepublished": "2014-05-28T04:12:52Z",
-      "datemodified": "2014-05-29T10:33:16Z",
-      "datecreated": "2014-05-28T04:12:52Z",
-      "headline": "Obama outlines foreign policy vision of 'might and right'",
-      "url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg"
-     }
-    ],
-    "metatags": [
-     {
-      "viewport": "width=1024",
-      "medium": "news",
-      "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
-      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
-      "section": "politics",
-      "source": "CNN",
-      "pubdate": "2014-05-28T04:12:52Z",
-      "lastmod": "2014-05-29T10:33:16Z",
-      "og:title": "Obama outlines foreign policy vision of 'might and right'",
-      "og:type": "article",
-      "og:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
-      "vr:canonical": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "fb:page_id": "129343697106537",
-      "fb:app_id": "80401312489",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@CNN",
-      "twitter:site:id": "759251",
-      "twitter:creator": "@cnnpolitics",
-      "twitter:creator:id": "13850422",
-      "twitter:description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
-      "twitter:title": "Obama outlines foreign policy vision of 'might and right'",
-      "twitter:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-left-tease.jpg"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "Quand Barack Obama taquine un footballeur français",
-   "htmlTitle": "Quand Barack \u003cb\u003eObama\u003c/b\u003e taquine un footballeur français",
-   "link": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
-   "displayLink": "www.lemonde.fr",
-   "snippet": "2 oct. 2014 ... Barack Obama n'a pas manqué de féliciter avec humour celui qui a été désigné \nmeilleur joueur de la finale, le Français Aurélien Collin, qui a ...",
-   "htmlSnippet": "2 oct. 2014 \u003cb\u003e...\u003c/b\u003e Barack \u003cb\u003eObama\u003c/b\u003e n&#39;a pas manqué de féliciter avec humour celui qui a été désigné \u003cbr\u003e\nmeilleur joueur de la finale, le Français Aurélien Collin, qui a&nbsp;...",
-   "formattedUrl": "www.lemonde.fr/.../barack-obama-taquine-un-footballeur_4499446_ 1616938.html",
-   "htmlFormattedUrl": "www.lemonde.fr/.../barack-\u003cb\u003eobama\u003c/b\u003e-taquine-un-footballeur_4499446_ 1616938.html",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://s2.lemde.fr/image/2014/09/13/147x97/4487000_7_95f5_ill-4487000-cf0a-903005_4696724567ced1c031276d68bcc2abb9.jpg",
-      "type": "1",
-      "width": "117",
-      "height": "77"
-     }
-    ],
-    "mediaobject": [
-     {
-      "headline": "Quand Barack Obama taquine un footballeur français",
-      "publisher": "Le Monde.fr",
-      "datepublished": "2014-10-02T15:07:38+02:00",
-      "datemodified": "2014-10-02T16:49:31+02:00",
-      "duration": "00:31",
-      "description": "Lire aussi : « Engouement incroyable » aux Etats-Unis pour le Mondial"
-     }
-    ],
-    "metatags": [
-     {
-      "application-name": "Le Monde.fr",
-      "dc.language": "fr",
-      "dc.format": "text/html",
-      "dc.publisher": "Le Monde",
-      "dc.identifier": "ISSN 1950-6244",
-      "msapplication-tooltip": "Le Monde.fr",
-      "msapplication-navbutton-color": "#000",
-      "msapplication-starturl": "/",
-      "msapplication-task": "name=A la Une;action-uri=/;icon-uri=/medias/web/ico/ie9-pin/une.ico",
-      "fb:app_id": "166878320861",
-      "fb:page_id": "14892757589",
-      "og:site_name": "Le Monde.fr",
-      "og:locale": "fr_FR",
-      "og:url": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
-      "og:title": "Quand Barack Obama taquine un footballeur français",
-      "og:description": "Le président des Etats-Unis a reçu mercredi à la Maison Blanche le Sporting Kansas City, qui remporté en 2013 le championnat professionnel de football.",
-      "og:video": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
-      "og:video:type": "text/html",
-      "og:type": "video.other",
-      "al:ios:url": "lmfr://element/video/4499446?x4=8",
-      "al:ios:app_store_id": "294047850",
-      "al:android:url": "lmfr://element/video/4499446?x4=8",
-      "al:android:package": "com.lemonde.androidapp",
-      "al:web:url": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
-      "al:web:should_fallback": "true",
-      "twitter:card": "summary",
-      "twitter:site": "@lemondefr",
-      "twitter:url": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
-      "twitter:title": "Quand Barack Obama taquine un footballeur français",
-      "twitter:description": "Le président des Etats-Unis a reçu mercredi à la Maison Blanche le Sporting Kansas City, qui remporté en 2013 le championnat professionnel de football.",
-      "twitter:image": "http://s2.dmcdn.net/EZlPB/x240-Uh9.jpg",
-      "twitter:app:country": "FR",
-      "twitter:app:id:iphone": "294047850",
-      "twitter:app:url:iphone": "lmfr://element/video/4499446?x4=8",
-      "twitter:app:id:ipad": "294047850",
-      "twitter:app:url:ipad": "lmfr://element/video/4499446?x4=8",
-      "twitter:app:id:googleplay": "com.lemonde.androidapp",
-      "twitter:app:url:googleplay": "lmfr://element/video/4499446?x4=8"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "Transcript: President Obama's Speech on Combating ISIS - CNN.com",
-   "htmlTitle": "Transcript: President \u003cb\u003eObama&#39;s\u003c/b\u003e Speech on Combating ISIS - CNN.com",
-   "link": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/",
-   "displayLink": "www.cnn.com",
-   "snippet": "Sep 10, 2014 ... President Obama addressed the nation on his strategy to deal with ISIS in Syria \nand Iraq; The White House released text of the remarks as they ...",
-   "htmlSnippet": "Sep 10, 2014 \u003cb\u003e...\u003c/b\u003e President \u003cb\u003eObama\u003c/b\u003e addressed the nation on his strategy to deal with ISIS in Syria \u003cbr\u003e\nand Iraq; The White House released text of the remarks as they&nbsp;...",
-   "formattedUrl": "www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/",
-   "htmlFormattedUrl": "www.cnn.com/2014/09/10/politics/transcript-\u003cb\u003eobama\u003c/b\u003e-syria-isis-speech/",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg",
-      "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "newsarticle": [
-     {
-      "genre": "news",
-      "inlanguage": "en-US",
-      "description": "My fellow Americans -- tonight, I want to speak to you about what the United States will do with our friends and allies to degrade and ultimately destroy the terrorist group known as ISIL.",
-      "articlesection": "politics",
-      "sourceorganization": "CNN",
-      "datepublished": "2014-09-11T01:04:07Z",
-      "datemodified": "2014-09-11T01:35:55Z",
-      "datecreated": "2014-09-11T01:04:07Z",
-      "contentlocation": "The White House",
-      "headline": "Transcript: President Obama's Speech on Combating ISIS and Terrorism",
-      "url": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg"
-     }
-    ],
-    "metatags": [
-     {
-      "viewport": "width=1024",
-      "medium": "news",
-      "title": "Transcript: President Obama's Speech on Combating ISIS - CNN.com",
-      "section": "politics",
-      "source": "CNN",
-      "pubdate": "2014-09-11T01:04:07Z",
-      "lastmod": "2014-09-11T01:35:55Z",
-      "og:title": "Transcript: President Obama's Speech on Combating ISIS and Terrorism",
-      "og:type": "article",
-      "og:url": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
-      "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg",
-      "vr:canonical": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
-      "fb:page_id": "129343697106537",
-      "fb:app_id": "80401312489",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@CNN",
-      "twitter:site:id": "759251",
-      "twitter:creator": "@cnnpolitics",
-      "twitter:creator:id": "13850422",
-      "twitter:description": "My fellow Americans -- tonight, I want to speak to you about what the United States will do with our friends and allies to degrade and ultimately destroy the terrorist group known as ISIL.",
-      "twitter:title": "Transcript: President Obama's Speech on Combating ISIS",
-      "twitter:url": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-left-tease.jpg"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "GOP-led House authorizes lawsuit against Obama - CNN.com",
-   "htmlTitle": "GOP-led House authorizes lawsuit against \u003cb\u003eObama\u003c/b\u003e - CNN.com",
-   "link": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/",
-   "displayLink": "www.cnn.com",
-   "snippet": "Jul 31, 2014 ... The Republican-led House approved a resolution on Wednesday authorizing \nSpeaker John Boehner to sue President Barack Obama over ...",
-   "htmlSnippet": "Jul 31, 2014 \u003cb\u003e...\u003c/b\u003e The Republican-led House approved a resolution on Wednesday authorizing \u003cbr\u003e\nSpeaker John Boehner to sue President Barack \u003cb\u003eObama\u003c/b\u003e over&nbsp;...",
-   "formattedUrl": "www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/",
-   "htmlFormattedUrl": "www.cnn.com/2014/07/30/politics/gop-\u003cb\u003eobama\u003c/b\u003e-lawsuit/",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-story-top.jpg",
-      "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "newsarticle": [
-     {
-      "genre": "news",
-      "inlanguage": "en-US",
-      "description": "The Republican-led House approved a resolution on Wednesday authorizing Speaker John Boehner to sue President Barack Obama over claims he abused his powers at the expense of Congress and the...",
-      "author": "Deirdre Walsh, CNN Senior Congressional Producer",
-      "articlesection": "politics",
-      "sourceorganization": "CNN",
-      "datepublished": "2014-07-30T22:36:55Z",
-      "datemodified": "2014-07-31T12:04:36Z",
-      "datecreated": "2014-07-30T22:36:55Z",
-      "headline": "GOP-led House authorizes lawsuit against Obama",
-      "url": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-story-top.jpg"
-     }
-    ],
-    "metatags": [
-     {
-      "viewport": "width=1024",
-      "medium": "news",
-      "title": "GOP-led House authorizes lawsuit against Obama - CNN.com",
-      "author": "Deirdre Walsh, CNN Senior Congressional Producer",
-      "section": "politics",
-      "source": "CNN",
-      "pubdate": "2014-07-30T22:36:55Z",
-      "lastmod": "2014-07-31T12:04:36Z",
-      "og:title": "GOP-led House authorizes lawsuit against Obama",
-      "og:type": "article",
-      "og:url": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
-      "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-story-top.jpg",
-      "vr:canonical": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
-      "fb:page_id": "129343697106537",
-      "fb:app_id": "80401312489",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@CNN",
-      "twitter:site:id": "759251",
-      "twitter:creator": "@cnnpolitics",
-      "twitter:creator:id": "13850422",
-      "twitter:description": "The Republican-led House approved a resolution on Wednesday authorizing Speaker John Boehner to sue President Barack Obama over claims he abused his powers at the expense of Congress and the Constitution.",
-      "twitter:title": "GOP-led House authorizes lawsuit against Obama",
-      "twitter:url": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-left-tease.jpg"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "His role reduced, Obama makes final campaign push - CNN.com",
-   "htmlTitle": "His role reduced, \u003cb\u003eObama\u003c/b\u003e makes final campaign push - CNN.com",
-   "link": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/",
-   "displayLink": "www.cnn.com",
-   "snippet": "15 hours ago ... Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \nfleeing his shadow, President Barack Obama embarked upon the ...",
-   "htmlSnippet": "15 hours ago \u003cb\u003e...\u003c/b\u003e Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \u003cbr\u003e\nfleeing his shadow, President Barack \u003cb\u003eObama\u003c/b\u003e embarked upon the&nbsp;...",
-   "formattedUrl": "www.cnn.com/2014/11/02/politics/obama-campaign-push/",
-   "htmlFormattedUrl": "www.cnn.com/2014/11/02/politics/\u003cb\u003eobama\u003c/b\u003e-campaign-push/",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg",
-      "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "newsarticle": [
-     {
-      "genre": "news",
-      "inlanguage": "en-US",
-      "description": "President Barack Obama was set to embark upon the final push of what he calls his last campaign Sunday, hoping to mobilize voters.",
-      "author": "Kevin Liptak and Laura Koran, CNN",
-      "articlesection": "politics",
-      "sourceorganization": "CNN",
-      "datepublished": "2014-11-02T15:39:21Z",
-      "datemodified": "2014-11-03T01:40:52Z",
-      "datecreated": "2014-11-02T15:39:21Z",
-      "contentlocation": "Philadelphia",
-      "headline": "Obama makes restricted campaign push",
-      "url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg"
-     }
-    ],
-    "metatags": [
-     {
-      "viewport": "width=1024",
-      "medium": "news",
-      "title": "His role reduced, Obama makes final campaign push - CNN.com",
-      "author": "Kevin Liptak and Laura Koran, CNN",
-      "section": "politics",
-      "source": "CNN",
-      "pubdate": "2014-11-02T15:39:21Z",
-      "lastmod": "2014-11-03T01:40:52Z",
-      "og:title": "Obama makes restricted campaign push",
-      "og:type": "article",
-      "og:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
-      "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg",
-      "vr:canonical": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
-      "fb:page_id": "129343697106537",
-      "fb:app_id": "80401312489",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@CNN",
-      "twitter:site:id": "759251",
-      "twitter:creator": "@cnnpolitics",
-      "twitter:creator:id": "13850422",
-      "twitter:description": "President Barack Obama was set to embark upon the final push of what he calls his last campaign Sunday, hoping to mobilize voters.",
-      "twitter:title": "His role reduced, Obama makes final campaign push",
-      "twitter:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-left-tease.jpg"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "What's different about Obama's speech this year? - CNN.com",
-   "htmlTitle": "What&#39;s different about \u003cb\u003eObama&#39;s\u003c/b\u003e speech this year? - CNN.com",
-   "link": "http://www.cnn.com/2014/09/11/politics/obama-speech-comparisons/",
-   "displayLink": "www.cnn.com",
-   "snippet": "Sep 11, 2014 ... President Obama gave a speech on Syria exactly one year earlier than the one \nhe gave Wednesday night. They had similarities and ...",
-   "htmlSnippet": "Sep 11, 2014 \u003cb\u003e...\u003c/b\u003e President \u003cb\u003eObama\u003c/b\u003e gave a speech on Syria exactly one year earlier than the one \u003cbr\u003e\nhe gave Wednesday night. They had similarities and&nbsp;...",
-   "formattedUrl": "www.cnn.com/2014/09/11/politics/obama-speech-comparisons/",
-   "htmlFormattedUrl": "www.cnn.com/2014/09/11/politics/\u003cb\u003eobama\u003c/b\u003e-speech-comparisons/",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg",
-      "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "newsarticle": [
-     {
-      "genre": "news",
-      "inlanguage": "en-US",
-      "description": "President Obama gave a speech on Syria exactly one year earlier than the one he gave Wednesday night. They had similarities and differences.",
-      "author": "Elizabeth Hartfield, CNN",
-      "articlesection": "politics",
-      "sourceorganization": "CNN",
-      "datepublished": "2014-09-11T09:11:20Z",
-      "datemodified": "2014-09-11T12:20:26Z",
-      "datecreated": "2014-09-11T09:11:20Z",
-      "headline": "Flashback: What's different about Obama's September 10 speech this year?",
-      "url": "http://www.cnn.com/2014/09/11/politics/obama-speech-comparisons/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg"
-     }
-    ],
-    "metatags": [
-     {
-      "viewport": "width=1024",
-      "medium": "news",
-      "title": "What's different about Obama's speech this year? - CNN.com",
-      "author": "Elizabeth Hartfield, CNN",
-      "section": "politics",
-      "source": "CNN",
-      "pubdate": "2014-09-11T09:11:20Z",
-      "lastmod": "2014-09-11T12:20:26Z",
-      "og:title": "Flashback: What's different about Obama's September 10 speech this year?",
-      "og:type": "article",
-      "og:url": "http://www.cnn.com/2014/09/11/politics/obama-speech-comparisons/index.html",
-      "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg",
-      "vr:canonical": "http://www.cnn.com/2014/09/11/politics/obama-speech-comparisons/index.html",
-      "fb:page_id": "129343697106537",
-      "fb:app_id": "80401312489",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@CNN",
-      "twitter:site:id": "759251",
-      "twitter:creator": "@cnnpolitics",
-      "twitter:creator:id": "13850422",
-      "twitter:description": "President Obama gave a speech on Syria exactly one year earlier than the one he gave Wednesday night. They had similarities and differences.",
-      "twitter:title": "What's different about Obama's speech this year?",
-      "twitter:url": "http://www.cnn.com/2014/09/11/politics/obama-speech-comparisons/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-left-tease.jpg"
+      "dcterms.created": "2014-10-21T22:49:07+00:00",
+      "dcterms.modified": "2014-10-21T22:49:07+00:00"
      }
     ]
    },

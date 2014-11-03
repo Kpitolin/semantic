@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="service.Service,java.util.ArrayList,annotation.SearchData"  %>
+    
+<% 
+ArrayList<SearchData> pages = (ArrayList<SearchData>) request.getAttribute("pages");
+
+for(SearchData onePage : pages) {
+	
+}
+%>

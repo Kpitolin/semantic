@@ -1,9 +1,8 @@
-127_Hours
-The_Philadelphia_Inquirer
-CNN
-Military_campaign
-Television_program
-Democratic_Party_%28United_States%29
+Breaking_news
+Barack_Obama
+Video_clip
+Photograph
+Blog
 Barack_Obama
 
 

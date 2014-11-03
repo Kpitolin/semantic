@@ -179,16 +179,16 @@ public class compareRDF {
 		return decimalFormat.format(nombre);
 	}
 	
-	public void creerMatriceSimilarite(String pathname){
+	public void creerMatriceSimilarite(String path){
 		// On supprime le CSV s'il existe déjà 
-		File csvSupp = new File(pathname+"\\matriceSimilarite.csv") ;
+		File csvSupp = new File(path+"matriceSimilarite.csv") ;
 		if(csvSupp.exists()){
 			csvSupp.delete() ;
 		}
-		String[] listeFichiers = listerRepertoire(pathname);
+		String[] listeFichiers = listerRepertoire(path);
 		
 		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter(new File(pathname+"\\matriceSimilarite.csv")));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(new File(path+"\\matriceSimilarite.csv")));
 			writer.write("#;");
 			for(int i = 0 ; i < listeFichiers.length ; i++){
 				writer.write(listeFichiers[i] + ";"); 
@@ -199,15 +199,14 @@ public class compareRDF {
 				int j = 0 ;
 				while(j <= listeFichiers.length){
 					if(j == i+1){
-						tabTmp[j] = "1;" ;
+						tabTmp[j] = "XXXX;" ;
 					}
 					else if(j == 0){
 						tabTmp[j] = listeFichiers[i] + ";" ;
 					}
 					else{
-						tabTmp[j] = parseDouble(calculerIndiceJaccard(pathname +"\\"+ listeFichiers[i], pathname +"\\"+ listeFichiers[j-1])) + ";" ;
-						
-						System.out.println(pathname +"\\"+  listeFichiers[i]+"/" + pathname +"\\" + listeFichiers[j-1] + " : " + compterNombreRelationsApresIntersection(pathname +"\\"+  listeFichiers[i], pathname +"\\"+  listeFichiers[j-1]) + ", " + compterNombreRelationsApresUnion(pathname +"\\"+  listeFichiers[i], pathname +"\\"+  listeFichiers[j-1]) + ", " + Double.toString(calculerIndiceJaccard(pathname +"\\" + listeFichiers[i], pathname +"\\"+  listeFichiers[j-1])));
+						tabTmp[j] = parseDouble(calculerIndiceJaccard(path +"\\"+ listeFichiers[i], path +"\\"+ listeFichiers[j-1])) + ";" ;
+						System.out.println(path + listeFichiers[i]+"/" + path + listeFichiers[j-1] + " : " + compterNombreRelationsApresIntersection(path + listeFichiers[i], path + listeFichiers[j-1]) + ", " + compterNombreRelationsApresUnion(path + listeFichiers[i], path + listeFichiers[j-1]) + ", " + Double.toString(calculerIndiceJaccard(path + listeFichiers[i], path + listeFichiers[j-1])));
 					}
 					j++ ;
 				}

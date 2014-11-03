@@ -60,6 +60,7 @@ public class Service {
 				
 				c.evaluate(input, output);
 
+				// String url = jsonParser.searchResults.searchData.
 				creator.createGraph(".\\output" + i + ".txt",jsonParser.searchResults.searchDatas.get(i).url);
 				
 				c.deleteFile(inputFile);

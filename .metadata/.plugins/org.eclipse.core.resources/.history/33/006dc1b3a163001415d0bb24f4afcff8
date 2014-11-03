@@ -199,7 +199,7 @@ public class compareRDF {
 				int j = 0 ;
 				while(j <= listeFichiers.length){
 					if(j == i+1){
-						tabTmp[j] = "1;" ;
+						tabTmp[j] = "XXXX;" ;
 					}
 					else if(j == 0){
 						tabTmp[j] = listeFichiers[i] + ";" ;

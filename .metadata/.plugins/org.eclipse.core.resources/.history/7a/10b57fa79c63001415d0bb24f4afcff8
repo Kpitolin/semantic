@@ -35,7 +35,7 @@ public class Service {
 		}
 		
 		compareRDF compare = new compareRDF();
-		compare.creerMatriceSimilarite(".\\extendedGraph");
+		compare.creerMatriceSimilarite("extendedGraph");
 		
 		ExplorationMatrice explorer = new ExplorationMatrice();
 		JSONObject jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph\\matriceSimilarite.csv", SEUILJACCARD);
@@ -60,6 +60,7 @@ public class Service {
 				
 				c.evaluate(input, output);
 
+				// String url = jsonParser.searchResults.searchData.
 				creator.createGraph(".\\output" + i + ".txt",jsonParser.searchResults.searchDatas.get(i).url);
 				
 				c.deleteFile(inputFile);

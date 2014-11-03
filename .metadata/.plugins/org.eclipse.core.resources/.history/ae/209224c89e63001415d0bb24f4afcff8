@@ -33,7 +33,7 @@ public class CreationGraphe {
 		// On boucle sur chaque champ detecté
 		while (scanner.hasNextLine()) {
 			String line = scanner.nextLine();
-			System.out.println(line + "-------");
+			System.out.println(line);
 			if(!(line.contains("%"))){
 				arrayOfWords.add(line);
 	

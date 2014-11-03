@@ -181,7 +181,7 @@ public class compareRDF {
 	
 	public void creerMatriceSimilarite(String pathname){
 		// On supprime le CSV s'il existe déjà 
-		File csvSupp = new File(pathname+"\\matriceSimilarite.csv") ;
+		File csvSupp = new File(pathname+"matriceSimilarite.csv") ;
 		if(csvSupp.exists()){
 			csvSupp.delete() ;
 		}
@@ -199,15 +199,14 @@ public class compareRDF {
 				int j = 0 ;
 				while(j <= listeFichiers.length){
 					if(j == i+1){
-						tabTmp[j] = "1;" ;
+						tabTmp[j] = "XXXX;" ;
 					}
 					else if(j == 0){
 						tabTmp[j] = listeFichiers[i] + ";" ;
 					}
 					else{
 						tabTmp[j] = parseDouble(calculerIndiceJaccard(pathname +"\\"+ listeFichiers[i], pathname +"\\"+ listeFichiers[j-1])) + ";" ;
-						
-						System.out.println(pathname +"\\"+  listeFichiers[i]+"/" + pathname +"\\" + listeFichiers[j-1] + " : " + compterNombreRelationsApresIntersection(pathname +"\\"+  listeFichiers[i], pathname +"\\"+  listeFichiers[j-1]) + ", " + compterNombreRelationsApresUnion(pathname +"\\"+  listeFichiers[i], pathname +"\\"+  listeFichiers[j-1]) + ", " + Double.toString(calculerIndiceJaccard(pathname +"\\" + listeFichiers[i], pathname +"\\"+  listeFichiers[j-1])));
+						System.out.println(pathname +"\\"+ + listeFichiers[i]+"/" + pathname +"\\"+ + listeFichiers[j-1] + " : " + compterNombreRelationsApresIntersection(pathname +"\\"+ + listeFichiers[i], pathname +"\\"+ + listeFichiers[j-1]) + ", " + compterNombreRelationsApresUnion(pathname +"\\"+ + listeFichiers[i], pathname +"\\"+ + listeFichiers[j-1]) + ", " + Double.toString(calculerIndiceJaccard(pathname +"\\" + listeFichiers[i], pathname +"\\"+ + listeFichiers[j-1])));
 					}
 					j++ ;
 				}
