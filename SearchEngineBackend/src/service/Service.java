@@ -39,7 +39,7 @@ public class Service {
 	}
 	public static void main (String args[]) throws IOException{
 		GoogleSearch search = new GoogleSearch();
-		String jsonGenere = search.search("obama");
+		String jsonGenere = search.search("obama", null);
 		
 		DBpediaSpotlightClient annotation = new DBpediaSpotlightClient();
 		CreationGraphe creator = new CreationGraphe();
