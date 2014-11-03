@@ -1,0 +1,225 @@
+package compareGraph;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.DecimalFormat;
+
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.StmtIterator;
+import com.hp.hpl.jena.util.FileManager;
+
+public class compareRDF {
+	private static String relativePath = "..\\ProjetSE\\testFiles\\" ;
+	
+	private static String path = relativePath ;
+	
+	public static String[] listerRepertoire(String repertoireName){
+		File repertoire = new File(repertoireName);
+		String [] listeFichiers;
+		listeFichiers = repertoire.list() ;
+		return listeFichiers;
+	}
+		
+	
+	private static double compterNombreRelations(String inputFileName){
+		// créer un modèle vide
+		 Model model = ModelFactory.createDefaultModel();
+		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 InputStream in = FileManager.get().open(inputFileName);
+		 {
+			if(in == null) {
+			    throw new IllegalArgumentException("Fichier: " + inputFileName + " non trouvé");
+			}
+			// lire le fichier RDF/XML
+			model.read(in, "", "RDF/XML");
+		 }
+				
+		StmtIterator iter = model.listStatements();
+		int compteur = 0 ;
+		while(iter.hasNext()) {
+			compteur++ ;
+			iter.nextStatement();  // obtenir la prochaine déclaration
+		    /*
+		    Resource  subject   = stmt.getSubject();     // obtenir le sujet
+		    Property  predicate = stmt.getPredicate();   // obtenir le prédicat
+		    RDFNode   object    = stmt.getObject();      // obtenir l'objet
+		    
+		    System.out.print(subject.toString());
+		    System.out.print(" " + predicate.toString() + " ");
+		    if (object instanceof Resource) {
+		       System.out.print(object.toString());
+		    } else {
+		        // l'objet est un littéral
+		        System.out.print(" \"" + object.toString() + "\"");
+		    }
+		    */
+		}
+		return compteur;	
+	}
+	
+	private static double compterNombreRelationsApresUnion(String inputFileName1, String inputFileName2){
+		//Premier graphe RDF
+		// créer un modèle vide
+		 Model model1 = ModelFactory.createDefaultModel();
+		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 InputStream in1 = FileManager.get().open(inputFileName1);
+		{
+			if(in1 == null) {
+			    throw new IllegalArgumentException("Fichier: " + inputFileName1 + " non trouvé");
+			}
+			// lire le fichier RDF/XML
+			model1.read(in1, "", "RDF/XML");
+		}
+		
+		//Deuxieme graphe RDF
+		// créer un modèle vide
+		 Model model2 = ModelFactory.createDefaultModel();
+		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 InputStream in2 = FileManager.get().open(inputFileName2);
+		{
+			if(in2 == null) {
+			    throw new IllegalArgumentException("Fichier: " + inputFileName2 + " non trouvé");
+			}
+			// lire le fichier RDF/XML
+			model2.read(in2, "", "RDF/XML");
+		}
+		// fusionne les modèles
+		Model model = model2.union(model1);
+		
+		// l'écrire dans un fichier tmp
+		FileWriter writer = null ;
+		try {
+			writer = new FileWriter(path+"tmp.xml", true);
+			model.write(writer, "RDF/XML");
+			try {
+				writer.close();
+			}
+			catch (IOException e) {
+				e.printStackTrace();
+			} 
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		
+		
+		// On compte le nombre de relation (cardinal)
+		File tmp = new File(path+"tmp.xml");
+		double cardinal = compterNombreRelations(path+"tmp.xml");
+		tmp.delete(); 
+		
+		return cardinal ;
+	}
+	
+	private static double compterNombreRelationsApresIntersection(String inputFileName1, String inputFileName2){
+		//Premier graphe RDF
+		// créer un modèle vide
+		 Model model1 = ModelFactory.createDefaultModel();
+		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 InputStream in1 = FileManager.get().open(inputFileName1);
+		{
+			if(in1 == null) {
+			    throw new IllegalArgumentException("Fichier: " + inputFileName1 + " non trouvé");
+			}
+			// lire le fichier RDF/XML
+			model1.read(in1, "", "RDF/XML");
+		}
+		
+		//Deuxieme graphe RDF
+		// créer un modèle vide
+		 Model model2 = ModelFactory.createDefaultModel();
+		 // utiliser le FileManager pour trouver le fichier d'entrée
+		 InputStream in2 = FileManager.get().open(inputFileName2);
+		{
+			if(in2 == null) {
+			    throw new IllegalArgumentException("Fichier: " + inputFileName2 + " non trouvé");
+			}
+			// lire le fichier RDF/XML
+			model2.read(in2, "", "RDF/XML");
+		}
+		// fusionne les modèles
+		Model model = model2.intersection(model1);
+		
+		// l'écrire dans un fichier tmp
+		FileWriter writer = null ;
+		try {
+			writer = new FileWriter(path+"tmp.xml", true);
+			model.write(writer, "RDF/XML");
+			try {
+				writer.close();
+			}
+			catch (IOException e) {
+				e.printStackTrace();
+			} 
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		// On compte le nombre de relation (cardinal)
+		File tmp = new File(path+"tmp.xml");
+		double cardinal = compterNombreRelations(path+"tmp.xml");
+		tmp.delete(); 
+		
+		return cardinal ;
+	}
+	
+	private static double calculerIndiceJaccard(String inputFileName1, String inputFileName2){
+		double indice = compterNombreRelationsApresIntersection(inputFileName1, inputFileName2)/compterNombreRelationsApresUnion(inputFileName1, inputFileName2);
+		return indice ;
+	}
+	
+	public static String parseDouble(Double nombre) {
+			
+		DecimalFormat decimalFormat = new DecimalFormat();
+		decimalFormat.setMaximumFractionDigits(2);
+
+		return decimalFormat.format(nombre);
+	}
+	
+	public void creerMatriceSimilarite(String path){
+		// On supprime le CSV s'il existe déjà 
+		File csvSupp = new File(path+"matriceSimilarite.csv") ;
+		if(csvSupp.exists()){
+			csvSupp.delete() ;
+		}
+		String[] listeFichiers = listerRepertoire(path);
+		
+		try {
+			BufferedWriter writer = new BufferedWriter(new FileWriter(new File(path+"\\matriceSimilarite.csv")));
+			writer.write("#;");
+			for(int i = 0 ; i < listeFichiers.length ; i++){
+				writer.write(listeFichiers[i] + ";"); 
+			}
+			writer.write("\n");
+			for(int i = 0 ; i < listeFichiers.length ; i++){
+				String[] tabTmp = new String[100];
+				int j = 0 ;
+				while(j <= listeFichiers.length){
+					if(j == i+1){
+						tabTmp[j] = "XXXX;" ;
+					}
+					else if(j == 0){
+						tabTmp[j] = listeFichiers[i] + ";" ;
+					}
+					else{
+						tabTmp[j] = parseDouble(calculerIndiceJaccard(path + listeFichiers[i], path + listeFichiers[j-1])) + ";" ;
+						System.out.println(path + listeFichiers[i]+"/" + path + listeFichiers[j-1] + " : " + compterNombreRelationsApresIntersection(path + listeFichiers[i], path + listeFichiers[j-1]) + ", " + compterNombreRelationsApresUnion(path + listeFichiers[i], path + listeFichiers[j-1]) + ", " + Double.toString(calculerIndiceJaccard(path + listeFichiers[i], path + listeFichiers[j-1])));
+					}
+					j++ ;
+				}
+				tabTmp[j] = "\n";
+				for(int k = 0 ; k <= j ; k++){
+					writer.write(tabTmp[k]); 
+				}
+			}
+			writer.close();
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}	
+	}
+	
+}

@@ -8,15 +8,15 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-//import javax.xml.transform.Transformer;
-//import javax.xml.transform.TransformerConfigurationException;
-//import javax.xml.transform.TransformerFactory;
-//import javax.xml.transform.stream.StreamResult;
-//
-//import org.apache.jena.riot.Lang;
-//import org.apache.log4j.BasicConfigurator;
-//
-//import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+
+import org.apache.jena.riot.Lang;
+import org.apache.log4j.BasicConfigurator;
+
+import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
@@ -63,13 +63,34 @@ public class CreationGraphe {
 		writer.setProperty("showXmlDeclaration", "true");
 		writer.setProperty("tab", "8");
 		writer.setProperty("relativeURIs", "same-document,relative");
-		OutputStream outStream = new FileOutputStream("foo_" + increment
+		OutputStream outStream = new FileOutputStream(".\\extendedGraph\\foo_" + increment
 				+ ".rdf");
 		writer.write(m, outStream, "RDF/XML-ABBREV");
 		outStream.close();
 
 	}
 
+
+	public void createGraph(String filePath, String rootUrl) {
+		ArrayList arrayOfWords = new ArrayList();
+		try {
+			extractText(filePath, arrayOfWords);
+		} catch (FileNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		// Model creation
+		BasicConfigurator.configure(); // necessary
+		Model m = modelCreation(arrayOfWords, rootUrl);
+
+		try {
+			writeInFile(m);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public static void main(String[] args) throws IOException {
 
 		// ArrayList arrayOfWords = new ArrayList();

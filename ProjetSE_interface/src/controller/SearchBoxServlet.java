@@ -61,7 +61,7 @@ public class SearchBoxServlet extends HttpServlet {
 		    
 		    String requete = request.getParameter("requete");
 		    
-		    s.search(requete);
+		    s.semanticSearch(requete);
 		    JSONObject jsonObj = s.exploreSimiliratyFromCSV("C:\\Users\\Thomas\\Documents\\4IF\\semantic\\ProjetSE\\matrice_jaccard.csv", 0.6);
 		    
 			response.setContentType("application/json");

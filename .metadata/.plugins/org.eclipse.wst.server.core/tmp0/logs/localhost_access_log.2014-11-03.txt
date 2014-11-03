@@ -37,3 +37,10 @@
 0:0:0:0:0:0:0:1 - - [03/Nov/2014:10:02:49 +0100] "POST /ProjetSE_interface/SearchBoxServlet HTTP/1.1" 200 205
 127.0.0.1 - - [03/Nov/2014:10:03:50 +0100] "GET / HTTP/1.1" 404 962
 0:0:0:0:0:0:0:1 - - [03/Nov/2014:10:03:55 +0100] "POST /ProjetSE_interface/SearchBoxServlet HTTP/1.1" 200 205
+127.0.0.1 - - [03/Nov/2014:10:06:50 +0100] "GET / HTTP/1.1" 404 962
+0:0:0:0:0:0:0:1 - - [03/Nov/2014:10:06:55 +0100] "POST /ProjetSE_interface/SearchBoxServlet HTTP/1.1" 500 2572
+127.0.0.1 - - [03/Nov/2014:10:08:51 +0100] "GET / HTTP/1.1" 404 962
+0:0:0:0:0:0:0:1 - - [03/Nov/2014:10:08:59 +0100] "POST /ProjetSE_interface/SearchBoxServlet HTTP/1.1" 404 1032
+127.0.0.1 - - [03/Nov/2014:10:10:43 +0100] "GET / HTTP/1.1" 404 962
+0:0:0:0:0:0:0:1 - - [03/Nov/2014:10:10:55 +0100] "POST /ProjetSE_interface/SearchBoxServlet HTTP/1.1" 404 1032
+127.0.0.1 - - [03/Nov/2014:10:12:13 +0100] "GET / HTTP/1.1" 404 962

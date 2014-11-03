@@ -122,7 +122,7 @@ public class Service {
 		return objJSON;
 	}
 
-	public String search(String requete) throws IOException {
+	public static String search(String requete) throws IOException {
 		GoogleSearch gcse = new GoogleSearch();
 		gcse.GenerateJsonFile("searchResults.json", requete, "", 10L);
 
@@ -132,12 +132,12 @@ public class Service {
 		return "searchResults.json";
 	}
 
-	public void annotateAndCreateGraph(String inputSearchResults) throws Exception {
+	public static void annotateAndCreateGraph(String inputSearchResults) throws Exception {
 		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
 		JsonParser jsonParser = new JsonParser();
 		jsonParser.parseJson(inputSearchResults);
 		jsonParser.displaySearchResults(jsonParser.searchResults);
-
+		System.out.println("BOOOOOOOOOOOOOOOOM 111");
 		for (int i = 0; i < jsonParser.searchResults.searchData.size(); i++) {
 			try {
 				String txt = jsonParser.searchResults.searchData.get(i).description
@@ -151,7 +151,7 @@ public class Service {
 				c.evaluate(input, output);
 
 				// String url = jsonParser.searchResults.searchData.
-				createGraph("extendedGraph\\output" + i + ".txt",jsonParser.searchResults.searchData.get(i).url);
+				createGraph("output" + i + ".txt",jsonParser.searchResults.searchData.get(i).url);
 				
 				c.deleteFile(inputFile);
 
@@ -162,7 +162,7 @@ public class Service {
 		}
 	}
 
-	public void createGraph(String filePath, String rootUrl) {
+	public static void createGraph(String filePath, String rootUrl) {
 		ArrayList arrayOfWords = new ArrayList();
 		CreationGraphe cg = new CreationGraphe();
 
@@ -185,9 +185,9 @@ public class Service {
 		}
 	}
 
-	public void semanticSearch(String requete) throws IOException {
+	public static void semanticSearch(String requete) throws IOException {
 		String searchResults = search(requete);
-
+		System.out.println("au tour de mehdi et kevin ");
 		try {
 			annotateAndCreateGraph(searchResults);
 		} catch (Exception e) {
@@ -195,8 +195,17 @@ public class Service {
 			e.printStackTrace();
 		}
 		compareRDF cRDF = new compareRDF();
-		System.out.println("Dossier kevin -> " +path+"extendedGraph");
 		cRDF.creerMatriceSimilarite("extendedGraph");
 
+	}
+	
+	
+	public static void main(String args[]){
+		try {
+			semanticSearch("obama");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

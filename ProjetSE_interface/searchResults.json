@@ -1,0 +1,805 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - obama",
+    "totalResults": "84600000",
+    "searchTerms": "obama",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006463225579681566849:zklgocryvzk"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - obama",
+    "totalResults": "84600000",
+    "searchTerms": "obama",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006463225579681566849:zklgocryvzk"
+   }
+  ]
+ },
+ "context": {
+  "title": "ws-h4301-cse",
+  "facets": [
+   [
+    {
+     "label": "achat",
+     "anchor": "achat",
+     "label_with_op": "more:achat"
+    }
+   ],
+   [
+    {
+     "label": "encyclopedie",
+     "anchor": "encyclopedie",
+     "label_with_op": "more:encyclopedie"
+    }
+   ],
+   [
+    {
+     "label": "actualite",
+     "anchor": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ],
+   [
+    {
+     "label": "livres",
+     "anchor": "livres",
+     "label_with_op": "more:livres"
+    }
+   ],
+   [
+    {
+     "label": "voyages",
+     "anchor": "voyages",
+     "label_with_op": "more:voyages"
+    }
+   ],
+   [
+    {
+     "label": "forum",
+     "anchor": "forum",
+     "label_with_op": "more:forum"
+    }
+   ]
+  ]
+ },
+ "searchInformation": {
+  "searchTime": 0.233733,
+  "formattedSearchTime": "0,23",
+  "totalResults": "84600000",
+  "formattedTotalResults": "84 600 000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e",
+   "link": "http://www.cnn.com/ELECTION/2008/candidates/barack.obama.html",
+   "displayLink": "www.cnn.com",
+   "snippet": "Who's a contender in the White House race in 2008? The presidential candidates \n-- or even those just mentioned -- represent an array of backgrounds and ...",
+   "htmlSnippet": "Who&#39;s a contender in the White House race in 2008? The presidential candidates \u003cbr\u003e\n-- or even those just mentioned -- represent an array of backgrounds and&nbsp;...",
+   "cacheId": "A1z_n6Twq2cJ",
+   "formattedUrl": "www.cnn.com/ELECTION/2008/candidates/barack.obama.html",
+   "htmlFormattedUrl": "www.cnn.com/ELECTION/2008/candidates/barack.\u003cb\u003eobama\u003c/b\u003e.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i.cdn.turner.com/cnn/ELECTION/2008/candidates/images/09/215x280/obama.jpg",
+      "type": "1",
+      "width": "172",
+      "height": "224"
+     }
+    ],
+    "metatags": [
+     {
+      "title": "Election Center 2008: Candidates - Election & Politics News from CNN.com"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "5 takeaways from Obama's ISIS speech - CNN.com",
+   "htmlTitle": "5 takeaways from \u003cb\u003eObama&#39;s\u003c/b\u003e ISIS speech - CNN.com",
+   "link": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/",
+   "displayLink": "www.cnn.com",
+   "snippet": "Sep 11, 2014 ... When President Obama announced his plan Wednesday night to launch air \nstrikes in Syria against ISIS, he opened a new chapter in the ...",
+   "htmlSnippet": "Sep 11, 2014 \u003cb\u003e...\u003c/b\u003e When President \u003cb\u003eObama\u003c/b\u003e announced his plan Wednesday night to launch air \u003cbr\u003e\nstrikes in Syria against ISIS, he opened a new chapter in the&nbsp;...",
+   "formattedUrl": "www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/",
+   "htmlFormattedUrl": "www.cnn.com/2014/09/11/politics/\u003cb\u003eobama\u003c/b\u003e-speech-5-takeaways/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-story-top.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "newsarticle": [
+     {
+      "genre": "news",
+      "inlanguage": "en-US",
+      "description": "When President Obama announced his plan Wednesday night to launch air strikes in Syria against ISIS, he opened a new chapter in the American war on Islamic extremism. Click here to get all...",
+      "keywords": "President Obama,ISIS,Syria,Congress,Terrorism,ISIL",
+      "author": "Z. Byron Wolf, CNN",
+      "articlesection": "politics",
+      "sourceorganization": "CNN",
+      "datepublished": "2014-09-11T04:34:55Z",
+      "datemodified": "2014-09-11T16:43:01Z",
+      "datecreated": "2014-09-11T04:34:55Z",
+      "headline": "5 takeaways from Obama's ISIS speech",
+      "url": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-story-top.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1024",
+      "medium": "news",
+      "title": "5 takeaways from Obama's ISIS speech - CNN.com",
+      "news_keywords": "President Obama,ISIS,Syria,Congress,Terrorism,ISIL",
+      "author": "Z. Byron Wolf, CNN",
+      "section": "politics",
+      "source": "CNN",
+      "pubdate": "2014-09-11T04:34:55Z",
+      "lastmod": "2014-09-11T16:43:01Z",
+      "og:title": "5 takeaways from Obama's ISIS speech",
+      "og:type": "article",
+      "og:url": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
+      "og:site_name": "CNN",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-story-top.jpg",
+      "vr:canonical": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
+      "fb:page_id": "129343697106537",
+      "fb:app_id": "80401312489",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@CNN",
+      "twitter:site:id": "759251",
+      "twitter:creator": "@cnnpolitics",
+      "twitter:creator:id": "13850422",
+      "twitter:description": "When President Obama announced his plan Wednesday night to launch air strikes in Syria against ISIS, he opened a new chapter in the American war on Islamic extremism. Click here to get all the facts on President Obama's speech to the nation on his new strategy to combat ISIS with air strikes in Iraq and Syria. Or click here to read the transcript.",
+      "twitter:title": "5 takeaways from Obama's ISIS speech",
+      "twitter:url": "http://www.cnn.com/2014/09/11/politics/obama-speech-5-takeaways/index.html",
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140911012755-orig-jag-potus-on-isis-00000714-left-tease.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "BBC News - Obama refuses ice bucket challenge, but donates instead",
+   "htmlTitle": "BBC News - \u003cb\u003eObama\u003c/b\u003e refuses ice bucket challenge, but donates instead",
+   "link": "http://www.bbc.com/news/world-us-canada-28892227",
+   "displayLink": "www.bbc.com",
+   "snippet": "Aug 22, 2014 ... Barack Obama has said he will not be taking part in the ice bucket challenge, a \nfundraising stunt which involves people drenching themselves ...",
+   "htmlSnippet": "Aug 22, 2014 \u003cb\u003e...\u003c/b\u003e Barack \u003cb\u003eObama\u003c/b\u003e has said he will not be taking part in the ice bucket challenge, a \u003cbr\u003e\nfundraising stunt which involves people drenching themselves&nbsp;...",
+   "cacheId": "3tbbau3fQQAJ",
+   "formattedUrl": "www.bbc.com/news/world-us-canada-28892227",
+   "htmlFormattedUrl": "www.bbc.com/news/world-us-canada-28892227",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105150_77105149.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "NewsItem": [
+     {
+      "description": "Barack Obama has said he will not be taking part in the ice bucket challenge, a fundraising stunt which involves people drenching themselves with cold water.",
+      "datePublished": "2014/08/22 05:48:55",
+      "thumbnailUrl": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105165_77105147.jpg",
+      "headline": "Obama refuses ice bucket challenge ",
+      "creator": "http://www.bbc.co.uk#org",
+      "title": "Obama refuses ice bucket challenge ",
+      "type": "article",
+      "url": "http://www.bbc.com/news/world-us-canada-28892227",
+      "site_name": "BBC News",
+      "image": "http://newsimg.bbc.co.uk/media/images/67373000/jpg/_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "rnews:description": "Barack Obama has said he will not be taking part in the ice bucket challenge, a fundraising stunt which involves people drenching themselves with cold water.",
+      "originalpublicationdate": "2014/08/22 05:48:55",
+      "rnews:datepublished": "2014/08/22 05:48:55",
+      "ukfs_url": "/news/world-us-canada-28892227",
+      "thumbnail_url": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105165_77105147.jpg",
+      "rnews:thumbnailurl": "http://news.bbcimg.co.uk/media/images/77105000/jpg/_77105165_77105147.jpg",
+      "headline": "Obama refuses ice bucket challenge",
+      "rnews:headline": "Obama refuses ice bucket challenge",
+      "ifs_url": "/news/world-us-canada-28892227",
+      "section": "US & Canada",
+      "contentflavor": "STORY",
+      "cps_id": "28892227",
+      "cps_site_name": "BBC News",
+      "cps_section_path": "World/US and Canada",
+      "cps_asset_type": "MAP",
+      "cps_platform": "HighWeb",
+      "cps_audience": "US",
+      "rnews:creator": "http://www.bbc.co.uk#org",
+      "og:title": "Obama refuses ice bucket challenge",
+      "og:type": "article",
+      "og:url": "http://www.bbc.com/news/world-us-canada-28892227",
+      "og:site_name": "BBC News",
+      "og:image": "http://newsimg.bbc.co.uk/media/images/67373000/jpg/_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg",
+      "bbcsearch_noindex": "emp",
+      "application-name": "BBC News",
+      "msapplication-tileimage": "/img/1_0_3/cream/hi/news/bbc-news-pin.png",
+      "msapplication-tilecolor": "#CC0101",
+      "viewport": "width = 996",
+      "msapplication-tooltip": "Explore the BBC, for latest news, sport and weather, TV & radio schedules and highlights, with nature, food, comedy, children's programmes and much more",
+      "msapplication-starturl": "http://www.bbc.com/news/?ocid=global-news-pinned-ie9",
+      "msapplication-window": "width=1024;height=768",
+      "msapplication-task": "name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://news.bbcimg.co.uk/shared/img/bbccom/favicon_16.ico",
+      "dcterms.created": "2014-08-22T05:48:55+00:00",
+      "dcterms.modified": "2014-08-22T05:48:55+00:00"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Barack Obama : Toute l'actualité sur Le Monde.fr.",
+   "htmlTitle": "Barack \u003cb\u003eObama\u003c/b\u003e : Toute l&#39;actualité sur Le Monde.fr.",
+   "link": "http://www.lemonde.fr/barack-obama/",
+   "displayLink": "www.lemonde.fr",
+   "snippet": "Barack Obama - Découvrez gratuitement tous les articles, les vidéos et les \ninfographies de la rubrique Barack Obama sur Le Monde.fr.",
+   "htmlSnippet": "Barack \u003cb\u003eObama\u003c/b\u003e - Découvrez gratuitement tous les articles, les vidéos et les \u003cbr\u003e\ninfographies de la rubrique Barack \u003cb\u003eObama\u003c/b\u003e sur Le Monde.fr.",
+   "formattedUrl": "www.lemonde.fr/barack-obama/",
+   "htmlFormattedUrl": "www.lemonde.fr/barack-\u003cb\u003eobama\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://s1.lemde.fr/image/2014/10/22/147x97/4510562_7_78ef_barack-obama-au-milieu-d-une-plaisanterie-lors_ce326f525b5cd3d5e88bac057d5e1c8e.jpg",
+      "type": "1",
+      "width": "117",
+      "height": "77"
+     }
+    ],
+    "metatags": [
+     {
+      "application-name": "Le Monde.fr",
+      "dc.language": "fr",
+      "dc.format": "text/html",
+      "dc.publisher": "Le Monde",
+      "dc.identifier": "ISSN 1950-6244",
+      "msapplication-tooltip": "Le Monde.fr",
+      "msapplication-navbutton-color": "#000",
+      "msapplication-starturl": "/",
+      "msapplication-task": "name=A la Une;action-uri=/;icon-uri=/medias/web/ico/ie9-pin/une.ico",
+      "fb:app_id": "166878320861",
+      "fb:page_id": "14892757589",
+      "og:site_name": "Le Monde.fr",
+      "og:type": "website",
+      "og:locale": "fr_FR",
+      "og:url": "http://www.lemonde.fr/barack-obama/",
+      "og:title": "Barack Obama : Toute l'actualité sur Le Monde.fr.",
+      "og:description": "Barack Obama - Découvrez gratuitement tous les articles, les vidéos et les infographies de la rubrique Barack Obama sur Le Monde.fr.",
+      "og:image:type": "image/jpeg",
+      "og:image:width": "150",
+      "og:image:height": "100",
+      "og:image": "http://s1.lemde.fr/medias/web/1.2.661/img/placeholder/opengraph.jpg",
+      "al:ios:url": "lmfr://",
+      "al:ios:app_store_id": "294047850",
+      "al:android:url": "lmfr://",
+      "al:android:package": "com.lemonde.androidapp",
+      "al:web:url": "http://www.lemonde.fr/barack-obama/",
+      "al:web:should_fallback": "true",
+      "twitter:card": "summary",
+      "twitter:site": "@lemondefr",
+      "twitter:url": "http://www.lemonde.fr/barack-obama/",
+      "twitter:title": "Barack Obama : Toute l'actualité sur Le Monde.fr.",
+      "twitter:description": "Barack Obama - Découvrez gratuitement tous les articles, les vidéos et les infographies de la rubrique Barack Obama sur Le Monde.fr.",
+      "twitter:app:country": "FR",
+      "twitter:app:id:iphone": "294047850",
+      "twitter:app:url:iphone": "lmfr://",
+      "twitter:app:id:ipad": "294047850",
+      "twitter:app:url:ipad": "lmfr://",
+      "twitter:app:id:googleplay": "com.lemonde.androidapp",
+      "twitter:app:url:googleplay": "lmfr://"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Quand Barack Obama taquine un footballeur français",
+   "htmlTitle": "Quand Barack \u003cb\u003eObama\u003c/b\u003e taquine un footballeur français",
+   "link": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
+   "displayLink": "www.lemonde.fr",
+   "snippet": "2 oct. 2014 ... Barack Obama n'a pas manqué de féliciter avec humour celui qui a été désigné \nmeilleur joueur de la finale, le Français Aurélien Collin, qui a ...",
+   "htmlSnippet": "2 oct. 2014 \u003cb\u003e...\u003c/b\u003e Barack \u003cb\u003eObama\u003c/b\u003e n&#39;a pas manqué de féliciter avec humour celui qui a été désigné \u003cbr\u003e\nmeilleur joueur de la finale, le Français Aurélien Collin, qui a&nbsp;...",
+   "formattedUrl": "www.lemonde.fr/.../barack-obama-taquine-un-footballeur_4499446_ 1616938.html",
+   "htmlFormattedUrl": "www.lemonde.fr/.../barack-\u003cb\u003eobama\u003c/b\u003e-taquine-un-footballeur_4499446_ 1616938.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://s2.lemde.fr/image/2014/09/13/147x97/4487000_7_95f5_ill-4487000-cf0a-903005_4696724567ced1c031276d68bcc2abb9.jpg",
+      "type": "1",
+      "width": "117",
+      "height": "77"
+     }
+    ],
+    "mediaobject": [
+     {
+      "headline": "Quand Barack Obama taquine un footballeur français",
+      "publisher": "Le Monde.fr",
+      "datepublished": "2014-10-02T15:07:38+02:00",
+      "datemodified": "2014-10-02T16:49:31+02:00",
+      "duration": "00:31",
+      "description": "Lire aussi : « Engouement incroyable » aux Etats-Unis pour le Mondial"
+     }
+    ],
+    "metatags": [
+     {
+      "application-name": "Le Monde.fr",
+      "dc.language": "fr",
+      "dc.format": "text/html",
+      "dc.publisher": "Le Monde",
+      "dc.identifier": "ISSN 1950-6244",
+      "msapplication-tooltip": "Le Monde.fr",
+      "msapplication-navbutton-color": "#000",
+      "msapplication-starturl": "/",
+      "msapplication-task": "name=A la Une;action-uri=/;icon-uri=/medias/web/ico/ie9-pin/une.ico",
+      "fb:app_id": "166878320861",
+      "fb:page_id": "14892757589",
+      "og:site_name": "Le Monde.fr",
+      "og:locale": "fr_FR",
+      "og:url": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
+      "og:title": "Quand Barack Obama taquine un footballeur français",
+      "og:description": "Le président des Etats-Unis a reçu mercredi à la Maison Blanche le Sporting Kansas City, qui remporté en 2013 le championnat professionnel de football.",
+      "og:video": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
+      "og:video:type": "text/html",
+      "og:type": "video.other",
+      "al:ios:url": "lmfr://element/video/4499446?x4=8",
+      "al:ios:app_store_id": "294047850",
+      "al:android:url": "lmfr://element/video/4499446?x4=8",
+      "al:android:package": "com.lemonde.androidapp",
+      "al:web:url": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
+      "al:web:should_fallback": "true",
+      "twitter:card": "summary",
+      "twitter:site": "@lemondefr",
+      "twitter:url": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
+      "twitter:title": "Quand Barack Obama taquine un footballeur français",
+      "twitter:description": "Le président des Etats-Unis a reçu mercredi à la Maison Blanche le Sporting Kansas City, qui remporté en 2013 le championnat professionnel de football.",
+      "twitter:image": "http://s2.dmcdn.net/EZlPB/x240-Uh9.jpg",
+      "twitter:app:country": "FR",
+      "twitter:app:id:iphone": "294047850",
+      "twitter:app:url:iphone": "lmfr://element/video/4499446?x4=8",
+      "twitter:app:id:ipad": "294047850",
+      "twitter:app:url:ipad": "lmfr://element/video/4499446?x4=8",
+      "twitter:app:id:googleplay": "com.lemonde.androidapp",
+      "twitter:app:url:googleplay": "lmfr://element/video/4499446?x4=8"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Scottish independence: Barack Obama backs 'strong and united' UK",
+   "htmlTitle": "Scottish independence: Barack \u003cb\u003eObama\u003c/b\u003e backs &#39;strong and united&#39; UK",
+   "link": "http://www.bbc.com/news/uk-scotland-scotland-politics-27713327",
+   "displayLink": "www.bbc.com",
+   "snippet": "Jun 5, 2014 ... Barack Obama has said the interest of the US in the Scottish independence \nreferendum issue was to ensure it retained a \"strong, robust, united ...",
+   "htmlSnippet": "Jun 5, 2014 \u003cb\u003e...\u003c/b\u003e Barack \u003cb\u003eObama\u003c/b\u003e has said the interest of the US in the Scottish independence \u003cbr\u003e\nreferendum issue was to ensure it retained a &quot;strong, robust, united&nbsp;...",
+   "cacheId": "Ty7QhzHTiNQJ",
+   "formattedUrl": "www.bbc.com/news/uk-scotland-scotland-politics-27713327",
+   "htmlFormattedUrl": "www.bbc.com/news/uk-scotland-scotland-politics-27713327",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://news.bbcimg.co.uk/media/images/75329000/jpg/_75329810_obama.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "NewsItem": [
+     {
+      "description": "Barack Obama says the interest of the US in the Scottish independence referendum issue is to ensure it retains a \"strong, robust, united and effective partner\".",
+      "datePublished": "2014/06/05 16:43:41",
+      "thumbnailUrl": "http://news.bbcimg.co.uk/media/images/75329000/jpg/_75329808_obama.jpg",
+      "headline": "Obama backs 'strong and united' UK",
+      "creator": "http://www.bbc.co.uk#org",
+      "title": "Obama backs 'strong and united' UK",
+      "type": "article",
+      "url": "http://www.bbc.com/news/uk-scotland-scotland-politics-27713327",
+      "site_name": "BBC News",
+      "image": "http://news.bbcimg.co.uk/media/images/75329000/jpg/_75329810_obama.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "rnews:description": "Barack Obama says the interest of the US in the Scottish independence referendum issue is to ensure it retains a \"strong, robust, united and effective partner\".",
+      "originalpublicationdate": "2014/06/05 16:43:41",
+      "rnews:datepublished": "2014/06/05 16:43:41",
+      "ukfs_url": "/news/uk-scotland-scotland-politics-27713327",
+      "thumbnail_url": "http://news.bbcimg.co.uk/media/images/75329000/jpg/_75329808_obama.jpg",
+      "rnews:thumbnailurl": "http://news.bbcimg.co.uk/media/images/75329000/jpg/_75329808_obama.jpg",
+      "headline": "Obama backs 'strong and united' UK",
+      "rnews:headline": "Obama backs 'strong and united' UK",
+      "ifs_url": "/news/uk-scotland-scotland-politics-27713327",
+      "section": "Scotland politics",
+      "contentflavor": "STORY",
+      "cps_id": "27713327",
+      "cps_site_name": "BBC News",
+      "cps_section_path": "Scotland/Scotland politics",
+      "cps_asset_type": "STY",
+      "cps_platform": "HighWeb",
+      "cps_audience": "US",
+      "rnews:creator": "http://www.bbc.co.uk#org",
+      "og:title": "Obama backs 'strong and united' UK",
+      "og:type": "article",
+      "og:url": "http://www.bbc.com/news/uk-scotland-scotland-politics-27713327",
+      "og:site_name": "BBC News",
+      "og:image": "http://news.bbcimg.co.uk/media/images/75329000/jpg/_75329810_obama.jpg",
+      "bbcsearch_noindex": "atom",
+      "application-name": "BBC News",
+      "msapplication-tileimage": "/img/1_0_3/cream/hi/news/bbc-news-pin.png",
+      "msapplication-tilecolor": "#CC0101",
+      "viewport": "width = 996",
+      "msapplication-tooltip": "Explore the BBC, for latest news, sport and weather, TV & radio schedules and highlights, with nature, food, comedy, children's programmes and much more",
+      "msapplication-starturl": "http://www.bbc.com/news/?ocid=global-news-pinned-ie9",
+      "msapplication-window": "width=1024;height=768",
+      "msapplication-task": "name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://news.bbcimg.co.uk/shared/img/bbccom/favicon_16.ico",
+      "dcterms.created": "2014-06-05T14:36:15+00:00",
+      "dcterms.modified": "2014-06-05T16:43:41+00:00"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
+   "htmlTitle": "\u003cb\u003eObama\u003c/b\u003e outlines foreign policy vision of &#39;might and right&#39; - CNN.com",
+   "link": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
+   "displayLink": "www.cnn.com",
+   "snippet": "May 29, 2014 ... President Barack Obama outlined a foreign policy vision of \"might doing right,\" \nsaying modern pragmatism requires a strong military and ...",
+   "htmlSnippet": "May 29, 2014 \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e outlined a foreign policy vision of &quot;might doing right,&quot; \u003cbr\u003e\nsaying modern pragmatism requires a strong military and&nbsp;...",
+   "formattedUrl": "www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
+   "htmlFormattedUrl": "www.cnn.com/2014/05/28/politics/\u003cb\u003eobama\u003c/b\u003e-west-point-foreign-policy/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "newsarticle": [
+     {
+      "genre": "news",
+      "inlanguage": "en-US",
+      "description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
+      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
+      "articlesection": "politics",
+      "sourceorganization": "CNN",
+      "datepublished": "2014-05-28T04:12:52Z",
+      "datemodified": "2014-05-29T10:33:16Z",
+      "datecreated": "2014-05-28T04:12:52Z",
+      "headline": "Obama outlines foreign policy vision of 'might and right'",
+      "url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1024",
+      "medium": "news",
+      "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
+      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
+      "section": "politics",
+      "source": "CNN",
+      "pubdate": "2014-05-28T04:12:52Z",
+      "lastmod": "2014-05-29T10:33:16Z",
+      "og:title": "Obama outlines foreign policy vision of 'might and right'",
+      "og:type": "article",
+      "og:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "og:site_name": "CNN",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
+      "vr:canonical": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "fb:page_id": "129343697106537",
+      "fb:app_id": "80401312489",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@CNN",
+      "twitter:site:id": "759251",
+      "twitter:creator": "@cnnpolitics",
+      "twitter:creator:id": "13850422",
+      "twitter:description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
+      "twitter:title": "Obama outlines foreign policy vision of 'might and right'",
+      "twitter:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-left-tease.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Transcript: President Obama's Speech on Combating ISIS - CNN.com",
+   "htmlTitle": "Transcript: President \u003cb\u003eObama&#39;s\u003c/b\u003e Speech on Combating ISIS - CNN.com",
+   "link": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/",
+   "displayLink": "www.cnn.com",
+   "snippet": "Sep 10, 2014 ... President Obama addressed the nation on his strategy to deal with ISIS in Syria \nand Iraq; The White House released text of the remarks as they ...",
+   "htmlSnippet": "Sep 10, 2014 \u003cb\u003e...\u003c/b\u003e President \u003cb\u003eObama\u003c/b\u003e addressed the nation on his strategy to deal with ISIS in Syria \u003cbr\u003e\nand Iraq; The White House released text of the remarks as they&nbsp;...",
+   "formattedUrl": "www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/",
+   "htmlFormattedUrl": "www.cnn.com/2014/09/10/politics/transcript-\u003cb\u003eobama\u003c/b\u003e-syria-isis-speech/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "newsarticle": [
+     {
+      "genre": "news",
+      "inlanguage": "en-US",
+      "description": "My fellow Americans -- tonight, I want to speak to you about what the United States will do with our friends and allies to degrade and ultimately destroy the terrorist group known as ISIL.",
+      "articlesection": "politics",
+      "sourceorganization": "CNN",
+      "datepublished": "2014-09-11T01:04:07Z",
+      "datemodified": "2014-09-11T01:35:55Z",
+      "datecreated": "2014-09-11T01:04:07Z",
+      "contentlocation": "The White House",
+      "headline": "Transcript: President Obama's Speech on Combating ISIS and Terrorism",
+      "url": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1024",
+      "medium": "news",
+      "title": "Transcript: President Obama's Speech on Combating ISIS - CNN.com",
+      "section": "politics",
+      "source": "CNN",
+      "pubdate": "2014-09-11T01:04:07Z",
+      "lastmod": "2014-09-11T01:35:55Z",
+      "og:title": "Transcript: President Obama's Speech on Combating ISIS and Terrorism",
+      "og:type": "article",
+      "og:url": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
+      "og:site_name": "CNN",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-story-top.jpg",
+      "vr:canonical": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
+      "fb:page_id": "129343697106537",
+      "fb:app_id": "80401312489",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@CNN",
+      "twitter:site:id": "759251",
+      "twitter:creator": "@cnnpolitics",
+      "twitter:creator:id": "13850422",
+      "twitter:description": "My fellow Americans -- tonight, I want to speak to you about what the United States will do with our friends and allies to degrade and ultimately destroy the terrorist group known as ISIL.",
+      "twitter:title": "Transcript: President Obama's Speech on Combating ISIS",
+      "twitter:url": "http://www.cnn.com/2014/09/10/politics/transcript-obama-syria-isis-speech/index.html",
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140910210523-03-obama-0910-left-tease.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "GOP-led House authorizes lawsuit against Obama - CNN.com",
+   "htmlTitle": "GOP-led House authorizes lawsuit against \u003cb\u003eObama\u003c/b\u003e - CNN.com",
+   "link": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/",
+   "displayLink": "www.cnn.com",
+   "snippet": "Jul 31, 2014 ... The Republican-led House approved a resolution on Wednesday authorizing \nSpeaker John Boehner to sue President Barack Obama over ...",
+   "htmlSnippet": "Jul 31, 2014 \u003cb\u003e...\u003c/b\u003e The Republican-led House approved a resolution on Wednesday authorizing \u003cbr\u003e\nSpeaker John Boehner to sue President Barack \u003cb\u003eObama\u003c/b\u003e over&nbsp;...",
+   "formattedUrl": "www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/",
+   "htmlFormattedUrl": "www.cnn.com/2014/07/30/politics/gop-\u003cb\u003eobama\u003c/b\u003e-lawsuit/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-story-top.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "newsarticle": [
+     {
+      "genre": "news",
+      "inlanguage": "en-US",
+      "description": "The Republican-led House approved a resolution on Wednesday authorizing Speaker John Boehner to sue President Barack Obama over claims he abused his powers at the expense of Congress and the...",
+      "author": "Deirdre Walsh, CNN Senior Congressional Producer",
+      "articlesection": "politics",
+      "sourceorganization": "CNN",
+      "datepublished": "2014-07-30T22:36:55Z",
+      "datemodified": "2014-07-31T12:04:36Z",
+      "datecreated": "2014-07-30T22:36:55Z",
+      "headline": "GOP-led House authorizes lawsuit against Obama",
+      "url": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-story-top.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1024",
+      "medium": "news",
+      "title": "GOP-led House authorizes lawsuit against Obama - CNN.com",
+      "author": "Deirdre Walsh, CNN Senior Congressional Producer",
+      "section": "politics",
+      "source": "CNN",
+      "pubdate": "2014-07-30T22:36:55Z",
+      "lastmod": "2014-07-31T12:04:36Z",
+      "og:title": "GOP-led House authorizes lawsuit against Obama",
+      "og:type": "article",
+      "og:url": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
+      "og:site_name": "CNN",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-story-top.jpg",
+      "vr:canonical": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
+      "fb:page_id": "129343697106537",
+      "fb:app_id": "80401312489",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@CNN",
+      "twitter:site:id": "759251",
+      "twitter:creator": "@cnnpolitics",
+      "twitter:creator:id": "13850422",
+      "twitter:description": "The Republican-led House approved a resolution on Wednesday authorizing Speaker John Boehner to sue President Barack Obama over claims he abused his powers at the expense of Congress and the Constitution.",
+      "twitter:title": "GOP-led House authorizes lawsuit against Obama",
+      "twitter:url": "http://www.cnn.com/2014/07/30/politics/gop-obama-lawsuit/index.html",
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140730224911-ac-bash-republicans-lawsuit-against-obama-00000415-left-tease.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "His role reduced, Obama to make final campaign push - CNN.com",
+   "htmlTitle": "His role reduced, \u003cb\u003eObama\u003c/b\u003e to make final campaign push - CNN.com",
+   "link": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/",
+   "displayLink": "www.cnn.com",
+   "snippet": "11 hours ago ... President Barack Obama was set to embark upon the final push of what he calls \nhis last campaign Sunday, hoping to mobilize voters.",
+   "htmlSnippet": "11 hours ago \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e was set to embark upon the final push of what he calls \u003cbr\u003e\nhis last campaign Sunday, hoping to mobilize voters.",
+   "formattedUrl": "www.cnn.com/2014/11/02/politics/obama-campaign-push/",
+   "htmlFormattedUrl": "www.cnn.com/2014/11/02/politics/\u003cb\u003eobama\u003c/b\u003e-campaign-push/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-story-top.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "newsarticle": [
+     {
+      "genre": "news",
+      "inlanguage": "en-US",
+      "description": "President Barack Obama was set to embark upon the final push of what he calls his last campaign Sunday, hoping to mobilize voters.",
+      "author": "Kevin Liptak and Laura Koran, CNN",
+      "articlesection": "politics",
+      "sourceorganization": "CNN",
+      "datepublished": "2014-11-02T15:39:21Z",
+      "datemodified": "2014-11-02T22:00:56Z",
+      "datecreated": "2014-11-02T15:39:21Z",
+      "contentlocation": "Bridgeport, Connecticut",
+      "headline": "Obama making restricted campaign push",
+      "url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-story-top.jpg",
+      "image": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-video-tease.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1024",
+      "medium": "news",
+      "title": "His role reduced, Obama to make final campaign push - CNN.com",
+      "author": "Kevin Liptak and Laura Koran, CNN",
+      "section": "politics",
+      "source": "CNN",
+      "pubdate": "2014-11-02T15:39:21Z",
+      "lastmod": "2014-11-02T22:00:56Z",
+      "og:title": "Obama making restricted campaign push",
+      "og:type": "article",
+      "og:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "og:site_name": "CNN",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-story-top.jpg",
+      "vr:canonical": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "fb:page_id": "129343697106537",
+      "fb:app_id": "80401312489",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@CNN",
+      "twitter:site:id": "759251",
+      "twitter:creator": "@cnnpolitics",
+      "twitter:creator:id": "13850422",
+      "twitter:description": "President Barack Obama was set to embark upon the final push of what he calls his last campaign Sunday, hoping to mobilize voters.",
+      "twitter:title": "His role reduced, Obama to make final campaign push",
+      "twitter:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-left-tease.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  }
+ ]
+}
