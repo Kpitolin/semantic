@@ -25,8 +25,8 @@ import java.util.List;
 public class DBpediaSpotlightClient extends AnnotationClient {
 
 	private final static String API_URL = "http://spotlight.dbpedia.org/";
-	private static final double CONFIDENCE = 0.0;
-	private static final int SUPPORT = 0;
+	private static final double CONFIDENCE = 0.2;
+	private static final int SUPPORT = 20;
 
 	@Override
 	public List<DBpediaResource> extract(Text text) throws AnnotationException {
@@ -37,8 +37,10 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 			GetMethod getMethod = new GetMethod(API_URL + "rest/annotate/?"
 					+ "confidence=" + CONFIDENCE + "&support=" + SUPPORT
 					+ "&text=" + URLEncoder.encode(text.text(), "utf-8"));
-			getMethod
-					.addRequestHeader(new Header("Accept", "application/json"));
+			//System.out.println(URLEncoder.encode(text.text(), "utf-8"));
+			//GetMethod getMethod = new GetMethod("http://spotlight.dbpedia.org/rest/annotate?text=In%202004%2C%20Obama%20received&confidence=0.2&support=20&types=Person,Organisation");
+			//GetMethod getMethod = new GetMethod("http://spotlight.dbpedia.org/rest/annotate?text=President%20Obama%20called%20Wednesday%20on%20Congress%20to%20extend%20a%20tax%20break%20for%20students%20included%20in%20last%20year%27s%20economic%20stimulus%20package,%20arguing%20that%20the%20policy%20provides%20more%20generous%20assistance.&confidence=0.2&support=20");
+			getMethod.addRequestHeader(new Header("Accept", "application/json"));
 
 			spotlightResponse = request(getMethod);
 		} catch (UnsupportedEncodingException e) {
@@ -116,20 +118,21 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 
 	public static void main(String[] args) throws Exception {
 
-//		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
-//		JsonParser jsonParser = new JsonParser();
-//		jsonParser.parseJson();
-//		jsonParser.displaySearchResults(jsonParser.searchResults);
-//		
-//		String inputFile = c.writeInFile(jsonParser.searchResults.searchData
-//				.get(0).description);
-//
-//		File input = new File(inputFile);
-//		File output = new File("output.txt");
-//
-//		c.evaluate(input, output);
-//		c.deleteFile(inputFile);
+		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
+		JsonParser jsonParser = new JsonParser();
+		jsonParser.parseJson("test.json");
+		jsonParser.displaySearchResults(jsonParser.searchResults);
+		
+		for(int i = 0; i < jsonParser.searchResults.searchData.size(); i++){
+			String txt = jsonParser.searchResults.searchData.get(i).description + "\n -";
+			String inputFile = c.writeInFile(txt);
+			File input = new File(inputFile);
+			File output = new File("output" + i + ".txt");
 
+			c.evaluate(input, output);
+			c.deleteFile(inputFile);
+		}
+		
 	}
 
 }

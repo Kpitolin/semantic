@@ -1,0 +1,15 @@
+package model;
+import java.util.ArrayList;
+
+
+public class SearchData {
+	protected String url;
+	protected String title;
+	public String description;
+	protected ArrayList<String> keyWords;
+	
+	
+	public SearchData(){
+		keyWords = new ArrayList<String>();
+	}
+}

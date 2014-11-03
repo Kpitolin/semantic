@@ -67,6 +67,7 @@ public abstract class AnnotationClient {
         byte[] buffer = new byte[(int) file.length()];
         BufferedInputStream f = new BufferedInputStream(new FileInputStream(file));
         f.read(buffer);
+        f.close();
         return new String(buffer);
     }
 

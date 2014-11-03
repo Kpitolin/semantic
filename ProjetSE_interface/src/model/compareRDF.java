@@ -179,7 +179,7 @@ public class compareRDF {
 		return decimalFormat.format(nombre);
 	}
 	
-	public void creerMatriceSimilarite(){
+	public void creerMatriceSimilarite(String path){
 		// On supprime le CSV s'il existe déjà 
 		File csvSupp = new File(path+"matriceSimilarite.csv") ;
 		if(csvSupp.exists()){

@@ -18,4 +18,8 @@
 <fullyQualifiedTypeName name="java.io.StringWriter"/>
 <fullyQualifiedTypeName name="service.Service"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="model.GoogleSearch"/>
+<fullyQualifiedTypeName name="model.DuckDuckGoSearch"/>
+<fullyQualifiedTypeName name="model.CreationGraphe"/>
+<fullyQualifiedTypeName name="model.compareRDF"/>
 </qualifiedTypeNameHistroy>

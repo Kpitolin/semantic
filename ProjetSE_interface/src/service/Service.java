@@ -24,7 +24,7 @@ import au.com.bytecode.opencsv.CSVReader;
 
 public class Service {
 	private final static char SEPARATOR = ';';
-
+	private final static String path = "..\\outputs\\";
 	@SuppressWarnings({ "unchecked", "unused" })
 	public JSONObject exploreSimiliratyFromCSV(String pathnameCSV,
 			double seuilJaccard) throws IOException {
@@ -122,38 +122,44 @@ public class Service {
 		return objJSON;
 	}
 
-	public void search(String requete) throws IOException {
+	public String search(String requete) throws IOException {
 		GoogleSearch gcse = new GoogleSearch();
 		gcse.GenerateJsonFile("searchResults.json", requete, "", 10L);
 
-		//Trace
-		System.out.println(gcse.getSearchUrl());
+		// Trace
+		//System.out.println(gcse.getSearchUrl());
+		
+		return "searchResults.json";
 	}
 
-	public void annotate() {
+	public void annotateAndCreateGraph(String inputSearchResults) throws Exception {
 		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
 		JsonParser jsonParser = new JsonParser();
-		jsonParser.parseJson("searchResults.json");
+		jsonParser.parseJson(inputSearchResults);
 		jsonParser.displaySearchResults(jsonParser.searchResults);
 
-		String txt = "";
-
 		for (int i = 0; i < jsonParser.searchResults.searchData.size(); i++) {
-			txt += jsonParser.searchResults.searchData.get(0).description
-					+ "\n";
-		}
-		String inputFile = c.writeInFile(txt);
+			try {
+				String txt = jsonParser.searchResults.searchData.get(i).description
+						+ "\n -";
+				String inputFile = c.writeInFile(txt);
+				File input = new File(inputFile);
+				File output = new File("output" + i + ".txt");
+				if(output.exists()){
+					System.out.println("BOOOOOOOOOOOOOOOOM");
+				}
+				c.evaluate(input, output);
 
-		File input = new File(inputFile);
-		File output = new File("output.txt");
+				// String url = jsonParser.searchResults.searchData.
+				createGraph("extendedGraph\\output" + i + ".txt",jsonParser.searchResults.searchData.get(i).url);
+				
+				c.deleteFile(inputFile);
 
-		try {
-			c.evaluate(input, output);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			} catch (Exception e) {
+				System.out.println(" PAS BOOOOM");
+				e.printStackTrace();
+			}
 		}
-		c.deleteFile(inputFile);
 	}
 
 	public void createGraph(String filePath, String rootUrl) {
@@ -179,13 +185,18 @@ public class Service {
 		}
 	}
 
-	public void semanticSearch(String requete) throws IOException{
-		search(requete);
-		annotate();
-		
-		createGraph();
+	public void semanticSearch(String requete) throws IOException {
+		String searchResults = search(requete);
+
+		try {
+			annotateAndCreateGraph(searchResults);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		compareRDF cRDF = new compareRDF();
-		cRDF.creerMatriceSimilarite();
-		
+		System.out.println("Dossier kevin -> " +path+"extendedGraph");
+		cRDF.creerMatriceSimilarite("extendedGraph");
+
 	}
 }

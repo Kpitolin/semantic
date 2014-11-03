@@ -1,6 +1,7 @@
 package model;
 
 import java.io.FileReader;
+import java.net.URLEncoder;
 import java.util.Iterator;
 
 import org.json.simple.JSONArray;
@@ -19,11 +20,11 @@ public class JsonParser {
 	/**
 	 * Function that parses the JSON search result file and create the searchResults object
 	 */
-	public void parseJson(String file){
+	public void parseJson(String filename){
 		
 		try{
 			// read the json file
-			FileReader reader = new FileReader(file);
+			FileReader reader = new FileReader(filename);
 
 			// parsing the JSON file
 			JSONParser jsonParser = new JSONParser();
@@ -42,11 +43,11 @@ public class JsonParser {
 			while (iter.hasNext()) {
 				
 				JSONObject innerObj = (JSONObject) iter.next();
-				
 				SearchData tempData = new SearchData();
 				tempData.url = (String) innerObj.get("formattedUrl");
 				tempData.title = (String) innerObj.get("title");
 				tempData.description = (String) innerObj.get("snippet");
+				tempData.description = tempData.description.replaceAll("\n", "");
 				
 				//insert into the list of the result data 
 				searchResults.searchData.add(tempData);

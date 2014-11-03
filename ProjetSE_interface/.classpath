@@ -19,5 +19,5 @@
 	<classpathentry kind="lib" path="C:/Users/Thomas/Documents/4IF/semantic/ProjetSE_interface/dbpedia-spotlight-0.6.5-jar-with-dependencies.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Thomas/Documents/4IF/semantic/ProjetSE_interface/org.json-20120521.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JenaLib"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="output" path="build/class"/>
 </classpath>
