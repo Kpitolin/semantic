@@ -11,7 +11,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="java.io.File"/>
@@ -22,4 +21,12 @@
 <fullyQualifiedTypeName name="model.DuckDuckGoSearch"/>
 <fullyQualifiedTypeName name="model.CreationGraphe"/>
 <fullyQualifiedTypeName name="model.compareRDF"/>
+<fullyQualifiedTypeName name="search.GoogleSearch"/>
+<fullyQualifiedTypeName name="annotation.DBpediaSpotlightClient"/>
+<fullyQualifiedTypeName name="createGraph.CreationGraphe"/>
+<fullyQualifiedTypeName name="annotation.JsonParser"/>
+<fullyQualifiedTypeName name="compareGraph.compareRDF"/>
+<fullyQualifiedTypeName name="analysis.ExplorationMatrice"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
 </qualifiedTypeNameHistroy>

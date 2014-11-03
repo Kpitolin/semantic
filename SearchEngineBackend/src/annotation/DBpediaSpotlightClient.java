@@ -123,8 +123,8 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 		jsonParser.parseJson("test.json");
 		jsonParser.displaySearchResults(jsonParser.searchResults);
 		
-		for(int i = 0; i < jsonParser.searchResults.searchData.size(); i++){
-			String txt = jsonParser.searchResults.searchData.get(i).description + "\n -";
+		for(int i = 0; i < jsonParser.searchResults.searchDatas.size(); i++){
+			String txt = jsonParser.searchResults.searchDatas.get(i).description + "\n -";
 			String inputFile = c.writeInFile(txt);
 			File input = new File(inputFile);
 			File output = new File("output" + i + ".txt");

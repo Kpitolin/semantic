@@ -39,7 +39,7 @@ public class GoogleSearch {
 	}
 
 	public void GenerateJsonFile(String filename, String query, String fields,
-			Long NumberOfResults) throws IOException {
+			Long NumberOfResults, String labels) throws IOException {
 
 		File file = new File(filename);
 		System.out.println(file.getAbsolutePath());

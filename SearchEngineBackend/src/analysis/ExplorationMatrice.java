@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -16,8 +17,7 @@ public class ExplorationMatrice {
 	private final static char SEPARATOR = ';';
 
 	@SuppressWarnings("unchecked")
-	public JSONObject exploreSimiliratyFromCSV(String pathnameCSV,
-			double seuilJaccard) throws IOException {
+	public JSONObject exploreSimiliratyFromCSV(String pathnameCSV,double seuilJaccard) throws IOException {
 
 		File file = new File(pathnameCSV);
 		FileReader fr = new FileReader(file);

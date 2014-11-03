@@ -8,7 +8,7 @@
   "nextPage": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "84600000",
+    "totalResults": "84900000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 11,
@@ -21,7 +21,7 @@
   "request": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "84600000",
+    "totalResults": "84900000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 1,
@@ -87,10 +87,10 @@
   ]
  },
  "searchInformation": {
-  "searchTime": 0.195461,
-  "formattedSearchTime": "0,20",
-  "totalResults": "84600000",
-  "formattedTotalResults": "84 600 000"
+  "searchTime": 0.214756,
+  "formattedSearchTime": "0,21",
+  "totalResults": "84900000",
+  "formattedTotalResults": "84 900 000"
  },
  "items": [
   {
@@ -654,18 +654,18 @@
   },
   {
    "kind": "customsearch#result",
-   "title": "His role reduced, Obama to make final campaign push - CNN.com",
-   "htmlTitle": "His role reduced, \u003cb\u003eObama\u003c/b\u003e to make final campaign push - CNN.com",
+   "title": "His role reduced, Obama makes final campaign push - CNN.com",
+   "htmlTitle": "His role reduced, \u003cb\u003eObama\u003c/b\u003e makes final campaign push - CNN.com",
    "link": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/",
    "displayLink": "www.cnn.com",
-   "snippet": "12 hours ago ... President Barack Obama was set to embark upon the final push of what he calls \nhis last campaign Sunday, hoping to mobilize voters.",
-   "htmlSnippet": "12 hours ago \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e was set to embark upon the final push of what he calls \u003cbr\u003e\nhis last campaign Sunday, hoping to mobilize voters.",
+   "snippet": "8 hours ago ... Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \nfleeing his shadow, President Barack Obama embarked upon the ...",
+   "htmlSnippet": "8 hours ago \u003cb\u003e...\u003c/b\u003e Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \u003cbr\u003e\nfleeing his shadow, President Barack \u003cb\u003eObama\u003c/b\u003e embarked upon the&nbsp;...",
    "formattedUrl": "www.cnn.com/2014/11/02/politics/obama-campaign-push/",
    "htmlFormattedUrl": "www.cnn.com/2014/11/02/politics/\u003cb\u003eobama\u003c/b\u003e-campaign-push/",
    "pagemap": {
     "cse_image": [
      {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-story-top.jpg",
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg",
       "type": "1",
       "width": "300",
       "height": "168"
@@ -680,30 +680,29 @@
       "articlesection": "politics",
       "sourceorganization": "CNN",
       "datepublished": "2014-11-02T15:39:21Z",
-      "datemodified": "2014-11-02T22:00:56Z",
+      "datemodified": "2014-11-03T01:40:52Z",
       "datecreated": "2014-11-02T15:39:21Z",
-      "contentlocation": "Bridgeport, Connecticut",
-      "headline": "Obama making restricted campaign push",
+      "contentlocation": "Philadelphia",
+      "headline": "Obama makes restricted campaign push",
       "url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-story-top.jpg",
-      "image": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-video-tease.jpg"
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg"
      }
     ],
     "metatags": [
      {
       "viewport": "width=1024",
       "medium": "news",
-      "title": "His role reduced, Obama to make final campaign push - CNN.com",
+      "title": "His role reduced, Obama makes final campaign push - CNN.com",
       "author": "Kevin Liptak and Laura Koran, CNN",
       "section": "politics",
       "source": "CNN",
       "pubdate": "2014-11-02T15:39:21Z",
-      "lastmod": "2014-11-02T22:00:56Z",
-      "og:title": "Obama making restricted campaign push",
+      "lastmod": "2014-11-03T01:40:52Z",
+      "og:title": "Obama makes restricted campaign push",
       "og:type": "article",
       "og:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
       "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-story-top.jpg",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-story-top.jpg",
       "vr:canonical": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
       "fb:page_id": "129343697106537",
       "fb:app_id": "80401312489",
@@ -713,9 +712,9 @@
       "twitter:creator": "@cnnpolitics",
       "twitter:creator:id": "13850422",
       "twitter:description": "President Barack Obama was set to embark upon the final push of what he calls his last campaign Sunday, hoping to mobilize voters.",
-      "twitter:title": "His role reduced, Obama to make final campaign push",
+      "twitter:title": "His role reduced, Obama makes final campaign push",
       "twitter:url": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/141028151321-obama-wave-left-tease.jpg"
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/141101132220-nr-mcpike-obama-midterms-00001517-left-tease.jpg"
      }
     ]
    },

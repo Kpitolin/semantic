@@ -2,9 +2,6 @@ package search;
 
 import java.net.*;
 import java.io.*;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
 
 public class DuckDuckGoSearch {
 
@@ -20,6 +17,7 @@ public class DuckDuckGoSearch {
 	private URL searchUrl;
 
 	// Object of the query
+	@SuppressWarnings("unused")
 	private String query;
 
 	// Constructor
