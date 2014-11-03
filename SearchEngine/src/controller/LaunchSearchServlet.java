@@ -33,7 +33,15 @@ public class LaunchSearchServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		String commandStr = request.getParameter("action");
+		
+		if(!commandStr.isEmpty()){
+			Action action = null;
+			if(commandStr.equals("search")){
+				action = new SearchAction();
+			}
+			action.execute(request);
+		}
 	}
 
 	/**

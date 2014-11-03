@@ -1,0 +1,14 @@
+package controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+class SearchAction extends Action {
+
+	public SearchEngineAction() {
+	}
+	@Override
+	public void execute(HttpServletRequest request) {
+		
+	}
+
+}

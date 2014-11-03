@@ -13,7 +13,9 @@ import annotation.SearchData;
 import search.GoogleSearch;
 
 public class Service {
-	
+	public void launchSearch() {
+		
+	}
 	public static ArrayList<SearchData> annotateAndCreateGraph(String inputSearchResults, DBpediaSpotlightClient c,CreationGraphe creator ) throws Exception {
 		JsonParser jsonParser = new JsonParser();
 		jsonParser.parseJson(inputSearchResults);
