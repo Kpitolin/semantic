@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$.post("LaunchSearchServlet",{action:"search",q:input})
 				.done(function(dataHtml){
 					$('#results').append(dataHtml);
-					$.post("LaunchSearchServlet",{action:"graph"})
+					$.post("GenerateGraphServlet")
 						.done(function(jsonData){
 							$('#loading').hide();
 							var nodes = jsonData.nodes;

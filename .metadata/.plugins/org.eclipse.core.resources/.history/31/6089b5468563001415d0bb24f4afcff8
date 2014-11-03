@@ -1,0 +1,21 @@
+package controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import service.Service;
+
+public class GenerateGraphAction extends Action{
+	
+	public String json;
+	
+	public GenerateGraphAction() {
+	}
+	
+	@Override
+	public void execute(HttpServletRequest request) {
+	
+		Service s = new Service();
+		this.json = s.exportJSON();
+
+	}
+}

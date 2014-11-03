@@ -21,7 +21,7 @@ class SearchAction extends Action {
 		if(label.isEmpty()){
 			label = null;
 		}
-		AnalyseResults results ;
+		AnalyseResults results =new AnalyseResults();
 		
 		try {
 			results = s.launchSearch(requete,label);
@@ -29,9 +29,7 @@ class SearchAction extends Action {
 			System.out.println("Erreur au lancement de la méthode launchSearch");
 		}
 		
-		/*TODO envoi de la liste de data a une vue jsp qui fera la boucle et generera du code html
-		ce code html sera envoyé via une requete normal au navigateur, sera récupéré par le code jquery (methode post) 
-		puis sera inséré dans la page courante */
+		request.setAttribute("pages", results.pagesResults);
 	}
 
 }
