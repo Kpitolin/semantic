@@ -1,0 +1,21 @@
+package controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import service.Service;
+
+class SearchAction extends Action {
+
+	public SearchAction() {
+	}
+	@Override
+	public void execute(HttpServletRequest request) {
+		Service s = new Service();
+		System.out.println("booom execute");
+		
+		String requete = request.getParameter("q");
+		String label = request.getParameter("label");
+		s.launchSearch(requete,label);
+	}
+
+}

@@ -1,7 +1,10 @@
 package controller;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
 
+import analysis.AnalyseResults;
 import service.Service;
 
 class SearchAction extends Action {
@@ -11,8 +14,24 @@ class SearchAction extends Action {
 	@Override
 	public void execute(HttpServletRequest request) {
 		Service s = new Service();
-		System.out.println("boom");
-		s.launchSearch();
+		System.out.println("booom execute");
+		
+		String requete = request.getParameter("q");
+		String label = request.getParameter("label");
+		if(label.isEmpty()){
+			label = null;
+		}
+		AnalyseResults results ;
+		
+		try {
+			results = s.launchSearch(requete,label);
+		} catch (IOException e) {
+			System.out.println("Erreur au lancement de la méthode launchSearch");
+		}
+		
+		/*TODO envoi de la liste de data a une vue jsp qui fera la boucle et generera du code html
+		ce code html sera envoyé via une requete normal au navigateur, sera récupéré par le code jquery (methode post) 
+		puis sera inséré dans la page courante */
 	}
 
 }

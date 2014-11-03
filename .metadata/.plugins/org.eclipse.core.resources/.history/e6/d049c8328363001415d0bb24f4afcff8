@@ -1,0 +1,18 @@
+package controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class GenerateGraphAction extends Action{
+	public GenerateGraphAction() {
+	}
+	
+	@Override
+	public void execute(HttpServletRequest request) {
+	
+    JSONObject jsonObj = s.exploreSimiliratyFromCSV("C:\\Users\\Thomas\\Documents\\4IF\\semantic\\ProjetSE\\matrice_jaccard.csv", 0.6);
+    
+	response.setContentType("application/json");
+	response.getWriter().write(jsonObj.toJSONString());
+
+	}
+}

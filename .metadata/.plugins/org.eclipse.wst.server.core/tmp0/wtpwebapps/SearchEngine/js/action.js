@@ -13,12 +13,16 @@ $(document).ready(function(){
 		$('#loading').append("<img src='ajax-loader.gif'> Chargement...");
 
 		//envoi de la requete ajax
-		$.post("LaunchSearchServlet",{action:"search",requete:input})
-				.done(function(data){
-					$('#loading').hide();
-					var nodes = data.nodes;
-					var links = data.links;
-					similarityGraph(nodes,links);
+		$.post("LaunchSearchServlet",{action:"search",q:input})
+				.done(function(dataHtml){
+					$('#results').append(dataHtml);
+					$.post("LaunchSearchServlet",{action:"graph"})
+						.done(function(jsonData){
+							$('#loading').hide();
+							var nodes = jsonData.nodes;
+							var links = jsonData.links;
+							similarityGraph(nodes,links);
+						});
 				});
 	});
 });

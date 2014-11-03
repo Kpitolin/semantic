@@ -3,11 +3,11 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "ProjetSE_interface\\WebContent"
+			"path": "ProjetSE"
 		},
 		{
 			"follow_symlinks": true,
-			"path": "ProjetSE"
+			"path": "SearchEngine"
 		}
 	]
 }

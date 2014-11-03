@@ -15,7 +15,6 @@
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.io.StringWriter"/>
-<fullyQualifiedTypeName name="service.Service"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="model.GoogleSearch"/>
 <fullyQualifiedTypeName name="model.DuckDuckGoSearch"/>
@@ -29,4 +28,5 @@
 <fullyQualifiedTypeName name="analysis.ExplorationMatrice"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+<fullyQualifiedTypeName name="service.Service"/>
 </qualifiedTypeNameHistroy>

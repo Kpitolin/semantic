@@ -1,0 +1,9 @@
+package analysis;
+
+import java.util.ArrayList;
+
+import annotation.SearchData;
+
+public class AnalyseResults {
+	public ArrayList<SearchData> pagesResults;
+}

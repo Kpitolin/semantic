@@ -8,7 +8,7 @@
   "nextPage": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "84900000",
+    "totalResults": "85100000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 11,
@@ -21,7 +21,7 @@
   "request": [
    {
     "title": "Google Custom Search - obama",
-    "totalResults": "84900000",
+    "totalResults": "85100000",
     "searchTerms": "obama",
     "count": 10,
     "startIndex": 1,
@@ -87,10 +87,10 @@
   ]
  },
  "searchInformation": {
-  "searchTime": 0.214756,
-  "formattedSearchTime": "0,21",
-  "totalResults": "84900000",
-  "formattedTotalResults": "84 900 000"
+  "searchTime": 0.326486,
+  "formattedSearchTime": "0,33",
+  "totalResults": "85100000",
+  "formattedTotalResults": "85 100 000"
  },
  "items": [
   {
@@ -356,6 +356,79 @@
   },
   {
    "kind": "customsearch#result",
+   "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
+   "htmlTitle": "\u003cb\u003eObama\u003c/b\u003e outlines foreign policy vision of &#39;might and right&#39; - CNN.com",
+   "link": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
+   "displayLink": "www.cnn.com",
+   "snippet": "May 29, 2014 ... President Barack Obama outlined a foreign policy vision of \"might doing right,\" \nsaying modern pragmatism requires a strong military and ...",
+   "htmlSnippet": "May 29, 2014 \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e outlined a foreign policy vision of &quot;might doing right,&quot; \u003cbr\u003e\nsaying modern pragmatism requires a strong military and&nbsp;...",
+   "formattedUrl": "www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
+   "htmlFormattedUrl": "www.cnn.com/2014/05/28/politics/\u003cb\u003eobama\u003c/b\u003e-west-point-foreign-policy/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
+      "type": "1",
+      "width": "300",
+      "height": "168"
+     }
+    ],
+    "newsarticle": [
+     {
+      "genre": "news",
+      "inlanguage": "en-US",
+      "description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
+      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
+      "articlesection": "politics",
+      "sourceorganization": "CNN",
+      "datepublished": "2014-05-28T04:12:52Z",
+      "datemodified": "2014-05-29T10:33:16Z",
+      "datecreated": "2014-05-28T04:12:52Z",
+      "headline": "Obama outlines foreign policy vision of 'might and right'",
+      "url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1024",
+      "medium": "news",
+      "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
+      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
+      "section": "politics",
+      "source": "CNN",
+      "pubdate": "2014-05-28T04:12:52Z",
+      "lastmod": "2014-05-29T10:33:16Z",
+      "og:title": "Obama outlines foreign policy vision of 'might and right'",
+      "og:type": "article",
+      "og:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "og:site_name": "CNN",
+      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
+      "vr:canonical": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "fb:page_id": "129343697106537",
+      "fb:app_id": "80401312489",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@CNN",
+      "twitter:site:id": "759251",
+      "twitter:creator": "@cnnpolitics",
+      "twitter:creator:id": "13850422",
+      "twitter:description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
+      "twitter:title": "Obama outlines foreign policy vision of 'might and right'",
+      "twitter:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
+      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-left-tease.jpg"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "name": "actualite",
+     "displayName": "actualite",
+     "label_with_op": "more:actualite"
+    }
+   ]
+  },
+  {
+   "kind": "customsearch#result",
    "title": "Quand Barack Obama taquine un footballeur français",
    "htmlTitle": "Quand Barack \u003cb\u003eObama\u003c/b\u003e taquine un footballeur français",
    "link": "http://www.lemonde.fr/football/video/2014/10/02/barack-obama-taquine-un-footballeur_4499446_1616938.html",
@@ -423,79 +496,6 @@
       "twitter:app:url:ipad": "lmfr://element/video/4499446?x4=8",
       "twitter:app:id:googleplay": "com.lemonde.androidapp",
       "twitter:app:url:googleplay": "lmfr://element/video/4499446?x4=8"
-     }
-    ]
-   },
-   "labels": [
-    {
-     "name": "actualite",
-     "displayName": "actualite",
-     "label_with_op": "more:actualite"
-    }
-   ]
-  },
-  {
-   "kind": "customsearch#result",
-   "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
-   "htmlTitle": "\u003cb\u003eObama\u003c/b\u003e outlines foreign policy vision of &#39;might and right&#39; - CNN.com",
-   "link": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
-   "displayLink": "www.cnn.com",
-   "snippet": "May 29, 2014 ... President Barack Obama outlined a foreign policy vision of \"might doing right,\" \nsaying modern pragmatism requires a strong military and ...",
-   "htmlSnippet": "May 29, 2014 \u003cb\u003e...\u003c/b\u003e President Barack \u003cb\u003eObama\u003c/b\u003e outlined a foreign policy vision of &quot;might doing right,&quot; \u003cbr\u003e\nsaying modern pragmatism requires a strong military and&nbsp;...",
-   "formattedUrl": "www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/",
-   "htmlFormattedUrl": "www.cnn.com/2014/05/28/politics/\u003cb\u003eobama\u003c/b\u003e-west-point-foreign-policy/",
-   "pagemap": {
-    "cse_image": [
-     {
-      "src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
-      "type": "1",
-      "width": "300",
-      "height": "168"
-     }
-    ],
-    "newsarticle": [
-     {
-      "genre": "news",
-      "inlanguage": "en-US",
-      "description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
-      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
-      "articlesection": "politics",
-      "sourceorganization": "CNN",
-      "datepublished": "2014-05-28T04:12:52Z",
-      "datemodified": "2014-05-29T10:33:16Z",
-      "datecreated": "2014-05-28T04:12:52Z",
-      "headline": "Obama outlines foreign policy vision of 'might and right'",
-      "url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "thumbnailurl": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg"
-     }
-    ],
-    "metatags": [
-     {
-      "viewport": "width=1024",
-      "medium": "news",
-      "title": "Obama outlines foreign policy vision of 'might and right' - CNN.com",
-      "author": "Tom Cohen, Jim Acosta and Kevin Liptak, CNN",
-      "section": "politics",
-      "source": "CNN",
-      "pubdate": "2014-05-28T04:12:52Z",
-      "lastmod": "2014-05-29T10:33:16Z",
-      "og:title": "Obama outlines foreign policy vision of 'might and right'",
-      "og:type": "article",
-      "og:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "og:site_name": "CNN",
-      "og:image": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-story-top.jpg",
-      "vr:canonical": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "fb:page_id": "129343697106537",
-      "fb:app_id": "80401312489",
-      "twitter:card": "summary_large_image",
-      "twitter:site": "@CNN",
-      "twitter:site:id": "759251",
-      "twitter:creator": "@cnnpolitics",
-      "twitter:creator:id": "13850422",
-      "twitter:description": "President Barack Obama outlined a foreign policy vision of \"might doing right,\" saying modern pragmatism requires a strong military and diplomatic tools.",
-      "twitter:title": "Obama outlines foreign policy vision of 'might and right'",
-      "twitter:url": "http://www.cnn.com/2014/05/28/politics/obama-west-point-foreign-policy/index.html",
-      "twitter:image:src": "http://i2.cdn.turner.com/cnn/dam/assets/140528154610-orig-npr-president-obama-west-point-00015722-left-tease.jpg"
      }
     ]
    },
@@ -658,8 +658,8 @@
    "htmlTitle": "His role reduced, \u003cb\u003eObama\u003c/b\u003e makes final campaign push - CNN.com",
    "link": "http://www.cnn.com/2014/11/02/politics/obama-campaign-push/",
    "displayLink": "www.cnn.com",
-   "snippet": "8 hours ago ... Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \nfleeing his shadow, President Barack Obama embarked upon the ...",
-   "htmlSnippet": "8 hours ago \u003cb\u003e...\u003c/b\u003e Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \u003cbr\u003e\nfleeing his shadow, President Barack \u003cb\u003eObama\u003c/b\u003e embarked upon the&nbsp;...",
+   "snippet": "15 hours ago ... Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \nfleeing his shadow, President Barack Obama embarked upon the ...",
+   "htmlSnippet": "15 hours ago \u003cb\u003e...\u003c/b\u003e Philadelphia (CNN) -- After a campaign season marked mainly by Democrats \u003cbr\u003e\nfleeing his shadow, President Barack \u003cb\u003eObama\u003c/b\u003e embarked upon the&nbsp;...",
    "formattedUrl": "www.cnn.com/2014/11/02/politics/obama-campaign-push/",
    "htmlFormattedUrl": "www.cnn.com/2014/11/02/politics/\u003cb\u003eobama\u003c/b\u003e-campaign-push/",
    "pagemap": {
