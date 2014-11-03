@@ -34,7 +34,10 @@ public class CreationGraphe {
 		while (scanner.hasNextLine()) {
 			String line = scanner.nextLine();
 			System.out.println(line);
-			arrayOfWords.add(line);
+			if(!(line.contains("%"))){
+				arrayOfWords.add(line);
+	
+			}
 		}
 
 		scanner.close();
@@ -92,20 +95,7 @@ public class CreationGraphe {
 	
 	public static void main(String[] args) throws IOException {
 
-		// ArrayList arrayOfWords = new ArrayList();
-		// extractText("fichier.txt",arrayOfWords);
-		// //Model creation
-		// BasicConfigurator.configure(); // necessary
-		// Model m = modelCreation( arrayOfWords);
-		// writeInFile(m);
-		//
-		/*
-		 * Model marray[] = {m} ;
-		 * 
-		 * for (int i=0; i<marray.length; i++) { OutputStream out = new
-		 * FileOutputStream("foo" + i + ".rdf"); writer.write(marray[i],
-		 * out,"RDF/XML-ABBREV"); out.close(); }
-		 */
+		
 
 	}
 
