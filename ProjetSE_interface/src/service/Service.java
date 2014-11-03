@@ -183,6 +183,7 @@ public class Service {
 		search(requete);
 		annotate();
 		
+		createGraph();
 		compareRDF cRDF = new compareRDF();
 		cRDF.creerMatriceSimilarite();
 		
