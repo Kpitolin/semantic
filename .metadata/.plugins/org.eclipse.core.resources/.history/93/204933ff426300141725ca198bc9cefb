@@ -2,10 +2,11 @@ package service;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
 
 import compareGraph.compareRDF;
+
 import createGraph.CreationGraphe;
-import analysis.ExplorationMatrice;
 import annotation.DBpediaSpotlightClient;
 import annotation.JsonParser;
 import search.GoogleSearch;
@@ -53,8 +54,5 @@ public class Service {
 		
 		compareRDF compare = new compareRDF();
 		compare.creerMatriceSimilarite("extendedGraph");
-		
-		ExplorationMatrice explorer = new ExplorationMatrice();
-		explorer.exploreSimiliratyFromCSV("extendedGraph\\matriceSimilarite.csv", 0.4);
 	}
 }
