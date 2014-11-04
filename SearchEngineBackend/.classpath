@@ -2,7 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JenaLib"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SearchEngineNeeds"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JenaLib"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/SearchEngineNeeds"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JenaLibs"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/searchEngineBackendNeeds"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

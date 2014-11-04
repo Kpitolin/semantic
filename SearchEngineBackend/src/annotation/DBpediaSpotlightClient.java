@@ -231,7 +231,7 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 		
 		//Parsing the results of a research given by Google API in JSON format and creating the related object
 		JsonParser jsonParser = new JsonParser();
-		jsonParser.parseJsonDBpediaFile("test.json");
+		jsonParser.parseJsonDBpediaFile("searchResults.json");
 		
 		//jsonParser.displaySearchResults(jsonParser.searchResults);
 		

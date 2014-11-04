@@ -103,7 +103,7 @@ public class CreationGraphe {
 		writer.setProperty("relativeURIs", "same-document,relative");
 		OutputStream outStream = new FileOutputStream("."+separator+"extendedGraph"+separator+"foo_" + increment
 				+ ".rdf");
-		writer.write(m, outStream, "RDF/XML-ABBREV");
+		writer.write(m, outStream, "RDF/XML");
 		outStream.close();
 
 	}

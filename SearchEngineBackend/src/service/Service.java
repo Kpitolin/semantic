@@ -51,7 +51,6 @@ public class Service {
 		JsonParser jsonParser = new JsonParser();
 		jsonParser.parseJsonDBpediaFile(inputSearchResults);
 		jsonParser.displaySearchResults(jsonParser.searchResults);
-		
 		for (int i = 0; i < jsonParser.searchResults.searchDatas.size(); i++) {
 			try {
 				String txt = jsonParser.searchResults.searchDatas.get(i).description
