@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://dbpedia.org/resource/" > 
+        <rdf:Description rdf:about="topics.wsj.com/person/O/barack-obama/4328">
+                <j.0:Incumbent rdf:resource="http://dbpedia.org/resource/Incumbent"/>
+        </rdf:Description>
+</rdf:RDF>

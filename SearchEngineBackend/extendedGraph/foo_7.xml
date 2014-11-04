@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://dbpedia.org/resource/" > 
+        <rdf:Description rdf:about="www.washingtontimes.com/topics/barack-obama/">
+                <j.0:News_Corporation rdf:resource="http://dbpedia.org/resource/News_Corporation"/>
+        </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://dbpedia.org/resource/" > 
+        <rdf:Description rdf:about="www.cnn.com/2014/11/03/.../obama-strategy-democrats-questioning-acosta/">
+                <j.0:Liturgy_of_the_Hours rdf:resource="http://dbpedia.org/resource/Liturgy_of_the_Hours"/>
+        </rdf:Description>
+</rdf:RDF>
