@@ -66,8 +66,8 @@ public class ExplorationMatrice {
 
 			// remplissage de notre liste de noeud
 			JSONObject aNode = new JSONObject();
-			/*aNode.putIfAbsent("name", noeud1);
-		 	aNode.putIfAbsent("theme", new Integer(0));*/
+			aNode.putIfAbsent("name", noeud1);
+		 	aNode.putIfAbsent("theme", new Integer(0));
 			if (!listNodes.contains(aNode)) {
 				listNodes.add(aNode);
 			}
