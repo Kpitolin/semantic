@@ -1,10 +1,18 @@
 package service;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import org.json.simple.JSONObject;
+import org.apache.log4j.BasicConfigurator;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import com.hp.hpl.jena.rdf.model.Model;
 
 import compareGraph.compareRDF;
 import createGraph.CreationGraphe;
@@ -17,93 +25,195 @@ import search.GoogleSearch;
 
 public class Service {
 	public final static String macSeparator = "/";
-	public final static String windowsSeparator = "\\"; 
-	public final static String separator = windowsSeparator;
+	public final static String windowsSeparator = "\\";
+	public final static String separator = macSeparator;
 	private final static double SEUILJACCARD = 0.6;
-	
-	public AnalyseResults launchSearch(String query,String label) throws IOException {
+	public static int increment = 0;
+
+	public AnalyseResults launchSearch(String query, String label)
+			throws IOException {
 		GoogleSearch search = new GoogleSearch();
 		String jsonGenere = search.search(query, label);
-		
+
 		DBpediaSpotlightClient annotation = new DBpediaSpotlightClient();
 		CreationGraphe creator = new CreationGraphe();
-		
+
 		ArrayList<SearchData> searchDatas = new ArrayList<SearchData>();
-		
+
 		try {
-			searchDatas = annotateAndCreateGraph(jsonGenere,annotation,creator);
+			searchDatas = annotateAndCreateGraph(jsonGenere, annotation,
+					creator);
 		} catch (Exception e) {
-			System.out.println("probleme d'annotation ou de creation des graphes rdf");
+			System.out
+					.println("probleme d'annotation ou de creation des graphes rdf");
 		}
-		
+
 		compareRDF compare = new compareRDF();
-		compare.creerMatriceSimilarite("."+separator+"extendedGraph");
-		
+		compare.creerMatriceSimilarite("." + separator + "extendedGraph");
+
 		ExplorationMatrice explorer = new ExplorationMatrice();
-		JSONObject jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph"+separator+"matriceSimilarite.csv", SEUILJACCARD);
-		
-		AnalyseResults results = new AnalyseResults(searchDatas,jsonObj);
-		
+		org.json.simple.JSONObject jsonObj = explorer.exploreSimiliratyFromCSV(
+				"extendedGraph" + separator + "matriceSimilarite.csv",
+				SEUILJACCARD);
+
+		AnalyseResults results = new AnalyseResults(searchDatas, jsonObj);
+
 		return results;
 	}
-	
-	public static ArrayList<SearchData> annotateAndCreateGraph(String inputSearchResults, DBpediaSpotlightClient c,CreationGraphe creator ) throws Exception {
+
+	public static ArrayList<SearchData> annotateAndCreateGraph(
+			String inputSearchResults, DBpediaSpotlightClient c,
+			CreationGraphe creator) throws Exception {
 		JsonParser jsonParser = new JsonParser();
-		jsonParser.parseJsonDBpediaFile(inputSearchResults);
-		jsonParser.displaySearchResults(jsonParser.searchResults);
-		for (int i = 0; i < jsonParser.searchResults.searchDatas.size(); i++) {
+
+		/*
+		 * 
+		 * 
+		 * for (int i = 0; i < jsonParser.searchResults.searchDatas.size(); i++)
+		 * { try { String txt =
+		 * jsonParser.searchResults.searchDatas.get(i).description; String
+		 * inputFile = c.writeInFile(txt); File input = new File(inputFile);
+		 * File output = new File("."+separator+"output" + i + ".txt");
+		 * 
+		 * c.evaluate(input, output);
+		 * 
+		 * creator.createGraph("."+separator+"output" + i +
+		 * ".txt",jsonParser.searchResults.searchDatas.get(i).url);
+		 * 
+		 * c.deleteFile(inputFile);
+		 * 
+		 * } catch (Exception e) { e.printStackTrace(); } }
+		 */
+		JSONObject jsonResult = annotateAndExtendResults(inputSearchResults,
+				jsonParser);
+		for (int i = 0; i < 9; i++) {
+			ArrayList<ArrayList<String>> myArray = creator.extractFromJSON(
+					jsonResult, i);
+			BasicConfigurator.configure(); // necessary
+			Model m = creator.modelCreation(myArray,
+					jsonParser.searchResults.searchDatas.get(i).url);
 			try {
-				String txt = jsonParser.searchResults.searchDatas.get(i).description
-						+ "\n -";
-				String inputFile = c.writeInFile(txt);
-				File input = new File(inputFile);
-				File output = new File("."+separator+"output" + i + ".txt");
-				
-				c.evaluate(input, output);
+				creator.writeInFile(m);
 
-				creator.createGraph("."+separator+"output" + i + ".txt",jsonParser.searchResults.searchDatas.get(i).url);
-				
-				c.deleteFile(inputFile);
-
-			} catch (Exception e) {
+			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			increment++;
 		}
-		
+
 		return jsonParser.searchResults.searchDatas;
 	}
-	
-	public String exportJSON(){
+
+	public String exportJSON() {
 		ExplorationMatrice explorer = new ExplorationMatrice();
-		JSONObject jsonObj = null;
+		org.json.simple.JSONObject jsonObj = null;
 		try {
-			jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph"+separator+"matriceSimilarite.csv", SEUILJACCARD);
+			jsonObj = explorer.exploreSimiliratyFromCSV("extendedGraph"
+					+ separator + "matriceSimilarite.csv", SEUILJACCARD);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		return jsonObj.toJSONString();
+
+		return jsonObj.toString();
 	}
-	
-	public static void main (String args[]) throws IOException{
-		GoogleSearch search = new GoogleSearch();
-		String jsonGenere = search.search("obama", null);
-		
-		DBpediaSpotlightClient annotation = new DBpediaSpotlightClient();
-		CreationGraphe creator = new CreationGraphe();
-		
+
+	public static JSONObject annotateAndExtendResults(String filename,
+			JsonParser jsonParser) {
+		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
+		JSONObject jsonObjOut = new JSONObject();
+
+		// Parsing the results of a research given by Google API in JSON format
+		// and creating the related object
+		jsonParser.parseJsonDBpediaFile(filename);
+
+		// jsonParser.displaySearchResults(jsonParser.searchResults);
+
+		// Creating the annotations from the description + creating the json
+		// output file with all the dbpedia ressources links
+		for (int i = 0; i < jsonParser.searchResults.searchDatas.size(); i++) {
+
+			JSONArray outputArray = new JSONArray();
+			String txt = jsonParser.searchResults.searchDatas.get(i).description;
+			String inputFile = c.writeInFile(txt);
+			File input = new File(inputFile);
+			File output = new File("output.json");
+
+			try {
+				c.evaluate(input, output);
+				BufferedReader reader = new BufferedReader(new FileReader(
+						"output.json"));
+				String line;
+				while ((line = reader.readLine()) != null && !line.equals("")) {
+					String tmp = c.extractFromSparqlQuery(line);
+					org.json.JSONObject obj = c.parseJsonResource(line, tmp);
+					outputArray.put(obj);
+				}
+
+				jsonObjOut.put("" + i, outputArray);
+				reader.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+			c.deleteFile(inputFile);
+
+		}
+
+		// The output json file with all the extended dbpedia relations
 		try {
-			annotateAndCreateGraph(jsonGenere,annotation,creator);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
+
+			File file = new File("jsonOut.json");
+
+			// if file doesnt exists, then create it
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+
+			FileWriter fw = new FileWriter(file.getAbsoluteFile());
+			BufferedWriter bw = new BufferedWriter(fw);
+			bw.write(jsonObjOut.toString());
+			bw.close();
+
+			System.out.println("Done");
+
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-		compareRDF compare = new compareRDF();
-		compare.creerMatriceSimilarite("extendedGraph");
-		
-		ExplorationMatrice explorer = new ExplorationMatrice();
-		explorer.exploreSimiliratyFromCSV("extendedGraph"+separator+"matriceSimilarite.csv", 0.4);
+
+		System.out.println(jsonObjOut);
+		return jsonObjOut;
+	}
+
+	public static void main(String args[]) throws IOException {
+		Service service = new Service();
+		service.launchSearch("obama", null);
+		/*
+		 * GoogleSearch search = new GoogleSearch(); String jsonGenere =
+		 * search.search("obama", null);
+		 * 
+		 * DBpediaSpotlightClient annotation = new DBpediaSpotlightClient();
+		 * CreationGraphe creator = new CreationGraphe();
+		 * 
+		 * 
+		 * 
+		 * //for(int i = 0; i < 9; i++){ ArrayList<ArrayList<String>> myArray =
+		 * creator.extractFromJSON(jsonResult,0); creator.modelCreation(
+		 * myArray, rootUrl) ;
+		 * 
+		 * //}
+		 * 
+		 * 
+		 * try { annotateAndCreateGraph(jsonGenere,annotation,creator); } catch
+		 * (Exception e) { // TODO Auto-generated catch block
+		 * e.printStackTrace(); }
+		 * 
+		 * compareRDF compare = new compareRDF();
+		 * compare.creerMatriceSimilarite("extendedGraph");
+		 * 
+		 * ExplorationMatrice explorer = new ExplorationMatrice();
+		 * explorer.exploreSimiliratyFromCSV
+		 * ("extendedGraph"+separator+"matriceSimilarite.csv", 0.4);
+		 */
 	}
 }

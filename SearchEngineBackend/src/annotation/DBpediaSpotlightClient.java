@@ -8,7 +8,6 @@ import org.dbpedia.spotlight.model.Text;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
 
 import java.io.FileWriter;
 import java.io.IOException;

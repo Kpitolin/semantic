@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
+import org.json.JSONException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -68,6 +68,7 @@ public class ExplorationMatrice {
 			JSONObject aNode = new JSONObject();
 			aNode.put("name", noeud1);
 		 	
+			// TODO check with Thomas 
 			if (!listNodes.contains(aNode)) {
 				listNodes.add(aNode);
 			}
@@ -86,6 +87,7 @@ public class ExplorationMatrice {
 
 					aLink.put("source", indexNoeud1);
 					aLink.put("target", indexNoeud2);
+					
 					listLinks.add(aLink);
 				}
 				i++;
@@ -94,15 +96,17 @@ public class ExplorationMatrice {
 		}
 		// merge des deux liste(deux objets) nodes et links dans l'objet json
 		// final objJSON
+		
 		objJSON.put("links", listLinks);
 		objJSON.put("nodes", listNodes);
+
 
 		csvReader.close();
 
 		// ecriture d'un fichier (au cas o�)
 		File output = new File("similarity_graph.json");
 		FileWriter fileWriter = new FileWriter(output);
-		fileWriter.write(objJSON.toJSONString());
+		fileWriter.write(objJSON.toString());
 		fileWriter.flush();
 		fileWriter.close();
 
