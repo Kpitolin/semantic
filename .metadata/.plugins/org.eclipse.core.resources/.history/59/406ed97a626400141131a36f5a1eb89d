@@ -183,7 +183,7 @@ public class Service {
 		return jsonObjOut;
 	}
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws IOException {
 		Service service = new Service();
 		service.launchSearch("obama", null);
 	}

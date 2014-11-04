@@ -116,6 +116,7 @@ public class Service {
 
 		return jsonObj.toString();
 	}
+
 	public static JSONObject annotateAndExtendResults(String filename,
 			JsonParser jsonParser) {
 		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
@@ -183,8 +184,35 @@ public class Service {
 		return jsonObjOut;
 	}
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws IOException {
 		Service service = new Service();
 		service.launchSearch("obama", null);
+		/*
+		 * GoogleSearch search = new GoogleSearch(); String jsonGenere =
+		 * search.search("obama", null);
+		 * 
+		 * DBpediaSpotlightClient annotation = new DBpediaSpotlightClient();
+		 * CreationGraphe creator = new CreationGraphe();
+		 * 
+		 * 
+		 * 
+		 * //for(int i = 0; i < 9; i++){ ArrayList<ArrayList<String>> myArray =
+		 * creator.extractFromJSON(jsonResult,0); creator.modelCreation(
+		 * myArray, rootUrl) ;
+		 * 
+		 * //}
+		 * 
+		 * 
+		 * try { annotateAndCreateGraph(jsonGenere,annotation,creator); } catch
+		 * (Exception e) { // TODO Auto-generated catch block
+		 * e.printStackTrace(); }
+		 * 
+		 * compareRDF compare = new compareRDF();
+		 * compare.creerMatriceSimilarite("extendedGraph");
+		 * 
+		 * ExplorationMatrice explorer = new ExplorationMatrice();
+		 * explorer.exploreSimiliratyFromCSV
+		 * ("extendedGraph"+separator+"matriceSimilarite.csv", 0.4);
+		 */
 	}
 }

@@ -44,7 +44,12 @@ public class Service {
 			searchDatas = annotateAndCreateGraph(jsonGenere, annotation,
 					creator);
 		} catch (Exception e) {
+<<<<<<< HEAD
 			System.out.println("Probleme d'annotation ou de creation des graphes rdf");
+=======
+			System.out
+					.println("probleme d'annotation ou de creation des graphes rdf");
+>>>>>>> b0d9fbefbe96af01c3cf8e88684269391dbf0715
 		}
 
 		compareRDF compare = new compareRDF();
@@ -116,6 +121,13 @@ public class Service {
 
 		return jsonObj.toString();
 	}
+<<<<<<< HEAD
+	
+	public static void main (String args[]) throws IOException{
+		Service s = new Service();
+		s.launchSearch("obama",null);
+=======
+
 	public static JSONObject annotateAndExtendResults(String filename,
 			JsonParser jsonParser) {
 		DBpediaSpotlightClient c = new DBpediaSpotlightClient();
@@ -183,8 +195,36 @@ public class Service {
 		return jsonObjOut;
 	}
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws IOException {
 		Service service = new Service();
 		service.launchSearch("obama", null);
+		/*
+		 * GoogleSearch search = new GoogleSearch(); String jsonGenere =
+		 * search.search("obama", null);
+		 * 
+		 * DBpediaSpotlightClient annotation = new DBpediaSpotlightClient();
+		 * CreationGraphe creator = new CreationGraphe();
+		 * 
+		 * 
+		 * 
+		 * //for(int i = 0; i < 9; i++){ ArrayList<ArrayList<String>> myArray =
+		 * creator.extractFromJSON(jsonResult,0); creator.modelCreation(
+		 * myArray, rootUrl) ;
+		 * 
+		 * //}
+		 * 
+		 * 
+		 * try { annotateAndCreateGraph(jsonGenere,annotation,creator); } catch
+		 * (Exception e) { // TODO Auto-generated catch block
+		 * e.printStackTrace(); }
+		 * 
+		 * compareRDF compare = new compareRDF();
+		 * compare.creerMatriceSimilarite("extendedGraph");
+		 * 
+		 * ExplorationMatrice explorer = new ExplorationMatrice();
+		 * explorer.exploreSimiliratyFromCSV
+		 * ("extendedGraph"+separator+"matriceSimilarite.csv", 0.4);
+		 */
+>>>>>>> b0d9fbefbe96af01c3cf8e88684269391dbf0715
 	}
 }

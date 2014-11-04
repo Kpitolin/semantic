@@ -49,6 +49,12 @@ public class CreationGraphe {
 
 		scanner.close();
 	}
+<<<<<<< HEAD
+	public void extractFromJSON (JSONObject job , ArrayList arrayOfarrayOfWords, int iter){
+		 JSONObject res=(JSONObject)job.get(iter);
+		 JSONObject keyword=(JSONObject)res.get("");
+		 //JSONArray array=(JSONArray)keyword;
+=======
 	public ArrayList<ArrayList<String>> extractFromJSON(JSONObject job, int iter){ 
 		
 		ArrayList<ArrayList<String>> resources =  new ArrayList<ArrayList<String>>();
@@ -81,6 +87,7 @@ public class CreationGraphe {
 			e.printStackTrace();
 		}
 		return resources;
+>>>>>>> b0d9fbefbe96af01c3cf8e88684269391dbf0715
 	}
 	
 	public Model modelCreation(ArrayList arrayOfWords, String rootUrl) {
@@ -111,18 +118,21 @@ public class CreationGraphe {
 		return m;
 	}
 	
-//	public void modelCreation2levels(ArrayList<String> arrayOfWords, Model m, Resource r) {
-//		String dbRootUri = "http://dbpedia.org/resource";
-//		Property P;
-//		Resource res;
-//		// the first element of the list will be the root keyword
-//		// the others, the children
-//
-//		for (int i = 0; i < arrayOfWords.size(); i++) {
-//			P = m.createProperty(dbRootUri + "/" + arrayOfWords.get(i));
-//			res = m.createResource(dbRootUri + "/" + arrayOfWords.get(i));
-//			m.add(r, P, res);
-//		}
+<<<<<<< HEAD
+	public void modelCreation2levels(ArrayList<String> arrayOfWords, Model m, Resource r) {
+		String dbRootUri = "http://dbpedia.org/resource";
+		Property P;
+		Resource res;
+		// the first element of the list will be the root keyword
+		// the others, the children
+
+		for (int i = 0; i < arrayOfWords.size(); i++) {
+			P = m.createProperty(dbRootUri + "/" + arrayOfWords.get(i));
+			res = m.createResource(dbRootUri + "/" + arrayOfWords.get(i));
+			m.add(r, P, res);
+		}
+=======
+>>>>>>> b0d9fbefbe96af01c3cf8e88684269391dbf0715
 
 
 	public void writeInFile(Model m) throws IOException {

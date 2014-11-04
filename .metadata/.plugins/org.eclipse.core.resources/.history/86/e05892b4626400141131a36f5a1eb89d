@@ -67,7 +67,12 @@ public class ExplorationMatrice {
 			// remplissage de notre liste de noeud
 			JSONObject aNode = new JSONObject();
 			aNode.put("name", noeud1);
+<<<<<<< HEAD
 			
+=======
+		 	
+			// TODO check with Thomas 
+>>>>>>> b0d9fbefbe96af01c3cf8e88684269391dbf0715
 			if (!listNodes.contains(aNode)) {
 				listNodes.add(aNode);
 			}

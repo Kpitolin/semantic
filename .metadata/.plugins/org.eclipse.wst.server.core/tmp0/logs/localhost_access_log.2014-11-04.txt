@@ -37,3 +37,6 @@
 0:0:0:0:0:0:0:1 - - [04/Nov/2014:17:16:43 +0100] "POST /SearchEngine/LaunchSearchServlet HTTP/1.1" 404 1026
 127.0.0.1 - - [04/Nov/2014:17:18:18 +0100] "GET / HTTP/1.1" 404 962
 0:0:0:0:0:0:0:1 - - [04/Nov/2014:17:19:01 +0100] "POST /SearchEngine/LaunchSearchServlet HTTP/1.1" 404 1026
+127.0.0.1 - - [04/Nov/2014:20:48:05 +0100] "GET / HTTP/1.1" 404 962
+0:0:0:0:0:0:0:1 - - [04/Nov/2014:20:48:08 +0100] "GET /SearchEngine/ HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [04/Nov/2014:20:48:09 +0100] "GET /favicon.ico HTTP/1.1" 404 984

@@ -8,7 +8,6 @@ import org.dbpedia.spotlight.model.Text;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -231,7 +230,7 @@ public class DBpediaSpotlightClient extends AnnotationClient {
 		
 		//Parsing the results of a research given by Google API in JSON format and creating the related object
 		JsonParser jsonParser = new JsonParser();
-		jsonParser.parseJsonDBpediaFile("test.json");
+		jsonParser.parseJsonDBpediaFile("searchResults.json");
 		
 		//jsonParser.displaySearchResults(jsonParser.searchResults);
 		
