@@ -1,7 +1,7 @@
 package annotation;
 
 import java.io.FileReader;
-import java.net.URLEncoder;
+//import java.net.URLEncoder;
 import java.util.Iterator;
 
 import org.json.simple.JSONArray;

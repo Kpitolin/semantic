@@ -3,6 +3,7 @@
 	<name>SearchEngine</name>
 	<comment></comment>
 	<projects>
+		<project>SearchEngineBackend</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

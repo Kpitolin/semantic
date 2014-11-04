@@ -16,7 +16,7 @@ public class compareRDF {
 	public final static String macSeparator = "/";
 	public final static String windowsSeparator = "\\"; 
 	public final static String separator = macSeparator;
-	private static String relativePath = ".."+separator+"ProjetSE"+separator+"testFiles"+separator+"" ;
+	//private static String relativePath = ".."+separator+"ProjetSE"+separator+"testFiles"+separator+"" ;
 	
 	private static String path = "" ;
 	

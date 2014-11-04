@@ -33,7 +33,7 @@ public class Service {
 		try {
 			searchDatas = annotateAndCreateGraph(jsonGenere,annotation,creator);
 		} catch (Exception e) {
-			System.out.println("probleme d'annotation ou de creation des graphes rdf");
+			System.out.println("Probleme d'annotation ou de creation des graphes rdf");
 		}
 		
 		compareRDF compare = new compareRDF();
@@ -88,23 +88,7 @@ public class Service {
 	}
 	
 	public static void main (String args[]) throws IOException{
-		GoogleSearch search = new GoogleSearch();
-		String jsonGenere = search.search("obama", null);
-		
-		DBpediaSpotlightClient annotation = new DBpediaSpotlightClient();
-		CreationGraphe creator = new CreationGraphe();
-		
-		try {
-			annotateAndCreateGraph(jsonGenere,annotation,creator);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		compareRDF compare = new compareRDF();
-		compare.creerMatriceSimilarite("extendedGraph");
-		
-		ExplorationMatrice explorer = new ExplorationMatrice();
-		explorer.exploreSimiliratyFromCSV("extendedGraph"+separator+"matriceSimilarite.csv", 0.4);
+		Service s = new Service();
+		s.launchSearch("obama",null);
 	}
 }

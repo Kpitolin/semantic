@@ -18,9 +18,7 @@ class SearchAction extends Action {
 		
 		String requete = request.getParameter("q");
 		String label = request.getParameter("label");
-		if(label.isEmpty()){
-			label = null;
-		}
+		
 		AnalyseResults results =new AnalyseResults();
 		
 		try {

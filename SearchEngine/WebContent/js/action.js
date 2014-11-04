@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('#loading').append("<img src='ajax-loader.gif'> Chargement...");
 
 		//envoi de la requete ajax
-		$.post("LaunchSearchServlet",{action:"search",q:input})
+		$.post("LaunchSearchServlet",{action:"search",q:input,label:""})
 				.done(function(dataHtml){
 					$('#results').append(dataHtml);
 					$.post("GenerateGraphServlet")

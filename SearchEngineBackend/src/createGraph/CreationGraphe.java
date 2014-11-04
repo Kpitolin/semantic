@@ -32,7 +32,7 @@ public class CreationGraphe {
 	public final static String separator = macSeparator;
 	public static int increment = 0;
 
-	public void extractText(String filePath, ArrayList arrayOfWords)
+	public void extractText(String filePath, ArrayList<String> arrayOfWords)
 			throws FileNotFoundException {
 		// Recuperation fichier txt
 		Scanner scanner = new Scanner(new File(filePath));
@@ -51,8 +51,7 @@ public class CreationGraphe {
 	public void extractFromJSON (JSONObject job , ArrayList arrayOfarrayOfWords, int iter){
 		 JSONObject res=(JSONObject)job.get(iter);
 		 JSONObject keyword=(JSONObject)res.get("");
-		// JSONArray array=(JSONArray)keyword;
-		
+		 //JSONArray array=(JSONArray)keyword;
 	}
 	
 	public Model modelCreation(ArrayList arrayOfWords, String rootUrl) {
@@ -79,7 +78,7 @@ public class CreationGraphe {
 		return m;
 	}
 	
-	public void modelCreation2levels(ArrayList arrayOfWords, Model m, Resource r) {
+	public void modelCreation2levels(ArrayList<String> arrayOfWords, Model m, Resource r) {
 		String dbRootUri = "http://dbpedia.org/resource";
 		Property P;
 		Resource res;
@@ -109,7 +108,7 @@ public class CreationGraphe {
 	}
 
 	public void createGraph(String filePath, String rootUrl) {
-		ArrayList arrayOfWords = new ArrayList();
+		ArrayList<String> arrayOfWords = new ArrayList<String>();
 		try {
 			extractText(filePath, arrayOfWords);
 		} catch (FileNotFoundException e1) {
