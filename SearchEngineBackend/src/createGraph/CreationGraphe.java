@@ -15,6 +15,9 @@ import javax.xml.transform.stream.StreamResult;
 
 import org.apache.jena.riot.Lang;
 import org.apache.log4j.BasicConfigurator;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
 
 import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.rdf.model.Model;
@@ -45,7 +48,13 @@ public class CreationGraphe {
 
 		scanner.close();
 	}
-
+	public void extractFromJSON (JSONObject job , ArrayList arrayOfarrayOfWords, int iter){
+		 JSONObject res=(JSONObject)job.get(iter);
+		 JSONObject keyword=(JSONObject)res.get("");
+		// JSONArray array=(JSONArray)keyword;
+		
+	}
+	
 	public Model modelCreation(ArrayList arrayOfWords, String rootUrl) {
 		Model m = ModelFactory.createDefaultModel();
 		String dbRootUri = "http://dbpedia.org/resource";
@@ -54,12 +63,35 @@ public class CreationGraphe {
 		Resource res;
 
 		for (int i = 0; i < arrayOfWords.size(); i++) {
+			if(arrayOfWords.get(i) instanceof ArrayList){
+				// is a list
+				modelCreation2levels( (ArrayList) arrayOfWords.get(i),  m,  r);
+			}
+			else
+			{
+				P = m.createProperty(dbRootUri + "/" + arrayOfWords.get(i));
+				res = m.createResource(dbRootUri + "/" + arrayOfWords.get(i));
+				m.add(r, P, res);
+			}
+			
+		}
+
+		return m;
+	}
+	
+	public void modelCreation2levels(ArrayList arrayOfWords, Model m, Resource r) {
+		String dbRootUri = "http://dbpedia.org/resource";
+		Property P;
+		Resource res;
+		// the first element of the list will be the root keyword
+		// the others, the children
+
+		for (int i = 0; i < arrayOfWords.size(); i++) {
 			P = m.createProperty(dbRootUri + "/" + arrayOfWords.get(i));
 			res = m.createResource(dbRootUri + "/" + arrayOfWords.get(i));
 			m.add(r, P, res);
 		}
 
-		return m;
 	}
 
 	public void writeInFile(Model m) throws IOException {
