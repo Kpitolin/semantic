@@ -1,8 +1,9 @@
+News_Corporation
+Commentary_%28magazine%29
 Barack_Obama
-Washington,_D.C.
-Action_game
-The_Visit
-White_House
-Facebook
+Photograph
+Video
+Quotation
+Biography
 
 

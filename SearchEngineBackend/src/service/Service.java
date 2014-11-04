@@ -18,7 +18,7 @@ import search.GoogleSearch;
 public class Service {
 	public final static String macSeparator = "/";
 	public final static String windowsSeparator = "\\"; 
-	public final static String separator = macSeparator;
+	public final static String separator = windowsSeparator;
 	private final static double SEUILJACCARD = 0.6;
 	
 	public AnalyseResults launchSearch(String query,String label) throws IOException {
